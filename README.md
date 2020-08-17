@@ -25,7 +25,7 @@ UPOS: manual native
 XPOS: manual native
 Features: manual native
 Relations: manual native
-Contributors: Bilgin, Betül
+Contributors: Özateş, Şaziye Betül
 Contributing: elsewhere
 Contact: sbetulbilgin@gmail.com
 ===============================================================================

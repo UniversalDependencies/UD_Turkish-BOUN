@@ -1924,7 +1924,7 @@
 16	onun	o	PRON	Pers	Case=Gen|Number=Sing|Person=3	17	nmod:poss	_	_
 17	önünde	ön	ADJ	NAdj	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	19	obl	_	_
 18	çişimi	çiş	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	19	obj	_	_
-19	yapıverdim	yap	VERB	Verb	Aspect=Perf|Evident=Fh|Mood=Rapid|Number=Sing|Person=1|Polarity=Pos|Tense=Past	6	conj	_	SpaceAfter=No
+19	yapıverdim	yap	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=1|Polarity=Pos|Tense=Past	6	conj	_	SpaceAfter=No
 20	.	.	PUNCT	Punc	_	19	punct	_	SpacesAfter=\n
 
 # sent_id = bio_953
@@ -5599,7 +5599,7 @@
 5	piyesler	piyes	NOUN	Noun	Case=Nom|Number=Plur|Person=3	8	nsubj	_	SpaceAfter=No
 6	,	,	PUNCT	Punc	_	8	punct	_	_
 7	hemencecik	hemencecik	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	advmod	_	_
-8	bitiverir	bit	VERB	Verb	Aspect=Hab|Mood=Rapid|Number=Sing|Person=3|Polarity=Pos|Tense=Aor	0	root	_	SpaceAfter=No
+8	bitiverir	bit	VERB	Verb	Aspect=Hab|Number=Sing|Person=3|Polarity=Pos|Tense=Aor	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	Punc	_	15	punct	_	_
 10	devamını	devam	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	obj	_	_
 11	dinleyebilmek	dinle	VERB	Verb	Case=Nom|Mood=Pot|Polarity=Pos	15	advcl	_	_
@@ -6955,7 +6955,7 @@
 23	üretmesi	üre	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Voice=Cau	24	ccomp	_	_
 24-25	demektir	_	_	_	_	_	_	_	SpaceAfter=No
 24	demek	de	VERB	Verb	Case=Nom|Polarity=Pos	0	root	_	_
-25	tir	TİR	AUX	Zero	Case=Nom|Number=Sing|Person=3	24	cop	_	_
+25	tir	i	AUX	Zero	Case=Nom|Number=Sing|Person=3	24	cop	_	_
 26	.	.	PUNCT	Punc	_	24	punct	_	SpacesAfter=\n
 
 # sent_id = ess_404
@@ -11533,7 +11533,7 @@
 6	geçirmek	geçir	VERB	Verb	Case=Nom|Polarity=Pos	7	xcomp	_	_
 7-8	istemektir	_	_	_	_	_	_	_	SpaceAfter=No
 7	istemek	iste	VERB	Verb	Case=Nom|Polarity=Pos	0	root	_	_
-8	tir	TİR	AUX	Zero	Case=Nom|Number=Sing|Person=3	7	cop	_	_
+8	tir	i	AUX	Zero	Case=Nom|Number=Sing|Person=3	7	cop	_	_
 9	.	.	PUNCT	Punc	_	7	punct	_	SpacesAfter=\r\n
 
 # sent_id = bio_480
@@ -11706,7 +11706,7 @@
 17	tam	tam	ADV	Adverb	_	18	advmod	_	_
 18-19	buydu	_	_	_	_	_	_	_	_
 18	bu	bu	PRON	Demons	Case=Nom|Number=Sing|Person=3|PronType=Dem	5	conj	_	_
-19	ydu	YDU	AUX	Zero	Case=Nom|Number=Sing|Person=3	18	cop	_	_
+19	ydu	i	AUX	Zero	Case=Nom|Number=Sing|Person=3	18	cop	_	_
 20	işte	iş	ADV	Adverb	Case=Loc|Number=Sing|Person=3	18	advmod	_	SpaceAfter=No
 21	:	:	PUNCT	Punc	_	26	punct	_	_
 22	Hiç	hiç	ADV	Adverb	_	24	advmod	_	_
@@ -12909,7 +12909,7 @@
 6	alacağımız	al	NOUN	Noun	Aspect=Imp|Number[psor]=Plur|Person[psor]=1|Polarity=Pos|Tense=Fut|VerbForm=Part	7	acl	_	_
 7-8	ücrettir	_	_	_	_	_	_	_	SpaceAfter=No
 7	ücret	ücret	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
-8	tir	TİR	AUX	Zero	Case=Nom|Number=Sing|Person=3	7	cop	_	_
+8	tir	i	AUX	Zero	Case=Nom|Number=Sing|Person=3	7	cop	_	_
 9	.	.	PUNCT	Punc	_	7	punct	_	SpacesAfter=\n
 
 # sent_id = ins_897

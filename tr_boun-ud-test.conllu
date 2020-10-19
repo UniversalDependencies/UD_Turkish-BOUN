@@ -5509,7 +5509,7 @@
 31	birisi	biri	PRON	Quant	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	32	nsubj	_	_
 32-33	budur	_	_	_	_	_	_	_	SpaceAfter=No
 32	bu	bu	PRON	Demons	Case=Nom|Number=Sing|Person=3|PronType=Dem	11	nsubj	_	_
-33	dur	dur	AUX	Zero	Mood=Imp|Number=Sing|Person=2|Polarity=Pos	32	cop	_	_
+33	dur	i	AUX	Zero	Mood=Imp|Number=Sing|Person=2|Polarity=Pos	32	cop	_	_
 34	.	.	PUNCT	Punc	_	32	punct	_	SpacesAfter=\r\n
 
 # sent_id = ess_1547
@@ -9833,7 +9833,7 @@
 6	kahraman	kahraman	ADJ	Adj	Case=Nom|Number=Sing|Person=3	7	amod	_	_
 7-8	maymundur	_	_	_	_	_	_	_	SpaceAfter=No
 7	maymun	maymun	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
-8	dur	dur	AUX	Zero	Mood=Imp|Number=Sing|Person=2|Polarity=Pos	7	cop	_	_
+8	dur	i	AUX	Zero	Mood=Imp|Number=Sing|Person=2|Polarity=Pos	7	cop	_	_
 9	.	.	PUNCT	Punc	_	7	punct	_	SpacesAfter=\n
 
 # sent_id = bio_1025
@@ -11245,7 +11245,7 @@
 5	civa	civa	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	nmod:poss	_	_
 6-7	durumudur	_	_	_	_	_	_	_	SpaceAfter=No
 6	durumu	durum	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	12	appos	_	_
-7	dur	dur	AUX	Zero	Mood=Imp|Number=Sing|Person=2|Polarity=Pos	6	cop	_	_
+7	dur	i	AUX	Zero	Mood=Imp|Number=Sing|Person=2|Polarity=Pos	6	cop	_	_
 8	,	,	PUNCT	Punc	_	10	punct	_	_
 9	ruhiyat	ruhiyat	NOUN	Noun	Case=Nom|Number=Sing|Person=3	10	nmod:poss	_	_
 10-11	meteorolojisidir	_	_	_	_	_	_	_	_
@@ -13918,7 +13918,7 @@
 16	düşmanlığınızın	düşman	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=2	17	nmod:poss	_	_
 17-18	sonucudur	_	_	_	_	_	_	_	SpaceAfter=No
 17	sonucu	sonuç	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	20	csubj	_	_
-18	dur	dur	AUX	Zero	Mood=Imp|Number=Sing|Person=2|Polarity=Pos	17	cop	_	_
+18	dur	i	AUX	Zero	Mood=Imp|Number=Sing|Person=2|Polarity=Pos	17	cop	_	_
 19	"	"	PUNCT	Punc	_	17	punct	_	_
 20	deniliyor	de	VERB	Verb	Aspect=Prog|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Voice=Pass	0	root	_	SpaceAfter=No
 21	.	.	PUNCT	Punc	_	20	punct	_	SpacesAfter=\n

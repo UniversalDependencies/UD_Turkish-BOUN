@@ -876,7 +876,7 @@
 4	da	da	CCONJ	Conj	_	3	advmod:emph	_	_
 5-6	şudur	_	_	_	_	_	_	_	SpaceAfter=No
 5	şu	şu	PRON	Demons	Case=Nom|Number=Sing|Person=3|PronType=Dem	0	root	_	_
-6	dur	dur	AUX	Zero	Mood=Imp|Number=Sing|Person=2|Polarity=Pos	5	cop	_	_
+6	dur	i	AUX	Zero	Mood=Imp|Number=Sing|Person=2|Polarity=Pos	5	cop	_	_
 7	:	:	PUNCT	Punc	_	10	punct	_	_
 8	"	"	PUNCT	Punc	_	10	punct	_	SpaceAfter=No
 9	Yiğidi	yiğit	NOUN	Noun	Case=Acc|Number=Sing|Person=3	10	obj	_	_
@@ -1031,7 +1031,7 @@
 5	biri	biri	PRON	Quant	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nsubj	_	_
 6	başımda	baş	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	8	advcl	_	_
 7	dikilince	dik	VERB	Verb	Polarity=Pos|Voice=Pass	6	compound	_	_
-8	uyuz	uyuz	AUX	Zero	Case=Nom|Number=Sing|Person=3	0	root	_	_
+8	uyuz	uyuz	VERB	Zero	Case=Nom|Number=Sing|Person=3	0	root	_	_
 9	olurum	ol	VERB	Verb	Aspect=Hab|Number=Sing|Person=1|Polarity=Pos|Tense=Aor	8	compound:lvc	_	SpaceAfter=No
 10	.	.	PUNCT	Punc	_	8	punct	_	SpacesAfter=\n
 

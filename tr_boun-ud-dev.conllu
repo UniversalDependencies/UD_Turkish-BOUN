@@ -710,7 +710,7 @@
 # text = Öte yandan bütün kitap boyunca verdiğimiz bilgilerin de gösterdiği gibi Osmanlı Devleti, feodal bir düzene de sahip olmamıştır.
 1	Öte	öte	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	obl	_	_
 2	yandan	yan	ADJ	NAdj	Case=Abl|Number=Sing|Person=3	6	advmod	_	_
-3	bütün	bütün	ADJ	Adj	_	4	det	_	_
+3	bütün	bütün	DET	Adj	_	4	det	_	_
 4	kitap	kitap	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	advmod	_	_
 5	boyunca	boyunca	ADP	PCNom	_	4	case	_	_
 6	verdiğimiz	ver	VERB	Verb	Aspect=Perf|Number[psor]=Plur|Person[psor]=1|Polarity=Pos|Tense=Past|VerbForm=Part	7	acl	_	_
@@ -899,7 +899,7 @@
 
 # sent_id = ess_6
 # text = Çoğu insan yetişkinliğe erişince her şeyi biliyorum edasına kapılır.
-1	Çoğu	çok	ADJ	NAdj	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	2	det	_	_
+1	Çoğu	çok	DET	NAdj	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	2	det	_	_
 2	insan	insan	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	nsubj	_	_
 3	yetişkinliğe	yetişkin	NOUN	Noun	Case=Dat|Number=Sing|Person=3	4	obl	_	_
 4	erişince	eriş	VERB	Verb	Polarity=Pos	9	advcl	_	_
@@ -2352,7 +2352,7 @@
 # text = Haşim adında ilk kez gördüğüm kurye de yeni cezaevinden çıkmış.
 1	Haşim	Haşim	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	nmod:poss	_	_
 2	adında	ad(I)	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	obl	_	_
-3	ilk	ilk	ADJ	Adj	_	4	det	_	_
+3	ilk	ilk	DET	Adj	_	4	det	_	_
 4	kez	kez	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	obl	_	_
 5	gördüğüm	gör	VERB	Verb	Aspect=Perf|Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|Polarity=Pos|Tense=Past|VerbForm=Part	10	acl	_	_
 6	kurye	kurye	NOUN	Noun	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
@@ -2601,7 +2601,7 @@
 9	düşkünlüğünü	düşkün	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	14	obj	_	SpaceAfter=No
 10	,	,	PUNCT	Punc	_	11	punct	_	_
 11	aileyi	aile	NOUN	Noun	Case=Acc|Number=Sing|Person=3	9	conj	_	_
-12	çok	çok	ADJ	Adj	_	13	det	_	_
+12	çok	çok	DET	Adj	_	13	det	_	_
 13	iyi	iyi	ADJ	Adj	_	14	advmod	_	_
 14	bilirdi	bil	VERB	Verb	Aspect=Hab|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Aor	0	root	_	SpaceAfter=No
 15	.	.	PUNCT	Punc	_	14	punct	_	SpacesAfter=\n
@@ -4917,7 +4917,7 @@
 36	ağaç	ağaç	NOUN	Noun	Case=Nom|Number=Sing|Person=3	37	nmod:poss	_	_
 37	haline	hâl	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	31	conj	_	_
 38	gelip	gel	VERB	Verb	Polarity=Pos	43	nmod	_	_
-39	bütün	bütün	ADJ	Adj	_	41	det	_	_
+39	bütün	bütün	DET	Adj	_	41	det	_	_
 40	öbür	öbür	ADJ	Adj	_	41	amod	_	_
 41	duyguları	duygu	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	42	obj	_	_
 42	gölgesiyle	gölge	NOUN	Noun	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	43	obl	_	_
@@ -8351,7 +8351,7 @@
 4	belli	belli	ADJ	Adj	_	6	amod	_	_
 5	bir	bir	DET	ANum	NumType=Card	6	det	_	_
 6	suyun	su	NOUN	Noun	Case=Gen|Number=Sing|Person=3	12	nmod:poss	_	_
-7	herhangi	herhangi	ADJ	Adj	_	9	det	_	_
+7	herhangi	herhangi	DET	Adj	_	9	det	_	_
 8	bir	bir	DET	ANum	NumType=Card	9	det	_	_
 9	zamanda	zaman	NOUN	Noun	Case=Loc|Number=Sing|Person=3	13	obl	_	_
 10	kimyasal	kimyasal	ADJ	Adj	_	11	amod	_	_
@@ -8875,7 +8875,7 @@
 13	kılan	kıl	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part	12	compound	_	_
 14	düşünce	düşünce	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
 15	,	,	PUNCT	Punc	_	33	punct	_	_
-16	bütün	bütün	ADJ	Adj	_	17	det	_	_
+16	bütün	bütün	DET	Adj	_	17	det	_	_
 17	bunların	bu	PRON	Demons	Case=Gen|Number=Plur|Person=3	33	nsubj	_	_
 18	bana	ben	PRON	Pers	Case=Dat|Number=Sing|Person=1	19	obl	_	_
 19	âşık	âşık	NOUN	Noun	Case=Nom|Number=Sing|Person=3	22	acl	_	_
@@ -10595,7 +10595,7 @@
 # text = Hümanizm, bütün bu tarifler ışığında önce İtalya'da ortaya çıkmış.
 1	Hümanizm	hümanizm	PROPN	Prop	Case=Nom|Number=Sing|Person=3	9	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	Punc	_	9	punct	_	_
-3	bütün	bütün	ADJ	Adj	_	5	det	_	_
+3	bütün	bütün	DET	Adj	_	5	det	_	_
 4	bu	bu	DET	Det	_	5	det	_	_
 5	tarifler	tarif	NOUN	Noun	Case=Nom|Number=Plur|Person=3	6	nmod:poss	_	_
 6	ışığında	ışık	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obl	_	_
@@ -10967,7 +10967,7 @@
 
 # sent_id = bio_517
 # text = Bir daha da çok sevdiği adayı göremedi.
-1	Bir	bir	ADV	Adverb	_	2	det	_	_
+1	Bir	bir	DET	Adverb	_	2	det	_	_
 2	daha	daha	ADV	Adverb	_	4	advmod	_	_
 3	da	da	CCONJ	Conj	_	2	advmod:emph	_	_
 4	çok	çok	ADV	Adverb	_	5	advmod	_	_
@@ -11005,7 +11005,7 @@
 # text = Turan için çok şey anlatılırdı.
 1	Turan	Turan	PROPN	Prop	Case=Nom|Number=Sing|Person=3	5	obl	_	_
 2	için	için	ADP	PCNom	_	1	case	_	_
-3	çok	çok	ADJ	Adj	_	4	det	_	_
+3	çok	çok	DET	Adj	_	4	det	_	_
 4	şey	şey	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nsubj	_	_
 5	anlatılırdı	anlat	VERB	Verb	Aspect=Hab|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Aor|Voice=Pass	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	Punc	_	5	punct	_	SpacesAfter=\n
@@ -12380,7 +12380,7 @@
 7	,	,	PUNCT	Punc	_	17	punct	_	_
 8	yeni	yeni	ADJ	Adj	_	9	amod	_	_
 9	devletin	devlet	NOUN	Noun	Case=Gen|Number=Sing|Person=3	17	nsubj	_	_
-10	bütün	bütün	ADJ	Adj	_	12	det	_	_
+10	bütün	bütün	DET	Adj	_	12	det	_	_
 11	geleneksel	geleneksel	ADJ	Adj	_	14	amod	_	_
 12	yapı	yapı	NOUN	Noun	Case=Nom|Number=Sing|Person=3	17	obj	_	SpaceAfter=No
 13	,	,	PUNCT	Punc	_	14	punct	_	_
@@ -12691,7 +12691,7 @@
 # text = Yıllar sonra bütün bu depremleri yarattığınız için affedebilecek misiniz kendinizi?
 1	Yıllar	yıl	NOUN	Noun	Case=Nom|Number=Plur|Person=3	8	advmod	_	_
 2	sonra	sonra	ADP	PCAbl	_	1	case	_	_
-3	bütün	bütün	ADJ	Adj	_	5	det	_	_
+3	bütün	bütün	DET	Adj	_	5	det	_	_
 4	bu	bu	DET	Det	_	5	det	_	_
 5	depremleri	deprem	NOUN	Noun	Case=Acc|Number=Plur|Person=3	6	obj	_	_
 6	yarattığınız	yarat	NOUN	Noun	Aspect=Perf|Number[psor]=Plur|Person[psor]=2|Polarity=Pos|Tense=Past|VerbForm=Part	8	advcl	_	_
@@ -14258,7 +14258,7 @@
 1	Tevekke	Tevekke	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
 2	li	li	ADP	With	_	1	case	_	_
 3	değil	değil	CCONJ	Conj	_	0	root	_	_
-4	bütün	bütün	ADJ	Adj	_	5	det	_	_
+4	bütün	bütün	DET	Adj	_	5	det	_	_
 5	artizler	artiz	NOUN	Noun	Case=Nom|Number=Plur|Person=3	3	conj	_	SpaceAfter=No
 6	,	,	PUNCT	Punc	_	7	punct	_	_
 7	mankenler	manken	NOUN	Noun	Case=Nom|Number=Plur|Person=3	3	conj	_	SpaceAfter=No

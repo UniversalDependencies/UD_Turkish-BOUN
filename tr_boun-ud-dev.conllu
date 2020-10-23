@@ -869,7 +869,7 @@
 9	.	.	PUNCT	Punc	_	6	punct	_	SpacesAfter=\n
 
 # sent_id = bio_1413
-# text = Alkolün bir tanımlaması da şudur:"Yiğidisustururamakorkağıcoşturur."Yanişişededurduğugibidurmaz.
+# text = Alkolün bir tanımlaması da şudur:"Yiğidi susturur ama korkağı coşturur."Yani şişede durduğu gibi durmaz.
 1	Alkolün	alkol	NOUN	Noun	Case=Gen|Number=Sing|Person=3	3	nmod:poss	_	_
 2	bir	bir	DET	ANum	NumType=Card	3	det	_	_
 3	tanımlaması	tanımla	VERB	Verb	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos	5	nsubj	_	_
@@ -3751,7 +3751,7 @@
 13	.	.	PUNCT	Punc	_	12	punct	_	SpacesAfter=\n
 
 # sent_id = bio_1719
-# text = Bir yandan da "Buranın çıkışı vardır,buradayılanvardır"diyedüşünüpkendikendimegülüyorum.
+# text = Bir yandan da "Buranın çıkışı vardır, burada yılan vardır" diye düşünüp kendi kendime gülüyorum.
 1	Bir	bir	ADV	ANum	NumType=Card	19	advmod	_	_
 2	yandan	yan	ADJ	NAdj	Case=Abl|Number=Sing|Person=3	1	compound	_	_
 3	da	da	CCONJ	Conj	_	1	advmod:emph	_	_
@@ -4101,7 +4101,7 @@
 20	.	.	PUNCT	Punc	_	18	punct	_	SpacesAfter=\n
 
 # sent_id = ess_1575
-# text = Cafe Armani'de kapuçino içmek zorunda olduğum karşılıklı,biradetdahiBotoksKadınıyokhayatımda.
+# text = Cafe Armani'de kapuçino içmek zorunda olduğum karşılıklı, bir adet dahi Botoks Kadını yok hayatımda.
 1	Cafe	Cafe	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
 2	Armani'de	Armani	PROPN	Prop	Case=Loc|Number=Sing|Person=3	1	flat	_	_
 3	kapuçino	kapuçino	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nmod:poss	_	_
@@ -6166,7 +6166,7 @@
 9	...	...	PUNCT	Punc	_	8	punct	_	SpacesAfter=\r\n
 
 # sent_id = ess_609
-# text = İnsanlar ise yer yemez zehirlenip ölüyorlarmış! Birimizin kalbi ötekinde acı Arabaların çoğu eski, bakımsız, eksikli,noksanlı...
+# text = İnsanlar ise yer yemez zehirlenip ölüyorlarmış! Birimizin kalbi ötekinde acı Arabaların çoğu eski, bakımsız, eksikli, noksanlı...
 1	İnsanlar	insan	NOUN	Noun	Case=Nom|Number=Plur|Person=3	3	nsubj	_	_
 2	ise	i	AUX	Conj	Mood=Cnd|Number=Sing|Person=3|Polarity=Pos	1	discourse	_	_
 3	yer	yer	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	advcl	_	_
@@ -7666,7 +7666,7 @@
 5	.	.	PUNCT	Punc	_	4	punct	_	SpacesAfter=\r\n
 
 # sent_id = ess_480
-# text = Kitap korsanlığı varken,yazmakneye?
+# text = Kitap korsanlığı varken, yazmak neye?
 1	Kitap	kitap	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	nmod:poss	_	_
 2	korsanlığı	korsan	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	nsubj	_	_
 3-4	varken	_	_	_	_	_	_	_	SpaceAfter=No
@@ -7807,7 +7807,7 @@
 9	.	.	PUNCT	Punc	_	8	punct	_	SpacesAfter=\n
 
 # sent_id = ess_1750
-# text = Oysa, ortalığı boş bulup, Bahçeşehir'di,KemerCountryidi,çalışançağdaşinsanasaygısızlıksayılPotecekişlerisergileyenleroldu.
+# text = Oysa, ortalığı boş bulup, Bahçeşehir'di, Kemer Country idi, çalışan çağdaş insana saygısızlık sayılPotecek işleri sergileyenler oldu.
 1	Oysa	oysa	CCONJ	Conj	_	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	Punc	_	7	punct	_	_
 3	ortalığı	orta	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nsubj	_	_
@@ -8580,7 +8580,7 @@
 20	.	.	PUNCT	Punc	_	19	punct	_	SpacesAfter=\n
 
 # sent_id = ess_329
-# text = Birkaç yıldır,Kürt,Kıbrıs,Ermenivediğerazınlıksorunlarının,AB'yegirişin,İslamcıkökenlibirpartininiktidaragelişininetkisiylevebunlaratepkiolarak,milliyetçilikyükselmeyebaşladı.
+# text = Birkaç yıldır, Kürt, Kıbrıs, Ermeni ve diğer azınlık sorunlarının, AB'ye girişin, İslamcı kökenli bir partinin iktidara gelişinin etkisiyle ve bunlara tepki olarak, milliyetçilik yükselmeye başladı.
 1	Birkaç	birkaç	DET	Det	_	2	det	_	_
 2-3	yıldır	_	_	_	_	_	_	_	SpaceAfter=No
 2	yıl	yıl	ADV	Noun	Case=Nom|Number=Sing|Person=3	32	advmod	_	_
@@ -10574,7 +10574,7 @@
 16	.	.	PUNCT	Punc	_	14	punct	_	SpacesAfter=\n
 
 # sent_id = bio_1565
-# text = Hafif hafif yağmur çiseliyordu,akşam üstüydü,düğünalayıköyegirdi.
+# text = Hafif hafif yağmur çiseliyordu, akşam üstüydü, düğün alayı köye girdi.
 1	Hafif	hafif	ADV	Adj	_	4	advmod	_	_
 2	hafif	hafif	ADJ	Adj	_	1	compound:redup	_	_
 3	yağmur	yağmur	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	nsubj	_	_
@@ -11829,7 +11829,7 @@
 8	.	.	PUNCT	Punc	_	7	punct	_	SpacesAfter=\n
 
 # sent_id = ess_1785
-# text = Buna karşılık, ayrıntılı,derinlemesineyololacakbirokuma,ayrımlarınbuncanet,kesinolmadığınıgösteriyor:Cennetlevhasındacennetimgesiyle,imgeninbildiktanımlarıbetimleriileçelişenögelergözeçarpıyoröylebakıldığında;Cehennemlevhasındadabenzerbirdurumsözkonusu.
+# text = Buna karşılık, ayrıntılı, derinlemesine yol olacak bir okuma, ayrımların bunca net, kesin olmadığını gösteriyor: Cennet levhasında cennet imgesiyle, imgenin bildik tanımları betimleri ile çelişen ögeler göze çarpıyor öyle bakıldığında; Cehennem levhasında da benzer bir durum söz konusu.
 1	Buna	bu	PRON	Demons	Case=Dat|Number=Sing|Person=3	2	nmod	_	_
 2	karşılık	karşılık	NOUN	Noun	Case=Nom|Number=Sing|Person=3	19	obj	_	SpaceAfter=No
 3	,	,	PUNCT	Punc	_	9	punct	_	_
@@ -12876,7 +12876,7 @@
 5	...	...	PUNCT	Punc	_	4	punct	_	SpacesAfter=\r\n
 
 # sent_id = bio_1557
-# text = Dedemin huyu belliydi,kafayıbuluncaillakidediğiolacak.
+# text = Dedemin huyu belliydi, kafayı bulunca illa ki dediği olacak.
 1	Dedemin	Dede	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	2	nmod:poss	_	_
 2	huyu	huy	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	nsubj	_	_
 3-4	belliydi	_	_	_	_	_	_	_	SpaceAfter=No
@@ -13101,7 +13101,7 @@
 3	.	.	PUNCT	Punc	_	2	punct	_	SpacesAfter=\n
 
 # sent_id = bio_662
-# text = Onu babama benzetir benzetmez dikleniveriyor: "Sanki," diyor bana, "aşkını içinize gömdüğünüz Oktay Rıfat nedir?Karısınıherkestenkıskanıyor!."
+# text = Onu babama benzetir benzetmez dikleniveriyor: "Sanki," diyor bana, "aşkını içinize gömdüğünüz Oktay Rıfat nedir? Karısını herkesten kıskanıyor!."
 1	Onu	o	PRON	Pers	Case=Acc|Number=Sing|Person=3	3	obj	_	_
 2	babama	baba	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	3	iobj	_	_
 3	benzetir	benze	VERB	Verb	Aspect=Hab|Number=Sing|Person=3|Polarity=Pos|Tense=Aor|Voice=Cau	5	advcl	_	_

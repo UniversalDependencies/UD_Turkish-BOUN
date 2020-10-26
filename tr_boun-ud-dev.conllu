@@ -7888,7 +7888,7 @@
 
 # sent_id = ins_710
 # text = Yedi yaşındaydım.
-1	Yedi	ye	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	2	nummod	_	_
+1	Yedi	ye	NUM	ANum	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	2	nummod	_	_
 2	yaşındaydım	yaş	VERB	Verb	Aspect=Perf|Case=Loc|Evident=Fh|Number=Sing|Number[psor]=Sing|Person=1|Person[psor]=3|Tense=Past	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	Punc	_	2	punct	_	SpacesAfter=\n
 
@@ -14523,7 +14523,7 @@
 16	arasında	ara	ADJ	NAdj	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	22	obl	_	_
 17	en	en	ADV	Adverb	_	18	advmod	_	_
 18	azından	azı	ADJ	NAdj	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=2	21	amod	_	_
-19	bi	bir	ADJ	Adj	_	21	nummod	_	_
+19	bi	bir	NUM	ANum	_	21	nummod	_	_
 20	onbeş	onbeş	NUM	ANum	NumType=Card	21	nummod	_	_
 21	yaş	yaş	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	22	obj	_	_
 22	varsa	var	VERB	Verb	Mood=Cnd|Number=Sing|Person=3	30	advcl	_	SpaceAfter=No
@@ -14634,7 +14634,7 @@
 12	ardından	ardından	ADV	Adverb	_	17	obl	_	_
 13	yarım	y	ADJ	Adj	_	14	amod	_	_
 14	sahada	saha	NOUN	Noun	Case=Loc|Number=Sing|Person=3	17	obl	_	_
-15	çift	çift	ADJ	Adj	_	16	nummod	_	_
+15	çift	çift	ADJ	Adj	_	16	amod	_	_
 16	kale	kale	NOUN	Noun	Case=Nom|Number=Sing|Person=3	17	obl	_	_
 17	maç	maç	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
 18	yaptı	yap	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	17	compound:lvc	_	SpaceAfter=No

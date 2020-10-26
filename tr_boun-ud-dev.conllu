@@ -793,7 +793,7 @@
 7	yalnız	yalnız	ADV	Adverb	_	8	advmod	_	_
 8	başına	baş	ADV	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	advmod	_	_
 9	kullandın	kullan	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=2|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
-10	.	.	PUNCT	Punc	_	8	punct	_	SpacesAfter=\n
+10	.	.	PUNCT	Punc	_	9	punct	_	SpacesAfter=\n
 
 # sent_id = news_558
 # text = Dört yıl boyunca Batılı magazin medyasına malzeme üretmek dışında herhangi bir faaliyette bulunmadığı için de unutup gitmiştik.
@@ -4637,7 +4637,7 @@
 5	uçuşuyor	uçuş	VERB	Verb	Aspect=Prog|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	1	conj	_	SpaceAfter=No
 6	.	.	PUNCT	Punc	_	5	punct	_	SpacesAfter=\n
 7	"	"	PUNCT	Punc	_	5	punct	_	_
-8	Bazen	bazen	ADV	Adverb	_	6	advmod	_	SpaceAfter=No
+8	Bazen	bazen	ADV	Adverb	_	5	advmod	_	SpaceAfter=No
 9	,	,	PUNCT	Punc	_	11	punct	_	_
 10	o	o	DET	Det	_	11	det	_	_
 11	rahatsızlık	rahat	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	conj	_	SpaceAfter=No
@@ -8589,7 +8589,7 @@
 5	Kürt	Kürt	PROPN	Prop	Case=Nom|Number=Sing|Person=3	13	nmod:poss	_	SpaceAfter=No
 6	,	,	PUNCT	Punc	_	7	punct	_	_
 7	Kıbrıs	Kıbrıs	PROPN	Prop	Case=Nom|Number=Sing|Person=3	5	conj	_	SpaceAfter=No
-8	,	,	PUNCT	Punc	_	32	punct	_	_
+8	,	,	PUNCT	Punc	_	9	punct	_	_
 9	Ermeni	Ermeni	PROPN	Prop	Case=Nom|Number=Sing|Person=3	5	conj	_	_
 10	ve	ve	CCONJ	Conj	_	13	cc	_	_
 11	diğer	diğer	ADJ	Adj	_	12	amod	_	_
@@ -8598,7 +8598,7 @@
 14	,	,	PUNCT	Punc	_	16	punct	_	_
 15	AB'ye	AB	NOUN	Abr	Case=Dat|Number=Sing|Person=3	16	nmod	_	_
 16	girişin	gir	NOUN	Noun	Case=Gen|Number=Sing|Person=3|Polarity=Pos	13	conj	_	SpaceAfter=No
-17	,	,	PUNCT	Punc	_	32	punct	_	_
+17	,	,	PUNCT	Punc	_	18	punct	_	_
 18	İslamcı	İslam	PROPN	Prop	Case=Nom|Number=Sing|Person=3	19	amod	_	_
 19	kökenli	köken	ADJ	Adj	Case=Nom|Number=Sing|Person=3	21	amod	_	_
 20	bir	bir	DET	ANum	NumType=Card	21	det	_	_
@@ -12585,7 +12585,7 @@
 18	o	o	PRON	Pers	Case=Nom|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
 19	kokteyl	kokteyl	VERB	Verb	Case=Nom|Number=Sing|Person=3	20	nsubj	_	_
 20	senin	sen	ADV	Pers	Case=Gen|Number=Sing|Person=2	25	advmod	_	SpaceAfter=No
-21	,	,	PUNCT	Punc	_	33	punct	_	_
+21	,	,	PUNCT	Punc	_	20	punct	_	_
 22	bu	bu	DET	Det	_	23	det	_	_
 23	davet	davet	NOUN	Noun	Case=Nom|Number=Sing|Person=3	24	nsubj	_	_
 24	benim	ben	PRON	Pers	Case=Gen|Number=Sing|Person=1	20	conj	_	_
@@ -12601,7 +12601,7 @@
 34	,	,	PUNCT	Punc	_	36	punct	_	_
 35	çoğunluğu	çoğunluk	ADJ	NAdj	Case=Acc|Number=Sing|Person=3	36	nsubj	_	_
 36	kadın	kadın	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	39	amod	_	SpaceAfter=No
-37	,	,	PUNCT	Punc	_	41	punct	_	_
+37	,	,	PUNCT	Punc	_	36	punct	_	_
 38	gazeteci	gazeteci	NOUN	Noun	Case=Nom|Number=Sing|Person=3	36	conj	_	_
 39	arkadaşların	arkadaş	NOUN	Noun	Case=Gen|Number=Plur|Person=3	40	nmod:poss	_	_
 40	gönlünü	gönül	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	41	obj	_	_
@@ -12795,7 +12795,7 @@
 9	(	(	PUNCT	Punc	_	10	punct	_	SpaceAfter=No
 10	SPK	SPK	PROPN	Prop	Case=Nom|Number=Sing|Person=3	8	appos	_	SpaceAfter=No
 11	)	)	PUNCT	Punc	_	10	punct	_	SpaceAfter=No
-12	,	,	PUNCT	Punc	_	18	punct	_	_
+12	,	,	PUNCT	Punc	_	10	punct	_	_
 13	yıl	yıl	NOUN	Noun	Case=Nom|Number=Sing|Person=3	14	nmod:poss	_	_
 14	dönümü	dönüm	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	15	nmod:poss	_	_
 15	kutlamaları	kutla	NOUN	Noun	Case=Acc|Number=Plur|Person=3|Polarity=Pos	16	nmod:poss	_	_
@@ -12963,14 +12963,14 @@
 # text = İngilizce derslerinde, İngilizce öğrenelim diye okuttukları bir hikâye, birden sıradan bir İngilizce dersinin sıradan bir hikâyesi olmaktan çıktı, ürkütücü bir kehanet gibi dikildi karşımıza.
 1	İngilizce	İngilizce	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	5	obj	_	_
 2	derslerinde	ders	NOUN	Noun	Case=Loc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	20	obl	_	SpaceAfter=No
-3	,	,	PUNCT	Punc	_	7	punct	_	_
+3	,	,	PUNCT	Punc	_	2	punct	_	_
 4	İngilizce	İngiliz	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	5	obj	_	_
 5	öğrenelim	öğren	VERB	Verb	Mood=Opt|Number=Plur|Person=1|Polarity=Pos	7	advcl	_	_
 6	diye	diye	ADP	PCNom	_	5	case	_	_
 7	okuttukları	oku	NOUN	Noun	Aspect=Perf|Number[psor]=Plur|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Cau	9	acl	_	_
 8	bir	bir	DET	ANum	NumType=Card	9	det	_	_
 9	hikâye	hikâye	NOUN	Noun	Case=Nom|Number=Sing|Person=3	20	nsubj	_	SpaceAfter=No
-10	,	,	PUNCT	Punc	_	20	punct	_	_
+10	,	,	PUNCT	Punc	_	9	punct	_	_
 11	birden	birden	ADV	Adverb	_	20	advmod	_	_
 12	sıradan	sıra	ADJ	Adj	Case=Abl|Number=Sing|Person=3	15	amod	_	_
 13	bir	bir	DET	ANum	NumType=Card	14	det	_	_

@@ -1684,7 +1684,7 @@
 14	etkisi	etki	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	15	nsubj	_	_
 15-16	büyüktür	_	_	_	_	_	_	_	SpaceAfter=No
 15	büyük	büyük	ADJ	Adj	_	7	parataxis	_	_
-16	tür	tür	AUX	Noun	Case=Nom|Number=Sing|Person=3	15	cop	_	_
+16	tür	i	AUX	Noun	Case=Nom|Number=Sing|Person=3	15	cop	_	_
 17	)	)	PUNCT	Punc	_	15	punct	_	_
 18	ve	ve	CCONJ	Conj	_	21	cc	_	_
 19	beden	beden	NOUN	Noun	Case=Nom|Number=Sing|Person=3	21	nsubj	_	_
@@ -3044,7 +3044,7 @@
 9	hareketlilik	hareket	NOUN	Noun	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
 10-11	gözlenmezken	_	_	_	_	_	_	_	SpaceAfter=No
 10	gözlenmez	göz	VERB	Verb	Aspect=Hab|Case=Nom|Number=Sing|Person=3|Polarity=Neg|Tense=Aor	20	advcl	_	_
-11	ken	Ken	AUX	Zero	Case=Nom|Number=Sing|Person=3	10	cop	_	_
+11	ken	i	AUX	Zero	Case=Nom|Number=Sing|Person=3	10	cop	_	_
 12	,	,	PUNCT	Punc	_	20	punct	_	_
 13	Kuzey	kuzey	PROPN	Prop	Case=Nom|Number=Sing|Person=3	15	nmod:poss	_	_
 14	Irak	Irak	PROPN	Prop	Case=Nom|Number=Sing|Person=3	13	flat	_	_
@@ -3527,7 +3527,7 @@
 1	Çatlak	Çatlak	ADJ	Adj	_	3	nsubj	_	_
 2	pek	pek	ADV	Adverb	_	3	advmod	_	_
 3	geniş	geniş	ADJ	Adj	_	0	root	_	_
-4	değildi	değ	AUX	Neg	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	3	cop	_	SpaceAfter=No
+4	değildi	değil	AUX	Neg	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	3	cop	_	SpaceAfter=No
 5	,	,	PUNCT	Punc	_	9	punct	_	_
 6	80	80	NUM	ANum	NumType=Card	9	nummod	_	SpaceAfter=No
 7	-	-	PUNCT	Punc	_	8	punct	_	SpaceAfter=No
@@ -3810,7 +3810,7 @@
 5	evine	ev	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obl	_	_
 6-7	düşkündür	_	_	_	_	_	_	_	SpaceAfter=No
 6	düşkün	düşkün	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
-7	dür	dür	AUX	Zero	Mood=Imp|Number=Sing|Person=2|Polarity=Pos	6	cop	_	_
+7	dür	i	AUX	Zero	Mood=Imp|Number=Sing|Person=2|Polarity=Pos	6	cop	_	_
 8	.	.	PUNCT	Punc	_	6	punct	_	SpacesAfter=\n
 
 # sent_id = ins_1850
@@ -4764,7 +4764,7 @@
 22	başkasının	başka	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	23	nmod:poss	_	_
 23	ağzından	ağız	NOUN	Noun	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	24	obl	_	_
 24	konuşup	konuş	VERB	Verb	Polarity=Pos	0	root	_	_
-25	durur	dur	AUX	Verb	Aspect=Hab|Number=Sing|Person=3|Polarity=Pos|Tense=Aor	24	aux	_	SpaceAfter=No
+25	durur	i	AUX	Verb	Aspect=Hab|Number=Sing|Person=3|Polarity=Pos|Tense=Aor	24	aux	_	SpaceAfter=No
 26	.	.	PUNCT	Punc	_	24	punct	_	SpacesAfter=\n
 
 # sent_id = ess_1486
@@ -4977,7 +4977,7 @@
 # text = - Şişli'de iken ne gibi dersler verdiniz?
 1	-	-	PUNCT	Punc	_	6	punct	_	_
 2	Şişli'de	Şişli	PROPN	Prop	Case=Loc|Number=Sing|Person=3	6	advcl	_	_
-3	iken	ik	AUX	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	2	cop	_	_
+3	iken	i	AUX	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	2	cop	_	_
 4	ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	6	amod	_	_
 5	gibi	gibi	ADP	PCNom	_	4	case	_	_
 6	dersler	ders	NOUN	Noun	Case=Nom|Number=Plur|Person=3	0	root	_	_
@@ -5017,7 +5017,7 @@
 18	"	"	PUNCT	Punc	_	21	punct	_	SpaceAfter=No
 19	Herhalde	herhalde	ADV	Adverb	_	21	advmod	_	_
 20	maçta	maç	NOUN	Noun	Case=Loc|Number=Sing|Person=3	21	obl	_	_
-21	değildi	değ	VERB	Neg	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	24	ccomp	_	SpaceAfter=No
+21	değildi	değil	VERB	Neg	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	24	ccomp	_	SpaceAfter=No
 22	,	,	PUNCT	Punc	_	21	punct	_	SpaceAfter=No
 23	"	"	PUNCT	Punc	_	21	punct	_	_
 24	dedi	de	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
@@ -5260,7 +5260,7 @@
 2	günü	gün	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obl	_	_
 3-4	değerlendirmekti	_	_	_	_	_	_	_	SpaceAfter=No
 3	değerlendirmek	değer	VERB	Verb	Case=Nom|Number=Sing|Person=3|Polarity=Pos|Voice=Cau	0	root	_	_
-4	ti	Ti	AUX	Zero	Case=Nom|Number=Sing|Person=3	3	cop	_	_
+4	ti	i	AUX	Zero	Case=Nom|Number=Sing|Person=3	3	cop	_	_
 5	.	.	PUNCT	Punc	_	3	punct	_	SpacesAfter=\n
 
 # sent_id = news_616
@@ -6205,7 +6205,7 @@
 10	aynı	aynı	ADJ	Adj	_	11	amod	_	_
 11	metodla	metod	NOUN	Noun	Case=Ins|Number=Sing|Person=3	12	obl	_	_
 12	konuşup	konuş	VERB	Verb	Polarity=Pos	0	root	_	_
-13	duruyor	dur	AUX	Verb	Aspect=Prog|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	12	aux	_	SpaceAfter=No
+13	duruyor	i	AUX	Verb	Aspect=Prog|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	12	aux	_	SpaceAfter=No
 14	.	.	PUNCT	Punc	_	12	punct	_	SpacesAfter=\n
 
 # sent_id = bio_50
@@ -7671,7 +7671,7 @@
 2	korsanlığı	korsan	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	nsubj	_	_
 3-4	varken	_	_	_	_	_	_	_	SpaceAfter=No
 3	var	var	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	6	advcl	_	_
-4	ken	Ken	AUX	Zero	Case=Nom|Number=Sing|Person=3	3	cop	_	_
+4	ken	i	AUX	Zero	Case=Nom|Number=Sing|Person=3	3	cop	_	_
 5	,	,	PUNCT	Punc	_	6	punct	_	_
 6	yazmak	yaz	VERB	Verb	Case=Nom|Polarity=Pos	0	root	_	_
 7	neye	ne	ADV	Ques	Case=Dat|Number=Sing|Person=3	6	advmod	_	SpaceAfter=No
@@ -8443,7 +8443,7 @@
 7	bilgisi	bilgi	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nsubj	_	_
 8-9	yoktu	_	_	_	_	_	_	_	SpaceAfter=No
 8	yok	yok	ADV	Adverb	_	0	root	_	_
-9	tu	TU	AUX	Zero	Case=Nom|Number=Sing|Person=3	8	cop	_	_
+9	tu	i	AUX	Zero	Case=Nom|Number=Sing|Person=3	8	cop	_	_
 10	,	,	PUNCT	Punc	_	15	punct	_	_
 11	ama	ama	CCONJ	Conj	_	15	cc	_	_
 12	gözüne	göz	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	obl	_	_
@@ -8584,7 +8584,7 @@
 1	Birkaç	birkaç	DET	Det	_	2	det	_	_
 2-3	yıldır	_	_	_	_	_	_	_	SpaceAfter=No
 2	yıl	yıl	ADV	Noun	Case=Nom|Number=Sing|Person=3	32	advmod	_	_
-3	dır	dir	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
+3	dır	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
 4	,	,	PUNCT	Punc	_	5	punct	_	_
 5	Kürt	Kürt	PROPN	Prop	Case=Nom|Number=Sing|Person=3	13	nmod:poss	_	SpaceAfter=No
 6	,	,	PUNCT	Punc	_	7	punct	_	_
@@ -10983,7 +10983,7 @@
 3	biri	biri	PRON	Quant	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nsubj	_	_
 4-5	varken	_	_	_	_	_	_	_	_
 4	var	var	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	8	advcl	_	_
-5	ken	Ken	AUX	Zero	Case=Nom|Number=Sing|Person=3	4	cop	_	_
+5	ken	i	AUX	Zero	Case=Nom|Number=Sing|Person=3	4	cop	_	_
 6	başımızı	baş	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	7	obj	_	_
 7	dayamaya	daya	VERB	Verb	Case=Dat|Number=Sing|Person=3|Polarity=Pos	8	ccomp	_	_
 8	ihtiyaç	ihtiyaç	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
@@ -11434,7 +11434,7 @@
 13	gibi	gibi	ADP	PCNom	_	12	case	_	_
 14-15	düşünürken	_	_	_	_	_	_	_	_
 14	düşünür	düşünür	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	advcl	_	_
-15	ken	Ken	AUX	Zero	Case=Nom|Number=Sing|Person=3	14	cop	_	_
+15	ken	i	AUX	Zero	Case=Nom|Number=Sing|Person=3	14	cop	_	_
 16	kendi	kendi	PRON	Reflex	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Voice=Rfl	18	nmod:poss	_	_
 17	gerçek	gerçek	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	18	amod	_	_
 18	kimliğine	kimlik	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	20	obl	_	_
@@ -11736,7 +11736,7 @@
 8	ve	ve	CCONJ	Conj	_	9	cc	_	_
 9	evhamlar	evham	NOUN	Noun	Case=Nom|Number=Plur|Person=3	7	conj	_	_
 10	geçmiyor	geç	VERB	Verb	Aspect=Prog|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	_
-11	değildi	değ	AUX	Neg	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	10	cop	_	SpaceAfter=No
+11	değildi	değil	AUX	Neg	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	10	cop	_	SpaceAfter=No
 12	;	;	PUNCT	Punc	_	22	punct	_	_
 13	bu	bu	DET	Det	_	14	det	_	_
 14	adama	adam	NOUN	Noun	Case=Dat|Number=Sing|Person=3	15	obj	_	_
@@ -12299,7 +12299,7 @@
 5	halleri	hâl	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	6	nsubj	_	_
 6-7	yoktu	_	_	_	_	_	_	_	SpaceAfter=No
 6	yok	yok	ADV	Adverb	_	0	root	_	_
-7	tu	TU	AUX	Zero	Case=Nom|Number=Sing|Person=3	6	cop	_	_
+7	tu	i	AUX	Zero	Case=Nom|Number=Sing|Person=3	6	cop	_	_
 8	.	.	PUNCT	Punc	_	6	punct	_	SpacesAfter=\n
 
 # sent_id = ess_444
@@ -13381,7 +13381,7 @@
 3	eskisi	eski	ADV	NAdj	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	advmod	_	_
 4	kadar	kadar	ADP	PCDat	_	3	case	_	_
 5	mutsuz	mutsuz	ADJ	Adj	_	0	root	_	_
-6	değildi	değ	AUX	Neg	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	5	cop	_	SpaceAfter=No
+6	değildi	değil	AUX	Neg	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	5	cop	_	SpaceAfter=No
 7	.	.	PUNCT	Punc	_	5	punct	_	SpacesAfter=\n
 
 # sent_id = pop_1488
@@ -13412,7 +13412,7 @@
 6	de	de	CCONJ	Conj	_	5	advmod:emph	_	_
 7-8	mümkündür	_	_	_	_	_	_	_	SpaceAfter=No
 7	mümkün	mümkün	ADJ	Adj	_	0	root	_	_
-8	dür	dür	AUX	Zero	Mood=Imp|Number=Sing|Person=2|Polarity=Pos	7	cop	_	_
+8	dür	i	AUX	Zero	Mood=Imp|Number=Sing|Person=2|Polarity=Pos	7	cop	_	_
 9	.	.	PUNCT	Punc	_	7	punct	_	SpacesAfter=\n
 
 # sent_id = ins_1404
@@ -14785,7 +14785,7 @@
 3	,	,	PUNCT	Punc	_	8	punct	_	_
 4	52	52	NUM	ANum	NumType=Card	5	nummod	_	_
 5	yaşında	yaş	ADJ	NAdj	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	advcl	_	_
-6	iken	ik	AUX	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	5	cop	_	_
+6	iken	i	AUX	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	5	cop	_	_
 7	Kahire'ye	Kahire	PROPN	Prop	Case=Dat|Number=Sing|Person=3	8	obl	_	_
 8	gelmiş	gel	VERB	Verb	Evident=Nfh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 9	ve	ve	CCONJ	Conj	_	15	cc	_	_
@@ -14847,7 +14847,7 @@
 2	olacağı	ol	VERB	Verb	Aspect=Imp|Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Fut|VerbForm=Part	4	csubj	_	_
 3	hiç	hiç	ADV	Adverb	_	4	advmod	_	_
 4	belli	belli	ADJ	Adj	_	0	root	_	_
-5	değildi	değ	AUX	Neg	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	4	cop	_	SpaceAfter=No
+5	değildi	değil	AUX	Neg	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	4	cop	_	SpaceAfter=No
 6	.	.	PUNCT	Punc	_	4	punct	_	SpacesAfter=\n
 
 # sent_id = ess_1011
@@ -14912,7 +14912,7 @@
 # text = Uyanıkken bu kalıplardan hiçbiri sizi tanımlamıyor olPotir, peki ya uyurken? Britanya'da yapılan araştırma uyku anında ortaya çıkan özellikleri sıraladı.
 1-2	Uyanıkken	_	_	_	_	_	_	_	_
 1	Uyanık	uyanık	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	8	advcl	_	_
-2	ken	Ken	AUX	Zero	Case=Nom|Number=Sing|Person=3	1	cop	_	_
+2	ken	i	AUX	Zero	Case=Nom|Number=Sing|Person=3	1	cop	_	_
 3	bu	bu	DET	Det	_	4	det	_	_
 4	kalıplardan	kalıp	NOUN	Noun	Case=Abl|Number=Plur|Person=3	5	nmod:poss	_	_
 5	hiçbiri	hiçbiri	PRON	Quant	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nsubj	_	_

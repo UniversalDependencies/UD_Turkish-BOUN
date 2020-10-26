@@ -1124,7 +1124,7 @@
 2	...	...	PUNCT	Punc	_	1	punct	_	SpacesAfter=\n
 
 # sent_id = ess_1168
-# text = O, kişisel ve günlük siyaset yerine her zaman uzun vadeli düşünen, siyaseti halkın yaşamını iyileştirmek, adalet li bir toplum ve dünya yaratmak olarak anlayan bir siyasetçiydi.
+# text = O, kişisel ve günlük siyaset yerine her zaman uzun vadeli düşünen, siyaseti halkın yaşamını iyileştirmek, adaletli bir toplum ve dünya yaratmak olarak anlayan bir siyasetçiydi.
 1	O	o	PRON	Pers	Case=Nom|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	Punc	_	29	punct	_	_
 3	kişisel	kişisel	ADJ	Adj	_	6	amod	_	_
@@ -7412,7 +7412,7 @@
 26	.	.	PUNCT	Punc	_	23	punct	_	SpacesAfter=\n
 
 # sent_id = ess_1572
-# text = Olamaz, çünkü üretimin küresel olduğu, hiçbir ülkenin kendine yeterli olmadığı bir dünyada, ulusal bağımsızlık uygulanPotirliği olmayan, afa ki bir amaçtır.
+# text = Olamaz, çünkü üretimin küresel olduğu, hiçbir ülkenin kendine yeterli olmadığı bir dünyada, ulusal bağımsızlık uygulanPotirliği olmayan, afaki bir amaçtır.
 1	Olamaz	ol	VERB	Verb	Aspect=Hab|Number=Sing|Person=3|Polarity=Neg|Tense=Aor	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	çünkü	çünkü	CCONJ	Conj	_	25	cc	_	_
@@ -8081,7 +8081,7 @@
 8	.	.	PUNCT	Punc	_	6	punct	_	SpacesAfter=\n
 
 # sent_id = ess_961
-# text = Biri, Gazap Üzümleri'nde ki kadın gibi süt dolu memeleriyle aç bir adamı emzirmeli, biri, Umut romanında ki çılgın cumhuriyetçiler gibi, sokağın başını tutan faşistlerin, topunun üstüne, bir kamyona binip canlı bir el bombası gibi bindirmeli.
+# text = Biri, Gazap Üzümleri'ndeki kadın gibi süt dolu memeleriyle aç bir adamı emzirmeli, biri, Umut romanındaki çılgın cumhuriyetçiler gibi, sokağın başını tutan faşistlerin, topunun üstüne, bir kamyona binip canlı bir el bombası gibi bindirmeli.
 1	Biri	biri	PRON	Quant	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	14	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	Punc	_	14	punct	_	_
 3	Gazap	gazap	PROPN	Prop	Case=Nom|Number=Sing|Person=3	14	nmod	_	_
@@ -8462,7 +8462,7 @@
 5	!	!	PUNCT	Punc	_	2	punct	_	SpacesAfter=\n
 
 # sent_id = ess_230
-# text = AŞK, MEŞK, ÇIKMA, AYARTMA VE SONUÇ: EVLİLİK Zil sesi miydi, yoksa bir düş mü ydü hiç düşünmedi...
+# text = AŞK, MEŞK, ÇIKMA, AYARTMA VE SONUÇ: EVLİLİKZil sesi miydi, yoksa bir düş müydü hiç düşünmedi...
 1	AŞK	aşk	PROPN	Prop	Case=Nom|Number=Sing|Person=3	8	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	Punc	_	3	punct	_	_
 3	MEŞK	meşk	PROPN	Prop	Case=Nom|Number=Sing|Person=3	1	conj	_	SpaceAfter=No
@@ -12508,7 +12508,7 @@
 12	.	.	PUNCT	Punc	_	11	punct	_	SpacesAfter=\n
 
 # sent_id = bio_117
-# text = Örneğin salnamelerde ki sayısal bilgiler bile din temeline göre, yani "Müslim", "Gayri müslim" vb.
+# text = Örneğin salnamelerdeki sayısal bilgiler bile din temeline göre, yani "Müslim", "Gayri müslim" vb.
 1	Örneğin	örnek	CCONJ	Conj	Case=Gen|Number=Sing|Person=3	8	discourse	_	_
 2-3	salnamelerdeki	_	_	_	_	_	_	_	_
 2	salnamelerde	salname	NOUN	Noun	Case=Loc|Number=Plur|Person=3	5	amod	_	_
@@ -12672,7 +12672,7 @@
 15	.	.	PUNCT	Punc	_	13	punct	_	SpacesAfter=\n
 
 # sent_id = ess_1578
-# text = Öte yandan köşklerin yazgısı, yakların kinden çok daha parlak değil.
+# text = Öte yandan köşklerin yazgısı, yaklarınkinden çok daha parlak değil.
 1	Öte	öte	NOUN	Noun	Case=Nom|Number=Sing|Person=3	11	obl	_	_
 2	yandan	yan	ADJ	NAdj	Case=Abl|Number=Sing|Person=3	11	amod	_	_
 3	köşklerin	köşk	NOUN	Noun	Case=Gen|Number=Plur|Person=3	4	nmod:poss	_	_
@@ -15108,5 +15108,4 @@
 3	"	"	PUNCT	Punc	_	2	punct	_	_
 4	denemez	dene	VERB	Verb	Aspect=Hab|Number=Sing|Person=3|Polarity=Neg|Tense=Aor	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Punc	_	4	punct	_	SpacesAfter=\n
-
 

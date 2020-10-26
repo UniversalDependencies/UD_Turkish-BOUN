@@ -12115,7 +12115,7 @@
 8	karşısında	karşı	ADJ	NAdj	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	29	amod	_	SpaceAfter=No
 9	,	,	PUNCT	Punc	_	10	punct	_	_
 10	müsteşarına	müsteşar	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	29	obl	_	SpaceAfter=No
-11	:	:	PUNCT	Punc	_	41	punct	_	_
+11	:	:	PUNCT	Punc	_	10	punct	_	_
 12	"	"	PUNCT	Punc	_	19	punct	_	SpaceAfter=No
 13	Sen	sen	PRON	Pers	Case=Nom|Number=Sing|Person=2	15	nsubj	_	_
 14	ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	15	obj	_	_
@@ -15141,3 +15141,4 @@
 9	girdi	gir	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 10	ameliyata	ameliyat	NOUN	Noun	Case=Dat|Number=Sing|Person=3	9	obl	_	SpaceAfter=No
 11	.	.	PUNCT	Punc	_	10	punct	_	SpacesAfter=\n
+

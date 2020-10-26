@@ -813,7 +813,7 @@
 14	için	için	ADP	PCNom	_	13	case	_	_
 15	de	de	CCONJ	Conj	_	13	advmod:emph	_	_
 16	unutup	unut	VERB	Verb	Polarity=Pos	0	root	_	_
-17	gitmiştik	git	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Plur|Person=1|Polarity=Pos|Tense=Past	16	aux	_	SpaceAfter=No
+17	gitmiştik	git	AUX	Verb	Aspect=Perf|Evident=Fh|Number=Plur|Person=1|Polarity=Pos|Tense=Past	16	aux	_	SpaceAfter=No
 18	.	.	PUNCT	Punc	_	16	punct	_	SpacesAfter=\n
 
 # sent_id = ess_363
@@ -1156,7 +1156,7 @@
 27	olarak	ol	ADP	PCNom	Mood=Imp|Polarity=Pos|VerbForm=Conv	26	case	_	_
 28	anlayan	anla	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part	23	conj	_	_
 29	bir	bir	NUM	ANum	NumType=Card	0	root	_	_
-30	siyasetçiydi	siyaset	VERB	Verb	Aspect=Perf|Case=Nom|Evident=Fh|Number=Sing|Person=3|Tense=Past	29	cop	_	SpaceAfter=No
+30	siyasetçiydi	siyaset	AUX	Verb	Aspect=Perf|Case=Nom|Evident=Fh|Number=Sing|Person=3|Tense=Past	29	cop	_	SpaceAfter=No
 31	.	.	PUNCT	Punc	_	29	punct	_	SpacesAfter=\n
 
 # sent_id = news_777
@@ -4963,11 +4963,11 @@
 14	durumu	durum	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	15	nsubj	_	_
 15	düzelse	düzel	VERB	Neg	Mood=Des|Number=Sing|Person=3|Polarity=Pos	19	advcl	_	_
 16	de	de	CCONJ	Conj	_	15	advmod:emph	_	_
-17	ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	19	cc:preconj	_	_
+17	ne	ne	CCONJ	Conj	Case=Nom|Number=Sing|Person=3	19	cc:preconj	_	_
 18	kredi	kredi	NOUN	Noun	Case=Nom|Number=Sing|Person=3	19	obj	_	_
 19	alPotiyor	al	VERB	Verb	Aspect=Prog|Mood=Pot|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
 20	,	,	PUNCT	Punc	_	24	punct	_	_
-21	ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	24	cc:preconj	_	_
+21	ne	ne	CCONJ	Conj	Case=Nom|Number=Sing|Person=3	24	cc:preconj	_	_
 22	kredi	kredi	NOUN	Noun	Case=Nom|Number=Sing|Person=3	23	nmod:poss	_	_
 23	kartı	kart	ADJ	NAdj	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	24	obj	_	_
 24	alPotiyor	al	VERB	Verb	Aspect=Prog|Mood=Pot|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	19	conj	_	SpaceAfter=No
@@ -6563,7 +6563,7 @@
 10	içine	iç	ADJ	NAdj	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	obl	_	_
 11	hapsettiğiniz	hapset	NOUN	Noun	Aspect=Perf|Number[psor]=Plur|Person[psor]=2|Polarity=Pos|Tense=Past|VerbForm=Part	12	acl	_	_
 12	insanlardan	insan	NOUN	Noun	Case=Abl|Number=Plur|Person=3	19	obl	_	_
-13	ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	14	cc:preconj	_	_
+13	ne	ne	CCONJ	Conj	Case=Nom|Number=Sing|Person=3	14	cc:preconj	_	_
 14	memlekete	memleket	NOUN	Noun	Case=Dat|Number=Sing|Person=3	19	obl	_	_
 15	ne	ne	CCONJ	Conj	_	17	cc:preconj	_	_
 16	de	de	CCONJ	Conj	_	15	advmod:emph	_	_
@@ -7717,10 +7717,10 @@
 
 # sent_id = ins_497
 # text = Ne yol bitiyor ne yeşil ne de mavi.
-1	Ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	3	cc:preconj	_	_
+1	Ne	ne	CCONJ	Conj	Case=Nom|Number=Sing|Person=3	3	cc:preconj	_	_
 2	yol	yol	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	nsubj	_	_
 3	bitiyor	bit	VERB	Verb	Aspect=Prog|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	_
-4	ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	5	cc:preconj	_	_
+4	ne	ne	CCONJ	Conj	Case=Nom|Number=Sing|Person=3	5	cc:preconj	_	_
 5	yeşil	yeşil	ADJ	Adj	_	3	orphan	_	_
 6	ne	ne	CCONJ	Conj	_	8	cc:preconj	_	_
 7	de	de	CCONJ	Conj	_	6	advmod:emph	_	_
@@ -8637,12 +8637,12 @@
 
 # sent_id = pop_1484
 # text = Ne Bizans subayı oldu, ne Yunan zabiti.
-1	Ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	4	cc:preconj	_	_
+1	Ne	ne	CCONJ	Conj	Case=Nom|Number=Sing|Person=3	4	cc:preconj	_	_
 2	Bizans	Bizans	PROPN	Prop	Case=Nom|Number=Sing|Person=3	3	nmod:poss	_	_
 3	subayı	subay	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	obj	_	_
 4	oldu	ol	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	Punc	_	8	punct	_	_
-6	ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	8	cc:preconj	_	_
+6	ne	ne	CCONJ	Conj	Case=Nom|Number=Sing|Person=3	8	cc:preconj	_	_
 7	Yunan	Yunan	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	8	nmod:poss	_	_
 8	zabiti	zabit	VERB	Verb	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	conj	_	SpaceAfter=No
 9	.	.	PUNCT	Punc	_	4	punct	_	SpacesAfter=\n
@@ -8987,10 +8987,10 @@
 
 # sent_id = bio_990
 # text = Ne saçı, ne kirpiği, ne de canı kalmıştı annelerinin.
-1	Ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	2	cc:preconj	_	_
+1	Ne	ne	CCONJ	Conj	Case=Nom|Number=Sing|Person=3	2	cc:preconj	_	_
 2	saçı	saçı	PRON	Quant	Case=Nom|Number=Sing|Person=3	10	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	Punc	_	5	punct	_	_
-4	ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	5	cc:preconj	_	_
+4	ne	ne	CCONJ	Conj	Case=Nom|Number=Sing|Person=3	5	cc:preconj	_	_
 5	kirpiği	kirpik	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	2	conj	_	SpaceAfter=No
 6	,	,	PUNCT	Punc	_	9	punct	_	_
 7	ne	ne	CCONJ	Conj	_	9	cc:preconj	_	_
@@ -11899,10 +11899,10 @@
 # sent_id = bio_1678
 # text = Toplumda ne bir ses ne bir nefes...
 1	Toplumda	toplum	NOUN	Noun	Case=Loc|Number=Sing|Person=3	4	obl	_	_
-2	ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	4	cc:preconj	_	_
+2	ne	ne	CCONJ	Conj	Case=Nom|Number=Sing|Person=3	4	cc:preconj	_	_
 3	bir	bir	DET	ANum	NumType=Card	4	det	_	_
 4	ses	ses	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
-5	ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	7	cc:preconj	_	_
+5	ne	ne	CCONJ	Conj	Case=Nom|Number=Sing|Person=3	7	cc:preconj	_	_
 6	bir	bir	DET	ANum	NumType=Card	7	det	_	_
 7	nefes	nefes	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	conj	_	SpaceAfter=No
 8	...	...	PUNCT	Punc	_	7	punct	_	SpacesAfter=\n
@@ -12566,7 +12566,7 @@
 # text = Aylardır "Defile yaz, moda yaz, gittiğin davetleri yaz" (sanki her gece o kokteyl senin, bu davet benim geziyormuşum gibi) diye, üzerimde psikolojik baskı uygulayan, çoğunluğu kadın, gazeteci arkadaşların gönlünü hoş etmek için gözlem yapmaya başladım.
 1-2	Aylardır	_	_	_	_	_	_	_	_
 1	Ay	Ay	ADV	Noun	Case=Nom|Number=Sing|Person=3	33	advmod	_	_
-2	lardır		i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Plur|Person=3|Tense=Pres	1	cop	_	_
+2	lardır	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Plur|Person=3|Tense=Pres	1	cop	_	_
 3	"	"	PUNCT	Punc	_	5	punct	_	SpaceAfter=No
 4	Defile	defile	VERB	Verb	Case=Nom|Number=Sing|Person=3	5	obj	_	_
 5	yaz	yaz	VERB	Verb	Case=Nom|Number=Sing|Person=3	33	advcl	_	SpaceAfter=No

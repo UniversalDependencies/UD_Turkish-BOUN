@@ -7475,7 +7475,7 @@
 23	,	,	PUNCT	Punc	_	22	punct	_	_
 24	tek	tek	ADJ	Adj	_	25	amod	_	_
 25	önder	önder	NOUN	Noun	Case=Nom|Number=Sing|Person=3	27	nmod	_	SpaceAfter=No
-26	"	"	PUNCT	Punc	_	22	punct	_	_
+26	"	"	PUNCT	Punc	_	25	punct	_	_
 27	ülküsünün	ülkü	ADJ	NAdj	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	28	nmod:poss	_	_
 28	başkenti	başkent	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	39	nsubj	_	_
 29	(	(	PUNCT	Punc	_	33	punct	_	SpaceAfter=No
@@ -10596,7 +10596,7 @@
 5	.	.	PUNCT	Punc	_	1	punct	_	SpacesAfter=\n
 
 # sent_id = bio_1896
-# text = Bu çiçekler, sonsuzluğa göçmüş olan kardeşlerin tinsel varlıklarına sunulan sevgilerdir; ruhun ölümsüzlüğüne inanan masonluğun, anıları mason mabedinde uçuşan kardeşlerin earmağanlarıdır.
+# text = Bu çiçekler, sonsuzluğa göçmüş olan kardeşlerin tinsel varlıklarına sunulan sevgilerdir; ruhun ölümsüzlüğüne inanan masonluğun, anıları mason mabedinde uçuşan kardeşlerine armağanlarıdır.
 1	Bu	bu	DET	Det	_	2	det	_	_
 2	çiçekler	çiçek	NOUN	Noun	Case=Nom|Number=Plur|Person=3	11	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	Punc	_	11	punct	_	_
@@ -12112,9 +12112,9 @@
 5	bir	bir	DET	ANum	NumType=Card	6	det	_	_
 6	rüşvet	rüşvet	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	nmod:poss	_	_
 7	teklifi	teklif	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nmod:poss	_	_
-8	karşısında	karşı	ADJ	NAdj	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	amod	_	SpaceAfter=No
+8	karşısında	karşı	ADJ	NAdj	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	29	amod	_	SpaceAfter=No
 9	,	,	PUNCT	Punc	_	10	punct	_	_
-10	müsteşarına	müsteşar	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	compound	_	SpaceAfter=No
+10	müsteşarına	müsteşar	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	29	obl	_	SpaceAfter=No
 11	:	:	PUNCT	Punc	_	41	punct	_	_
 12	"	"	PUNCT	Punc	_	19	punct	_	SpaceAfter=No
 13	Sen	sen	PRON	Pers	Case=Nom|Number=Sing|Person=2	15	nsubj	_	_
@@ -13038,7 +13038,7 @@
 10	sorumlu	sorum	ADJ	Adj	Case=Nom|Number=Sing|Person=3	11	amod	_	_
 11	Şuh	Şuh	PROPN	Prop	Case=Nom|Number=Sing|Person=3	31	nsubj	_	_
 12	Sultan	sultan	PROPN	Prop	Case=Nom|Number=Sing|Person=3	11	flat	_	SpaceAfter=No
-13	,	,	PUNCT	Punc	_	28	punct	_	_
+13	,	,	PUNCT	Punc	_	12	punct	_	_
 14	"	"	PUNCT	Punc	_	22	punct	_	SpaceAfter=No
 15	Yeni	yeni	ADJ	Adj	_	19	amod	_	_
 16	ve	ve	CCONJ	Conj	_	17	cc	_	_
@@ -13049,7 +13049,7 @@
 21	buraların	bura	NOUN	Noun	Case=Gen|Number=Plur|Person=3	22	nmod:poss	_	_
 22	efendisi	efendi	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	23	nsubj	_	_
 23	sizsiniz	siz	NOUN	Noun	Case=Nom|Number=Plur|Person=2	31	ccomp	_	SpaceAfter=No
-24	,	,	PUNCT	Punc	_	22	punct	_	_
+24	,	,	PUNCT	Punc	_	23	punct	_	_
 25	bu	bu	DET	Det	_	26	det	_	_
 26	lunaparkı	lunapark	NOUN	Noun	Case=Acc|Number=Sing|Person=3	28	obj	_	_
 27	birlikte	birlikte	ADV	Adverb	_	28	advmod	_	_

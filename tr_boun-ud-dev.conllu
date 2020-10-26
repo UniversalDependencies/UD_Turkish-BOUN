@@ -48,19 +48,19 @@
 4	civcivler	civciv	NOUN	Noun	Case=Nom|Number=Plur|Person=3	5	obj	_	_
 5	yesin	ye	VERB	Verb	Mood=Imp|Number=Sing|Person=3|Polarity=Pos	7	ccomp	_	SpaceAfter=No
 6	"	"	PUNCT	Punc	_	5	punct	_	_
-7	derken	de	ADV	Adverb	Aspect=Hab|Mood=Imp|Number=Sing|Person=3|Polarity=Pos|Tense=Aor|VerbForm=Conv	17	advcl	_	SpaceAfter=No
+7	derken	de	ADV	Adverb	Aspect=Hab|Mood=Imp|Number=Sing|Person=3|Polarity=Pos|Tense=Aor|VerbForm=Conv	18	advcl	_	SpaceAfter=No
 8	,	,	PUNCT	Punc	_	17	punct	_	_
 9	"	"	PUNCT	Punc	_	14	punct	_	SpaceAfter=No
 10	Kendine	kendi	PRON	Reflex	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Voice=Rfl	11	obl	_	_
 11	gel	gel	VERB	Verb	Mood=Imp|Number=Sing|Person=2|Polarity=Pos	14	advcl	_	_
 12	de	de	CCONJ	Conj	_	11	advmod:emph	_	_
 13	ilişkimiz	ilişki	NUM	NNum	Case=Nom|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	14	nsubj	_	_
-14	devam	devam	NOUN	Noun	Case=Nom|Number=Sing|Person=3	16	ccomp	_	_
+14	devam	devam	NOUN	Noun	Case=Nom|Number=Sing|Person=3	17	ccomp	_	_
 15	etsin	et	VERB	Verb	_	14	compound:lvc	_	SpaceAfter=No
 16	"	"	PUNCT	Punc	_	14	punct	_	_
 17	demek	de	VERB	Verb	Case=Nom|Polarity=Pos	18	xcomp	_	_
 18	istiyorum	iste	VERB	Verb	Aspect=Prog|Number=Sing|Person=1|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
-19	.	.	PUNCT	Punc	_	17	punct	_	SpacesAfter=\n
+19	.	.	PUNCT	Punc	_	18	punct	_	SpacesAfter=\n
 
 # sent_id = pop_1916
 # text = Saddam Hüseyin, 42 yaşında iken bir darbeyle iktidara el koydu.
@@ -1125,7 +1125,7 @@
 
 # sent_id = ess_1168
 # text = O, kişisel ve günlük siyaset yerine her zaman uzun vadeli düşünen, siyaseti halkın yaşamını iyileştirmek, adaletli bir toplum ve dünya yaratmak olarak anlayan bir siyasetçiydi.
-1	O	o	PRON	Pers	Case=Nom|Number=Sing|Person=3|PronType=Prs30	nsubj	_	SpaceAfter=No
+1	O	o	PRON	Pers	Case=Nom|Number=Sing|Person=3|PronType=Prs30	nsubj	30	_	SpaceAfter=No
 2	,	,	PUNCT	Punc	_	1	punct	_	_
 3	kişisel	kişisel	ADJ	Adj	_	6	amod	_	_
 4	ve	ve	CCONJ	Conj	_	5	cc	_	_
@@ -1149,9 +1149,9 @@
 20	adalet	adalet	NOUN	Noun	Case=Nom|Number=Sing|Person=3	23	nmod	_	_
 21	li	li	ADP	With	_	20	case	_	_
 22	bir	bir	DET	ANum	NumType=Card	23	det	_	_
-23	toplum	toplum	NOUN	Noun	Case=Nom|Number=Sing|Person=3	26	objj	_	_
+23	toplum	toplum	NOUN	Noun	Case=Nom|Number=Sing|Person=3	26	obj	_	_
 24	ve	ve	CCONJ	Conj	_	25	cc	_	_
-25	dünya	Dünya	NOUN	Noun	Case=Nom|Number=Sing|Person=3	23	cconj	_	_
+25	dünya	Dünya	NOUN	Noun	Case=Nom|Number=Sing|Person=3	23	conj	_	_
 26	yaratmak	yarat	VERB	Verb	Case=Nom|Polarity=Pos	28	ccomp	_	_
 27	olarak	ol	ADP	PCNom	Mood=Imp|Polarity=Pos|VerbForm=Conv	26	case	_	_
 28	anlayan	anla	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part	13	conj	_	_
@@ -1848,7 +1848,7 @@
 3	kuşları	kuş	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	1	nsubj	_	_
 4	üst	üst	ADJ	Adj	Case=Nom|Number=Sing|Person=3	5	nmod:poss	_	_
 5	yapraklarımızı	yaprak	NOUN	Noun	Case=Acc|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=1	1	obj	_	SpacesAfter=\n
-ğ
+
 # sent_id = ess_162
 # text = Fakat ona etki eden duygusal tepkime sonucu nefes faktörünün devreye girmesidir.
 1	Fakat	fakat	CCONJ	Conj	_	10	mark	_	_
@@ -4107,7 +4107,7 @@
 3	kapuçino	kapuçino	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	obj	_	_
 4	içmek	iç	VERB	Verb	Case=Nom|Polarity=Pos	5	xcomp	_	_
 5	zorunda	zor	ADJ	NAdj	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	14	acl	_	_
-6	olduğum	ol	VERB	Verb	Aspect=Perf|Number[psor]=Sing|Person[psor]=1|Polarity=Pos|Tense=Past|VerbForm=Part	5	aux	_	_
+6	olduğum	ol	AUX	Verb	Aspect=Perf|Number[psor]=Sing|Person[psor]=1|Polarity=Pos|Tense=Past|VerbForm=Part	5	aux	_	_
 7-8	karşılıklı	_	_	_	_	_	_	_	SpaceAfter=No
 7	karşılık	karşılık	NOUN	Noun	Case=Nom|Number=Sing|Person=3	14	amod	_	_
 8	lı	li	ADP	With	_	7	case	_	_
@@ -4350,10 +4350,10 @@
 52	inanç	inanç	NOUN	Noun	Case=Nom|Number=Sing|Person=3	62	nsubj	_	SpaceAfter=No
 53	,	,	PUNCT	Punc	_	62	punct	_	_
 54	bir	bir	DET	ANum	NumType=Card	55	det	_	_
-55	aşkı	aşk	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	57	nmod	_	_
+55	aşkı	aşk	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	62	obj	_	_
 56	bir	bir	DET	ANum	NumType=Card	58	nummod	_	_
 57	buçuk	buçuk	NOUN	Noun	Case=Nom|Number=Sing|Person=3	58	nummod	_	_
-58	asır	asır	ADJ	Adj	Case=Nom|Number=Sing|Person=3	57	conj	_	_
+58	asır	asır	ADJ	Adj	Case=Nom|Number=Sing|Person=3	62	obl	_	_
 59	sonra	sonra	ADP	PCAbl	_	58	case	_	_
 60	da	da	CCONJ	Conj	_	58	advmod:emph	_	_
 61	hatırlanır	hatır	NOUN	Noun	Aspect=Hab|Case=Nom|Number=Sing|Person=3|Polarity=Pos|Tense=Aor	62	ccomp	_	_
@@ -5035,7 +5035,7 @@
 
 # sent_id = ess_169
 # text = Hayır, o botokslanmamış.
-1	Hayır	hayır	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	mark	_	SpaceAfter=No
+1	Hayır	hayır	ADP	Noun	Case=Nom|Number=Sing|Person=3	4	mark	_	SpaceAfter=No
 2	,	,	PUNCT	Punc	_	4	punct	_	_
 3	o	o	PRON	Demons	Case=Nom|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	_
 4	botokslanmamış	botoks	VERB	Verb	Case=Nom|Evident=Nfh|Number=Sing|Person=3|Polarity=Neg|Tense=Past	0	root	_	SpaceAfter=No
@@ -8193,7 +8193,7 @@
 13	Esat	Esat	PROPN	Prop	Case=Nom|Number=Sing|Person=3	19	nmod:poss	_	_
 14	Mahmut	Mahmut	PROPN	Prop	Case=Nom|Number=Sing|Person=3	13	flat	_	_
 15	Karakurt'un	Karakurt	PROPN	Prop	Case=Gen|Number=Sing|Person=3	13	flat	_	_
-16	Erikler	erik	PROPN	Prop	Case=Nom|Number=Plur|Person=3	19	appos	_	_
+16	Erikler	erik	PROPN	Prop	Case=Nom|Number=Plur|Person=3	19	nmod	_	_
 17	Çiçek	çiçek	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	16	flat	_	_
 18	Açtı	aç	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	16	flat	_	_
 19	romanı	Roman	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	20	nsubj	_	_
@@ -13770,7 +13770,7 @@
 
 # sent_id = ess_1005
 # text = "Mavi yaz akşamlan, patikalarda, dalgın Bu kadar düşmanla baş edemem...
-1	"	"	PUNCT	Punc	_	1	punct	_	SpaceAfter=No
+1	"	"	PUNCT	Punc	_	2	punct	_	SpaceAfter=No
 2	Mavi	mavi	PROPN	Prop	Case=Nom|Number=Sing|Person=3	3	nsubj	_	_
 3	yaz	yaz	VERB	Verb	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
 4	akşamlan	akşam	NOUN	Noun	Case=Nom|Mood=Imp|Number=Sing|Person=2|Polarity=Pos	12	obl	_	SpaceAfter=No
@@ -14437,7 +14437,7 @@
 24	hakkı	Hak	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	27	nsubj	_	_
 25	olan	ol	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part	24	compound:lvc	_	_
 26	toprakları	toprak	NOUN	Noun	Case=Acc|Number=Plur|Person=3	27	obj	_	_
-27	mafyalaşmış	mafya	VERB	Verb	Case=Nom|Evident=Nfh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	27	acl	_	_
+27	mafyalaşmış	mafya	VERB	Verb	Case=Nom|Evident=Nfh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	28	acl	_	_
 28	derebeyleriyle	derebey	NOUN	Noun	Case=Ins|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	31	obl	_	_
 29	birlikte	birlikte	ADP	PCIns	_	28	case	_	_
 30	gasp	gasp	NOUN	Noun	Case=Nom|Number=Sing|Person=3	31	obj	_	_

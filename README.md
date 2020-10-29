@@ -16,7 +16,7 @@ The treebank is a product of a project on Turkish dependency parsing supported b
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
-Data available since: UD v2.2
+Data available since: 
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: nonfiction news

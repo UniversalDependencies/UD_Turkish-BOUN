@@ -40,10 +40,10 @@ Data available since: UD v2.7
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: nonfiction news
-Lemmas: semi-automatic
-UPOS: semi-automatic
-XPOS: semi-automatic
-Features: automatic
+Lemmas: automatic with corrections
+UPOS: automatic with corrections
+XPOS: automatic with corrections
+Features: automatic with corrections
 Relations: manual native
 Contributors: Türk, Utku; Atmaca, Furkan; Özateş, Şaziye Betül; Berk, Gözde; Bedir, Seyyit Talha; Köksal, Abdullatif; Öztürk Başaran, Balkız; Güngör, Tunga; Özgür Arzucan
 Contributing: elsewhere

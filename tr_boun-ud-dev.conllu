@@ -13299,7 +13299,7 @@
 2	soyup	soy	VERB	Verb	Polarity=Pos	6	advcl	_	SpaceAfter=No
 3	,	,	PUNCT	Punc	_	6	punct	_	_
 4	yarısını	yarı	ADJ	NAdj	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obj	_	_
-5	enlemesine	enle	VERB	Verb	Aspect=Perf|Case=Dat|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	6	advmod	_	_
+5	enlemesine	enle	ADV	Adv	_	6	advmod	_	_
 6	dilimleyin	dilimle	NOUN	Noun	Mood=Imp|Number=Plur|Person=2|Polarity=Pos	0	root	_	_
 7	ve	ve	CCONJ	Conj	_	13	cc	_	_
 8	1	1	NUM	ANum	NumType=Card	9	nummod	_	_

@@ -48,7 +48,7 @@
 4	civcivler	civciv	NOUN	Noun	Case=Nom|Number=Plur|Person=3	5	obj	_	_
 5	yesin	ye	VERB	Verb	Mood=Imp|Number=Sing|Person=3|Polarity=Pos	7	ccomp	_	SpaceAfter=No
 6	"	"	PUNCT	Punc	_	5	punct	_	_
-7	derken	de	ADV	Adverb	Aspect=Hab|Mood=Imp|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Conv	18	advcl	_	SpaceAfter=No
+7	derken	de	VERB	Adverb	Aspect=Hab|Mood=Imp|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Conv	18	advcl	_	SpaceAfter=No
 8	,	,	PUNCT	Punc	_	17	punct	_	_
 9	"	"	PUNCT	Punc	_	14	punct	_	SpaceAfter=No
 10	Kendine	kendi	PRON	Reflex	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Voice=Rfl	11	obl	_	_
@@ -3344,7 +3344,7 @@
 33	da	da	CCONJ	Conj	_	32	advmod:emph	_	_
 34	sen	sen	PRON	Pers	Case=Nom|Number=Sing|Person=2	30	conj	_	SpaceAfter=No
 35	,	,	PUNCT	Punc	_	36	punct	_	_
-36	derken	de	ADV	Adverb	Aspect=Hab|Mood=Imp|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Conv	42	advcl	_	_
+36	derken	de	VERB	Adverb	Aspect=Hab|Mood=Imp|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Conv	42	advcl	_	_
 37	yol	yol	NOUN	Noun	Case=Nom|Number=Sing|Person=3	39	obj	_	_
 38	yorgunluk	yorgun	NOUN	Noun	Case=Nom|Number=Sing|Person=3	37	conj	_	_
 39	duymadan	duy	VERB	Verb	Case=Abl|Number=Sing|Person=3|Polarity=Pos	42	advcl	_	_
@@ -5309,7 +5309,7 @@
 3	yıkayınız	yıka	NOUN	Noun	Mood=Imp|Number=Plur|Person=2|Polarity=Pos	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	Punc	_	6	punct	_	_
 5	suyunu	su	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obj	_	_
-6	süzdürünüz	süz	ADV	Adverb	Mood=Imp|Number=Plur|Person=2|Polarity=Pos|Voice=Cau	3	conj	_	SpaceAfter=No
+6	süzdürünüz	süz	VERB	Adverb	Mood=Imp|Number=Plur|Person=2|Polarity=Pos|Voice=Cau	3	conj	_	SpaceAfter=No
 7	.	.	PUNCT	Punc	_	6	punct	_	SpacesAfter=\n
 
 # sent_id = ess_1633
@@ -11614,7 +11614,7 @@
 9	Sen	sen	PRON	Pers	Case=Nom|Number=Sing|Person=2	12	nsubj	_	_
 10	kolay	kolay	ADV	Adj	_	12	advmod	_	_
 11	kolay	kolay	ADJ	Adj	_	10	compound:redup	_	_
-12	geç	geç	ADV	Adverb	Mood=Imp|Number=Sing|Person=2|Polarity=Pos	2	conj	_	_
+12	geç	geç	VERB	Adverb	Mood=Imp|Number=Sing|Person=2|Polarity=Pos	2	conj	_	_
 13	kalmazdın	kal	VERB	Verb	Aspect=Hab|Evident=Fh|Number=Sing|Person=2|Polarity=Neg|Tense=Pres	12	compound	_	SpaceAfter=No
 14	."	."	PUNCT	Punc	_	12	punct	_	SpacesAfter=\n
 
@@ -12037,7 +12037,7 @@
 2	fındık	fındık	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	nmod:poss	_	_
 3	üreticisinin	üre	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Voice=Cau	4	nmod:poss	_	_
 4	çilesi	çile	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nsubj	_	_
-5	bitecek	bit	ADV	Verb	Aspect=Imp|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	7	advmod	_	_
+5	bitecek	bit	VERB	Verb	Aspect=Imp|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	7	advmod	_	_
 6	gibi	gibi	ADP	PCNom	_	5	case	_	_
 7	görünmüyor	görün	VERB	Verb	Aspect=Prog|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	Punc	_	7	punct	_	SpacesAfter=\n

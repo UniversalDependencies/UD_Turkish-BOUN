@@ -23,7 +23,7 @@
 1	Yurt	yurt	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	nmod:poss	_	_
 2	dışında	dış	ADJ	NAdj	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	amod	_	_
 3	çalışmak	çalış	VERB	Verb	Case=Nom|Polarity=Pos	4	nmod:poss	_	_
-4	hedeflerim	hedefle	NOUN	Noun	Aspect=Hab|Number=Sing|Person=1|Polarity=Pos|Tense=Pres	5	nmod:poss	_	_
+4	hedeflerim	hedefle	NOUN	Noun	Number=Sing|Person=1|Polarity=Pos	5	nmod:poss	_	_
 5	içerisinde	içeri	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obl	_	_
 6	umarım	um	VERB	Verb	Aspect=Hab|Number=Sing|Person=1|Polarity=Pos|Tense=Pres	8	obj	_	_
 7	da	da	CCONJ	Conj	_	6	advmod:emph	_	_
@@ -12037,7 +12037,7 @@
 2	fındık	fındık	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	nmod:poss	_	_
 3	üreticisinin	üre	NOUN	Noun	_	4	nmod:poss	_	_
 4	çilesi	çile	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nsubj	_	_
-5	bitecek	bit	VERB	Verb	_	7	advmod	_	_
+5	bitecek	bit	ADV	Verb	_	7	advmod	_	_
 6	gibi	gibi	ADP	PCNom	_	5	case	_	_
 7	görünmüyor	görün	VERB	Verb	Aspect=Prog|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	Punc	_	7	punct	_	SpacesAfter=\n

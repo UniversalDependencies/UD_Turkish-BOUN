@@ -14,7 +14,7 @@ Currently, we are manually annotating the morphologial features, UPOS, and XPOS 
 
 # Versions
 
-The current UD version is adjusted for the specifications of UD and the most recent UD feature, UPOS, and the feature-value-upos combinations. We masked the morphological features that violated feature-value-upos combinations changes that are introduced 10 hours before the data freeze. You can find unaltered version of the BOUN Treebank [here](https://github.com/boun-tabi/UD_Turkish-BOUN). 
+The current UD version is adjusted for the specifications of UD and the most recent UD feature, UPOS, and the feature-value-upos combinations. We masked the morphological features that violated feature-value-upos combinations changes that are introduced 10 hours before the data freeze. You can find unaltered version of the BOUN Treebank [here](https://github.com/boun-tabi/UD_Turkish-BOUN).
 
 
 # Acknowledgments
@@ -42,6 +42,14 @@ For now, you can use arXiv reference for this treebank:
     primaryClass={cs.CL}
 }
 ```
+
+# Changelog
+
+* 2021-05-15 v2.8
+  * Fixed many newly discovered validation errors.
+  * Made the Turkish treebanks converge to more harmonized annotation.
+* 2020-11-15 v2.7
+  * Initial release in Universal Dependencies.
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================

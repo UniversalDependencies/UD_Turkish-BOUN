@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_Turkish-BOUN:
-commit ef33173250cfc37d3506247725e6f7cdead3768f
+commit e24b577fcfb0ca2f37fd8d489ef365311f418a84
+Merge: 8dcb9a6 17ff1b9
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 13 10:00:27 2021 +0200
 Size: counted 122383 of 122383 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.61431094308676.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,12 +25,29 @@ Udapi: found 24773 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 122383 words.
 Genres: found 2 out of 17 known.
 validate.py --lang tr --max-err=10 UD_Turkish-BOUN/tr_boun-ud-dev.conllu
-*** PASSED ***
+[Line 8237 Sent ess_29 Node 1]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
+[Line 8238 Sent ess_29 Node 2]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
+[Line 8238 Sent ess_29 Node 2]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
+Morpho errors: 3
+*** FAILED *** with 3 errors
+Exit code: 1
 validate.py --lang tr --max-err=10 UD_Turkish-BOUN/tr_boun-ud-test.conllu
 *** PASSED ***
 validate.py --lang tr --max-err=10 UD_Turkish-BOUN/tr_boun-ud-train.conllu
-*** PASSED ***
-Validity: 1
+[Line 8444 Sent pop_1184 Node 13]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
+[Line 8445 Sent pop_1184 Node 14]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
+[Line 8445 Sent pop_1184 Node 14]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
+[Line 8445 Sent pop_1184 Node 14]: [L3 Morpho goeswith-feats] The morphological features of a 'goeswith'-connected word must be annotated only at the first part.
+[Line 34657 Sent pop_1703 Node 13]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
+[Line 34658 Sent pop_1703 Node 14]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
+[Line 34658 Sent pop_1703 Node 14]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
+[Line 34658 Sent pop_1703 Node 14]: [L3 Morpho goeswith-feats] The morphological features of a 'goeswith'-connected word must be annotated only at the first part.
+[Line 90241 Sent pop_1715 Node 9]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
+...suppressing further errors regarding Morpho
+Morpho errors: 12
+*** FAILED *** with 12 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.5) = 0.0384615384615385
 (weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
 (weight=0.0769230769230769) * (score{lemmas}=0.5) = 0.0384615384615385
@@ -39,6 +56,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.1) = 0.00769230769230769
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.945945945945946) = 0.0727650727650728
-(TOTAL score=0.399226905917508) * (availability=1) * (validity=1) = 0.399226905917508
-STARS = 2
-UD_Turkish-BOUN	0.399226905917508	2
+(TOTAL score=0.399226905917508) * (availability=1) * (validity=0.01) = 0.00399226905917508
+STARS = 0
+UD_Turkish-BOUN	0.00399226905917508	0

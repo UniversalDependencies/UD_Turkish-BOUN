@@ -368,7 +368,7 @@
 2	daha	daha	ADV	_	_	3	advmod	_	_
 3-4	küçüksün	_	_	_	_	_	_	_	SpaceAfter=No
 3	küçük	küçük	ADJ	Adj	_	0	root	_	_
-4	sün	N/A	AUX	Zero	Number=Sing|Person=2|Polarity=Pos|Tense=Pres	3	cop	_	_
+4	sün	null	AUX	Zero	Number=Sing|Person=2|Polarity=Pos|Tense=Pres	3	cop	_	_
 5	.	.	PUNCT	Stop	_	3	punct	_	SpacesAfter=\n
 
 # sent_id = bio_284
@@ -618,7 +618,7 @@
 # sent_id = bio_1932
 # text = Gerçek miydi? Ağlayarak, "Neden aramadın, beni nasıl unuttun?" diyordum.
 1	Gerçek	gerçek	ADJ	Adj	_	0	root	_	_
-2	miydi	mi	PART	Ques	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Tense=Past	1	discourse:q	_	SpaceAfter=No
+2	miydi	mi	AUX	Ques	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Tense=Past	1	discourse:q	_	SpaceAfter=No
 3	?	?	PUNCT	Quest	_	1	punct	_	_
 4	Ağlayarak	ağla	VERB	Conv	Mood=Imp|Polarity=Pos|VerbForm=Conv	15	advcl	_	SpaceAfter=No
 5	,	,	PUNCT	Comma	_	15	punct	_	_
@@ -708,7 +708,7 @@
 5	isteyenlere	iste	VERB	Ptcp	Case=Dat|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Part	7	obl	_	_
 6	yardım	yardım	NOUN	_	Case=Nom|Number=Sing|Person=3	7	obj	_	_
 7	önerir	öner	VERB	_	Aspect=Hab|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	18	nmod:poss	_	_
-8	misiniz	mi	PART	Ques	Aspect=Imp|Number=Plur|Person=2|Tense=Pres	7	discourse:q	_	SpaceAfter=No
+8	misiniz	mi	AUX	Ques	Aspect=Imp|Number=Plur|Person=2|Tense=Pres	7	discourse:q	_	SpaceAfter=No
 9	?	?	PUNCT	Ques	_	7	punct	_	_
 10	Lütfen	lütfen	ADV	_	_	15	discourse	_	_
 11	bana	ben	PRON	Pers	Case=Dat|Number=Sing|Person=1	15	obl	_	_
@@ -1461,7 +1461,7 @@
 2	var	var	NOUN	Exist	Case=Nom|Number=Sing|Person=3	4	advcl	_	_
 3	sa	y	AUX	Zero	Mood=Cnd|Number=Sing|Person=1|Polarity=Pos	2	cop	_	_
 4	başlayalım	başla	VERB	_	Mood=Opt|Number=Plur|Person=1|Polarity=Pos	0	root	_	_
-5	mı	mi	PART	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	4	discourse:q	_	_
+5	mı	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	4	discourse:q	_	_
 6	artık	artık	ADV	_	_	4	advmod	_	SpaceAfter=No
 7	?	?	PUNCT	Ques	_	4	punct	_	SpacesAfter=\r\n
 
@@ -2793,10 +2793,10 @@
 12	özetliyor	özetle	VERB	_	Aspect=Prog|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	_
 13	"	"	PUNCT	Punc	_	14	punct	_	SpaceAfter=No
 14	Gaz	gaz	NOUN	_	Case=Nom|Number=Sing|Person=3	11	appos	_	_
-15	mı	mi	PART	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	14	discourse:q	_	SpaceAfter=No
+15	mı	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	14	discourse:q	_	SpaceAfter=No
 16	,	,	PUNCT	Comma	_	14	punct	_	_
 17	Gazze	Gazze	PROPN	Place	Case=Nom|Number=Sing|Person=3	14	conj	_	_
-18	mi	mi	PART	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	17	discourse:q	_	SpaceAfter=No
+18	mi	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	17	discourse:q	_	SpaceAfter=No
 19	?	?	PUNCT	Ques	_	14	punct	_	SpaceAfter=No
 20	"	"	PUNCT	Punc	_	14	punct	_	_
 21	29	29	NUM	ANum	NumType=Card	22	nummod	_	_
@@ -3432,7 +3432,7 @@
 17	."	."	PUNCT	Punc	_	10	punct	_	_
 18	dedi	de	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 19	öyle	öyle	ADV	_	_	18	advmod	_	_
-20	mi	mi	PART	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	18	discourse:q	_	SpaceAfter=No
+20	mi	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	18	discourse:q	_	SpaceAfter=No
 21	?	?	PUNCT	Ques	_	18	punct	_	_
 22	Bu	bu	DET	Det	_	23	det	_	_
 23	sözle	söz	NOUN	_	Case=Ins|Number=Sing|Person=3	45	obl	_	_
@@ -4254,7 +4254,7 @@
 6	bilirim	bil	VERB	_	Aspect=Hab|Number=Sing|Person=1|Polarity=Pos|Tense=Pres	1	conj	_	SpaceAfter=No
 7	,	,	PUNCT	Comma	_	6	punct	_	_
 8	sen	sen	PRON	Pers	Case=Nom|Number=Sing|Person=2	12	nsubj	_	_
-9	mi	mi	PART	Ques	_	8	discourse:q	_	_
+9	mi	mi	AUX	Ques	_	8	discourse:q	_	_
 10	bana	ben	PRON	Pers	Case=Dat|Number=Sing|Person=1	12	obl	_	_
 11	akıl	akıl	NOUN	_	Case=Nom|Number=Sing|Person=3	12	obj	_	_
 12	öğreteceksin	öğret	VERB	_	Aspect=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Fut	1	conj	_	SpaceAfter=No
@@ -5272,7 +5272,7 @@
 6	emekliye	emekli	NOUN	_	Case=Dat|Number=Sing|Person=3	8	obj	_	_
 7	ayrılması	ayrıl	VERB	Vnoun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|VerbForm=Vnoun	6	compound	_	_
 8	gerekmiyor	gerek	VERB	_	Aspect=Prog|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	_
-9	mu	mi	PART	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	8	discourse:q	_	SpaceAfter=No
+9	mu	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	8	discourse:q	_	SpaceAfter=No
 10	?	?	PUNCT	Ques	_	8	punct	_	_
 
 # sent_id = pop_233
@@ -5727,7 +5727,7 @@
 7	şeyler	şey	NOUN	_	Case=Nom|Number=Plur|Person=3	5	nsubj	_	SpaceAfter=No
 8	"	"	PUNCT	Punc	_	5	punct	_	_
 9	demez	de	VERB	_	Aspect=Hab|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	_
-10	mi	mi	PART	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	9	discourse:q	_	SpaceAfter=No
+10	mi	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	9	discourse:q	_	SpaceAfter=No
 11	?	?	PUNCT	Ques	_	9	punct	_	SpacesAfter=\n
 
 # sent_id = bio_1453
@@ -5845,7 +5845,7 @@
 13	yapması	yap	VERB	Vnoun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|VerbForm=Vnoun	12	compound:lvc	_	_
 14	gerekir	gerek	VERB	_	Aspect=Hab|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	_
 15	değil	değil	AUX	Overt	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	14	cop	_	_
-16	mi	mi	PART	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	14	discourse:q	_	SpaceAfter=No
+16	mi	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	14	discourse:q	_	SpaceAfter=No
 17	?	?	PUNCT	Ques	_	14	punct	_	_
 18	Bana	ben	PRON	Pers	Case=Dat|Number=Sing|Person=1	21	obl	_	_
 19	hiçbir	hiçbir	DET	Det	_	20	det	_	_
@@ -6295,7 +6295,7 @@
 14	kendi	kendi	PRON	Reflex	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	15	nmod:poss	_	_
 15	kimliğine	kimlik	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	16	iobj	_	DerivedFrom=kim
 16	dönebiliyor	dön	VERB	_	Aspect=Prog|Mood=Pot|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	_
-17	mu	mi	PART	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	16	discourse:q	_	_
+17	mu	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	16	discourse:q	_	_
 18	hemen	hemen	ADV	_	_	16	advmod	_	SpaceAfter=No
 19	,	,	PUNCT	Comma	_	27	punct	_	_
 20	döndüğünde	dön	VERB	Ptcp	Aspect=Perf|Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	27	advcl	_	_
@@ -6307,7 +6307,7 @@
 25	bir	bir	DET	Indef	_	26	det	_	_
 26	şeyler	şey	NOUN	_	Case=Nom|Number=Plur|Person=3	27	nsubj	_	_
 27	kalmıyor	kal	VERB	_	Aspect=Prog|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	16	conj	_	_
-28	mu	mi	PART	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	27	discourse:q	_	SpaceAfter=No
+28	mu	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	27	discourse:q	_	SpaceAfter=No
 29	?	?	PUNCT	Ques	_	27	punct	_	SpacesAfter=\r\n
 
 # sent_id = news_1833
@@ -7023,7 +7023,7 @@
 2	katlanmak	katla	VERB	Vnoun	Case=Nom|Polarity=Pos|VerbForm=Vnoun|Voice=Pass	3	obj	_	_
 3	uyumlu	uyumlu	ADJ	Adj	_	6	amod	_	DerivedFrom=uyum
 4	olmak	ol	VERB	Vnoun	Case=Nom|Polarity=Pos|VerbForm=Vnoun	3	compound	_	_
-5	mı	mi	PART	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	3	discourse:q	_	_
+5	mı	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	3	discourse:q	_	_
 6	yani	yani	CCONJ	Conj	_	8	obj	_	SpaceAfter=No
 7	,	,	PUNCT	Comma	_	8	punct	_	_
 8	diyorum	de	VERB	_	Aspect=Prog|Number=Sing|Person=1|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
@@ -7996,7 +7996,7 @@
 15	sa	i	AUX	Zero	Aspect=Perf|Mood=Cnd|Number=Sing|Person=3|Tense=Pres	14	cop	_	_
 16	ben	ben	PRON	Pers	Case=Nom|Number=Sing|Person=1	19	nsubj	_	_
 17	de	de	CCONJ	Conj	_	14	advmod:emph	_	_
-18	mi	mi	PART	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	14	discourse:q	_	_
+18	mi	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	14	discourse:q	_	_
 19	kanser	kanser	NOUN	_	Case=Nom|Number=Sing|Person=3	11	conj	_	_
 20	oldum	ol	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=1|Polarity=Pos|Tense=Past	19	compound:lvc	_	SpaceAfter=No
 21	?	?	PUNCT	Ques	_	19	punct	_	SpaceAfter=No
@@ -8236,7 +8236,7 @@
 14	meşruluk	meşruluk	NOUN	_	Case=Nom|Number=Sing|Person=3	15	nmod:poss	_	_
 15	maskesine	maske	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	16	obl	_	_
 16	büründürülmedi	bürün	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Neg|Tense=Past|Voice=Rfl	0	root	_	_
-17	mi	mi	PART	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	16	discourse:q	_	SpaceAfter=No
+17	mi	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	16	discourse:q	_	SpaceAfter=No
 18	?	?	PUNCT	Ques	_	16	punct	_	_
 
 # sent_id = ins_401
@@ -8723,7 +8723,7 @@
 11	EVLİLİK	evlilik	NOUN	_	Case=Nom|Number=Sing|Person=3	13	nsubj	_	DerivedFrom=evli|SpacesAfter=\r\n
 12	Zil	zil	PROPN	_	Case=Nom|Number=Sing|Person=3	13	nmod:poss	_	_
 13	sesi	ses	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	conj	_	_
-14	miydi	mi	PART	Ques	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Tense=Past	13	discourse:q	_	SpaceAfter=No
+14	miydi	mi	AUX	Ques	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Tense=Past	13	discourse:q	_	SpaceAfter=No
 15	,	,	PUNCT	Comma	_	19	punct	_	_
 16-17	yoksa	_	_	_	_	_	_	_	_
 16	yok	yok	NOUN	Exist	Number=Sing|Person=3|Polarity=Neg	19	amod	_	_
@@ -8731,7 +8731,7 @@
 18	bir	bir	DET	Indef	_	19	det	_	_
 19	düş	düş	NOUN	_	Case=Nom|Number=Sing|Person=3	8	conj	_	_
 20-21	müydü	_	_	_	_	_	_	_	_
-20	mü	mi	PART	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	19	discourse:q	_	_
+20	mü	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	19	discourse:q	_	_
 21	ydü	y	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	19	cop	_	_
 22	hiç	hiç	ADV	_	_	23	advmod	_	_
 23	düşünmedi	düşün	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Neg|Tense=Past	8	compound	_	SpaceAfter=No
@@ -8957,7 +8957,7 @@
 # text = PARANOYANIN FARKINDA MISINIZ?
 1	PARANOYANIN	paranoya	NOUN	_	Case=Gen|Number=Sing|Person=3	2	nmod:poss	_	_
 2	FARKINDA	fark	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
-3	MISINIZ	mi	PART	Ques	Aspect=Imp|Number=Plur|Person=2|Tense=Pres	2	discourse:q	_	SpaceAfter=No
+3	MISINIZ	mi	AUX	Ques	Aspect=Imp|Number=Plur|Person=2|Tense=Pres	2	discourse:q	_	SpaceAfter=No
 4	?	?	PUNCT	Ques	_	2	punct	_	SpacesAfter=\r\n
 
 # sent_id = news_1293
@@ -9728,7 +9728,7 @@
 # sent_id = bio_1674
 # text = Sana mı rakı alacaktım? Bir süre akü taşımaktan kurtulmuştum.
 1	Sana	san	PRON	Pers	Case=Dat|Number=Sing|Person=3	4	obl	_	_
-2	mı	mi	PART	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	1	discourse:q	_	_
+2	mı	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	1	discourse:q	_	_
 3	rakı	rakı	NOUN	_	Case=Nom|Number=Sing|Person=3	4	obj	_	_
 4-5	alacaktım	_	_	_	_	_	_	_	SpaceAfter=No
 4	alacak	al	VERB	Ptcp	Aspect=Prosp|Number=Sing|Person=1|Polarity=Pos|VerbForm=Part	0	root	_	_
@@ -10832,7 +10832,7 @@
 3	insan	insan	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod:poss	_	_
 4	görüntüsünü	görüntü	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	obj	_	_
 5	ben	ben	PRON	Pers	Case=Nom|Number=Sing|Person=1	21	nsubj	_	_
-6	mi	mi	PART	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	5	discourse:q	_	_
+6	mi	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	5	discourse:q	_	_
 7	yaratıyorum	yarat	VERB	_	Aspect=Prog|Number=Sing|Person=1|Polarity=Pos|Tense=Pres	21	obj	_	SpaceAfter=No
 8	,	,	PUNCT	Comma	_	17	punct	_	_
 9-10	yoksa	_	_	_	_	_	_	_	_
@@ -10847,7 +10847,7 @@
 16	varlıkları	varlık	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	17	nsubj	_	DerivedFrom=var
 17	oldukları	ol	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	20	acl	_	_
 18	için	için	ADP	PCNom	_	17	case	_	_
-19	mi	mi	PART	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	17	discourse:q	_	_
+19	mi	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	17	discourse:q	_	_
 20	insana	insan	NOUN	_	Case=Dat|Number=Sing|Person=3	21	obl	_	_
 21	benziyorlar	benze	VERB	_	Aspect=Prog|Number=Plur|Person=3|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
 22	?	?	PUNCT	Ques	_	21	punct	_	SpacesAfter=\r\n
@@ -10861,7 +10861,7 @@
 5	armağan	armağan	NOUN	_	Case=Nom|Number=Sing|Person=3	7	advcl	_	_
 6	olarak	ol	AUX	Conv	Mood=Imp|Polarity=Pos|VerbForm=Conv	5	aux	_	_
 7	verilir	ver	VERB	_	Aspect=Hab|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Voice=Pass	11	nmod:poss	_	_
-8	mi	mi	PART	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	7	discourse:q	_	SpaceAfter=No
+8	mi	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	7	discourse:q	_	SpaceAfter=No
 9	?	?	PUNCT	Ques	_	7	punct	_	SpaceAfter=No
 10	"	"	PUNCT	Punc	_	7	punct	_	_
 11	sözleriyle	söz	NOUN	_	Case=Ins|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	14	obl	_	_
@@ -11374,7 +11374,7 @@
 # sent_id = bio_101
 # text = Çekemoğlu'nu mu çağırıyordu? Ama kısa sürede, Çekemoğlu sesi belirginleşti ve tüm salonu doldurdu.
 1	Çekemoğlu'nu	Çekemoğlu	PRON	Demons	Case=Acc|Number=Sing|Person=3|PronType=Dem	3	obj	_	_
-2	mu	mi	PART	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	1	discourse:q	_	_
+2	mu	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	1	discourse:q	_	_
 3	çağırıyordu	çağır	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 4	?	?	PUNCT	Ques	_	3	punct	_	_
 5	Ama	ama	CCONJ	Conj	_	11	cc	_	_
@@ -12972,7 +12972,7 @@
 11	de	de	CCONJ	Conj	_	10	advmod:emph	_	_
 12	o	o	PRON	Pers	Case=Nom|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
 13	değil	değil	AUX	Overt	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	_
-14	miydi	mi	PART	Ques	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Tense=Past	13	discourse:q	_	SpaceAfter=No
+14	miydi	mi	AUX	Ques	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Tense=Past	13	discourse:q	_	SpaceAfter=No
 15	?	?	PUNCT	Ques	_	13	punct	_	_
 
 # sent_id = news_432
@@ -13027,7 +13027,7 @@
 6	yarattığınız	yarat	VERB	Ptcp	Aspect=Perf|Number[psor]=Plur|Person[psor]=2|Polarity=Pos|Tense=Past|VerbForm=Part	8	advcl	_	_
 7	için	için	ADP	PCNom	_	6	case	_	_
 8	affedebilecek	affet	VERB	_	Aspect=Imp|Mood=Pot|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
-9	misiniz	mi	PART	Ques	Aspect=Imp|Number=Plur|Person=2|Tense=Pres	8	discourse:q	_	_
+9	misiniz	mi	AUX	Ques	Aspect=Imp|Number=Plur|Person=2|Tense=Pres	8	discourse:q	_	_
 10	kendinizi	kendi	PRON	Reflex	Case=Acc|Number=Plur|Number[psor]=Plur|Person=2|Person[psor]=2	8	obj	_	SpaceAfter=No
 11	?	?	PUNCT	Ques	_	8	punct	_	SpacesAfter=\r\n
 
@@ -13510,7 +13510,7 @@
 6	de	de	CCONJ	Conj	_	5	advmod:emph	_	_
 7	buralarda	bura	PRON	_	Case=Loc|Number=Plur|Person=3	8	obl	_	_
 8	perişan	perişan	ADJ	Adj	_	0	root	_	_
-9	mı	mi	PART	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	8	discourse:q	_	_
+9	mı	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	8	discourse:q	_	_
 10	olsunlar	ol	VERB	_	Mood=Imp|Number=Plur|Person=3|Polarity=Pos	8	compound:lvc	_	SpaceAfter=No
 11	.	.	PUNCT	Stop	_	8	punct	_	SpacesAfter=\n
 
@@ -13867,7 +13867,7 @@
 5	penisin	penis	NOUN	_	Case=Gen|Number=Sing|Person=3	3	conj	_	_
 6	dokusu	doku	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nsubj	_	_
 7	aynı	aynı	ADJ	Adj	_	0	root	_	_
-8	mıdır	mi	PART	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	7	discourse:q	_	SpaceAfter=No
+8	mıdır	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	7	discourse:q	_	SpaceAfter=No
 9	?	?	PUNCT	Ques	_	7	punct	_	SpacesAfter=\n
 
 # sent_id = ins_1781

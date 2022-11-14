@@ -8,13 +8,12 @@ This is a newly introduced Turkish dependency treebank in the Universal Dependen
 
 The BOUN Treebank includes a total of 9,761 manually annotated sentences from various topics including biographical texts, national newspapers, instructional texts, popular culture articles, and essays. The texts are taken from the [Turkish National Corpus (TNC)](https://www.tnc.org.tr/).
 
-The dependency relations in the BOUN Treebank is manually annotated in the UD framework. However, the morphological features and UPOS information are retrieved from the morphological parser of [Sak et al. (2011)](https://link.springer.com/article/10.1007/s10579-010-9128-6) and converted to UD morphology automatically using [our script](https://github.com/boun-tabi/UD_docs/blob/main/convert_sak_morp_to_ud_morp.py).
+The dependency relations in the BOUN Treebank is manually annotated in the UD framework. The morphological features and UPOS information are retrieved from the morphological parser of [Sak et al. (2011)](https://link.springer.com/article/10.1007/s10579-010-9128-6) and converted to UD morphology automatically using [our script](https://github.com/boun-tabi/UD_docs/blob/main/convert_sak_morp_to_ud_morp.py). The morphological features, UPOS tags, XPOS tags, and lemma forms are manually corrected.
 
-Currently, we are manually annotating the morphologial features, UPOS, and XPOS information.
 
 # Versions
 
-The current UD version is adjusted for the specifications of UD and the most recent UD feature, UPOS, and the feature-value-upos combinations. We masked the morphological features that violated feature-value-upos combinations changes that are introduced 10 hours before the data freeze. You can find unaltered version of the BOUN Treebank [here](https://github.com/boun-tabi/UD_Turkish-BOUN).
+The current UD version is adjusted for the specifications of UD and the most recent UD feature, UPOS, and the feature-value-upos combinations. Two new dependency relations (dep:der and discourse:q), new lemma forms for copula (y, i, and null), and new MISC functions (DerivedFrom=, nullcop=3p, and nullcop=3s) are introduced.  
 
 
 # Acknowledgments
@@ -23,7 +22,19 @@ We are immensely grateful to Prof. Yeşim Aksan and the other members of the Tur
 
 ## References
 
-For now, you can use arXiv reference for this treebank:
+You can use the following arXiv reference for v2.9:
+
+```
+@article{marcsan2022enhancements,
+  title={Enhancements to the BOUN Treebank Reflecting the Agglutinative Nature of Turkish},
+  author={Mar{\c{s}}an, B{\"u}{\c{s}}ra and Akkurt, Salih Furkan and {\c{S}}en, Muhammet and G{\"u}rb{\"u}z, Merve and G{\"u}ng{\"o}r, Onur and {\"O}zate{\c{s}}, {\c{S}}aziye Bet{\"u}l and {\"U}sk{\"u}darl{\i}, Suzan and {\"O}zg{\"u}r, Arzucan and G{\"u}ng{\"o}r, Tunga and {\"O}zt{\"u}rk, Balk{\i}z},
+  journal={arXiv preprint arXiv:2207.11782},
+  year={2022}
+}
+```
+
+You can use the following arXiv reference for the previous versions of this treebank:
+
 ```
 @misc{trk2020resources,
     title={Resources for Turkish Dependency Parsing: Introducing the BOUN Treebank and the BoAT Annotation Tool},
@@ -45,6 +56,11 @@ For now, you can use arXiv reference for this treebank:
 
 # Changelog
 
+* 2022-11-02 v2.9
+  * Fixed validation errors.
+  * Introduced new dependency relations.
+  * Manually corrected lemma forms, morphological features, UPOS and XPOS tags.
+  * Fixed dependency annotations for coherency and accuracy.
 * 2021-05-15 v2.8
   * Fixed many newly discovered validation errors.
   * Made the Turkish treebanks converge to more harmonized annotation.
@@ -62,8 +78,8 @@ UPOS: automatic with corrections
 XPOS: automatic with corrections
 Features: automatic with corrections
 Relations: manual native
-Contributors: Türk, Utku; Atmaca, Furkan; Özateş, Şaziye Betül; Berk, Gözde; Bedir, Seyyit Talha; Köksal, Abdullatif; Öztürk Başaran, Balkız; Güngör, Tunga; Özgür, Arzucan
+Contributors: Marşan, Büşra; Akkurt, Salih Furkan; Türk, Utku; Atmaca, Furkan; Özateş, Şaziye Betül; Berk, Gözde; Bedir, Seyyit Talha; Köksal, Abdullatif; Öztürk Başaran, Balkız; Güngör, Tunga; Özgür, Arzucan
 Contributing: elsewhere
-Contact: saziye.bilgin@boun.edu.tr
+Contact: busra.marsan@boun.edu.tr or saziye.bilgin@boun.edu.tr
 ===============================================================================
 </pre>

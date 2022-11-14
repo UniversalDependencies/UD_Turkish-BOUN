@@ -5,134 +5,149 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>9761</sentences><tokens>121214</tokens><words>122383</words><fused>1163</fused></total>
-    <train><sentences>7803</sentences><tokens>97257</tokens><words>98214</words><fused>951</fused></train>
-    <dev><sentences>979</sentences><tokens>11974</tokens><words>12074</words><fused>100</fused></dev>
-    <test><sentences>979</sentences><tokens>11983</tokens><words>12095</words><fused>112</fused></test>
+    <total><sentences>9761</sentences><tokens>121835</tokens><words>125212</words><fused>3374</fused></total>
+    <train><sentences>7803</sentences><tokens>97797</tokens><words>100713</words><fused>2914</fused></train>
+    <dev><sentences>979</sentences><tokens>12023</tokens><words>12289</words><fused>266</fused></dev>
+    <test><sentences>979</sentences><tokens>12015</tokens><words>12210</words><fused>194</fused></test>
   </size>
-  <lemmas unique="11261" /><!-- ., ,, bir, ol, ve, ", bu, de, i, et, o, da, yap, ben, için -->
-  <forms unique="35219" /><!-- ., ,, bir, ve, ", bu, de, da, için, ..., -, :, çok, ?, o -->
-  <fusions unique="783" /><!-- vardır, yoktu, yoktur, yoksa, nedir, demektir, önemli, biridir, varken, arasındaki, gereklidir, gibiydi, yıllardır, önemlidir, şudur -->
+  <lemmas unique="12116" /><!-- ., ,, bir, y, ", ol, ve, bu, de, et, o, ki, da, yap, ben -->
+  <forms unique="34205" /><!-- ., ,, bir, ", ve, bu, de, da, ki, için, ..., -, :, çok, ? -->
+  <fusions unique="2347" /><!-- vardır, vardı, yoktu, arasındaki, yoktur, olmuştu, yoksa, olursa, gelmişti, başlamıştı, yaşındaki, demişti, etmişti, çıkmıştı, bugünkü -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
-  <tags unique="17">
-    <tag name="ADJ">10513</tag><!-- ara, iç, var, büyük, yan, yeni, Türk, yok, ilk, kadın -->
-    <tag name="ADP">3208</tag><!-- için, gibi, ol, sonra, kadar, diye, ki, göre, li, önce -->
-    <tag name="ADV">6081</tag><!-- çok, daha, en, hiç, bile, böyle, sonra, artık, yine, nasıl -->
-    <tag name="AUX">1611</tag><!-- i, mi, değil, ol, bulun -->
-    <tag name="CCONJ">5348</tag><!-- ve, de, da, ama, ile, ki, ya, ancak, çünkü, hem -->
-    <tag name="DET">5068</tag><!-- bir, bu, her, o, tüm, hiçbir, şu, bazı, birkaç, bütün -->
-    <tag name="INTJ">102</tag><!-- a, aman, hadi, ha, haydi, e, EE, H, aaa, be -->
-    <tag name="NOUN">37480</tag><!-- yer, insan, gün, yıl, şey, zaman, el, su, dünya, ev -->
-    <tag name="NUM">2685</tag><!-- iki, bir, 1, üç, 2, 3, yüz, 4, bin, beş -->
-    <tag name="PART">1</tag><!-- ki -->
-    <tag name="PRON">3509</tag><!-- ben, o, bu, kendi, biz, ne, siz, biri, sen, bura -->
-    <tag name="PROPN">5727</tag><!-- Türkiye, İstanbul, Avrupa, ATATÜRK, Ankara, Irak, Mehmet, Ali, Anadolu, Mustafa -->
-    <tag name="PUNCT">20180</tag><!-- ., ,, ", ..., -, :, ?, !, ;, ( -->
-    <tag name="SCONJ">7</tag><!-- Lakin, Nitekim, Zira, efendi, fakat, ve, yahu -->
-    <tag name="SYM">1</tag><!-- | -->
-    <tag name="VERB">20848</tag><!-- ol, et, yap, de, gel, ver, al, çık, iste, başla -->
-    <tag name="X">14</tag><!-- pırıl, tefek, Işıl, batıl, nişanlı, ol, çamaşır -->
+  <tags unique="16">
+    <tag name="ADJ">7510</tag><!-- büyük, yeni, ilk, iyi, aynı, son, başka, küçük, tek, güzel -->
+    <tag name="ADP">2497</tag><!-- için, gibi, kadar, sonra, diye, göre, karşı, önce, üzere, doğru -->
+    <tag name="ADV">5411</tag><!-- çok, daha, en, hiç, sonra, bile, böyle, artık, önce, yine -->
+    <tag name="AUX">3752</tag><!-- y, ol, i, mi, değil, null, dur, bulun -->
+    <tag name="CCONJ">3670</tag><!-- ve, ama, ile, de, ya, da, ancak, hem, veya, ne -->
+    <tag name="DET">5099</tag><!-- bir, bu, her, o, tüm, bütün, hiçbir, şu, bazı, birkaç -->
+    <tag name="INTJ">253</tag><!-- evet, işte, hayır, aman, A, hadi, ha, tabii, filan, haydi -->
+    <tag name="NOUN">38351</tag><!-- yer, gün, insan, yıl, var, zaman, şey, el, iç, ara -->
+    <tag name="NUM">2606</tag><!-- iki, 1, bir, üç, 2, yüz, 3, bin, 4, beş -->
+    <tag name="PART">2099</tag><!-- de, ki, da, i, ya, y, ın, ', kiler, ten -->
+    <tag name="PRON">3582</tag><!-- ben, o, bu, kendi, biz, ne, siz, biri, sen, bura -->
+    <tag name="PROPN">7881</tag><!-- Türkiye, türk, İstanbul, Avrupa, ABD, ATATÜRK, Ankara, Irak, Mehmet, Anadolu -->
+    <tag name="PUNCT">20786</tag><!-- ., ,, ", ..., -, :, ?, !, ;, ( -->
+    <tag name="SCONJ">220</tag><!-- ki, çünkü, ve, eğer, ama, da, ancak, de, fakat, oysa -->
+    <tag name="VERB">21491</tag><!-- ol, et, yap, de, gel, ver, al, çık, git, iste -->
+    <tag name="X">4</tag><!-- batıl, tefek, |, ■ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="55">
-    <feat name="Abbr" value="Yes" upos="NOUN,PROPN">24</feat><!-- "CHP, 'İngiltere'ye, 20.00'de, APMC, Ady'nin, Babinsky, Beyruni'nin, Borec, D'nin, Dizzy -->
-    <feat name="Aspect" value="Hab" upos="AUX,VERB">2158</feat><!-- olur, olabilir, gerekir, olursa, olmaz, eder, benzer, der, bilir, gelir -->
-    <feat name="Aspect" value="Imp" upos="AUX,VERB">1229</feat><!-- mi, mı, mu, olacak, yapılacak, edecek, olacaktır, misiniz, yapacak, kalacak -->
-    <feat name="Aspect" value="Perf" upos="AUX,VERB">6622</feat><!-- dir, dır, dedi, olduğunu, olduğu, oldu, değil, vardı, etti, söyledi -->
-    <feat name="Aspect" value="Prog" upos="AUX,VERB">2116</feat><!-- ediyor, oluyor, diyor, geliyor, biliyorum, diyorum, gerekiyor, istiyorum, bulunuyor, istiyor -->
-    <feat name="Case" value="Abl" upos="ADJ,ADP,NOUN,NUM,PRON,PROPN,VERB">2160</feat><!-- tarafından, yandan, bundan, yüzden, yüzünden, açısından, oradan, ondan, bunlardan, yerden -->
-    <feat name="Case" value="Acc" upos="ADJ,ADP,AUX,NOUN,NUM,PRON,PROPN,VERB">4723</feat><!-- olduğunu, bunu, onu, beni, bizi, onları, bunları, seni, şeyi, olmadığını -->
-    <feat name="Case" value="Dat" upos="ADJ,ADP,AUX,NOUN,NUM,PRON,PROPN,VERB">5285</feat><!-- bana, üzerine, ortaya, ona, yerine, size, buna, yere, bize, başına -->
-    <feat name="Case" value="Equ" upos="ADJ,ADP,NOUN,NUM,PRON,PROPN,VERB">50</feat><!-- bence, deyince, onca, ayrıca, "profesyonelce, "uyutmaca, Bastıkça, Gence, Service, Yüce -->
-    <feat name="Case" value="Gen" upos="ADJ,ADP,AUX,NOUN,NUM,PRON,PROPN,VERB">4970</feat><!-- benim, onun, bunun, bizim, Türkiye'nin, dünyanın, insanların, onların, sizin, kişinin -->
-    <feat name="Case" value="Ins" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">1413</feat><!-- nedeniyle, onunla, nedenle, amacıyla, benimle, dolayısıyla, gerekçesiyle, insanlarla, adıyla, hızla -->
-    <feat name="Case" value="Loc" upos="ADJ,ADP,NOUN,NUM,PRON,PROPN,VERB">5339</feat><!-- içinde, arasında, yüzde, orada, üzerinde, burada, şekilde, dışında, Türkiye'de, karşısında -->
-    <feat name="Case" value="Nom" upos="ADJ,ADP,ADV,AUX,NOUN,NUM,PART,PRON,PROPN,VERB,X">34130</feat><!-- ne, ben, zaman, gün, şey, Türk, yıl, yer, biri, o -->
-    <feat name="Echo" value="Rdp" upos="X">10</feat><!-- pırıl, tefek, batıl -->
-    <feat name="Evident" value="Fh" upos="AUX,VERB">4224</feat><!-- dedi, oldu, vardı, etti, söyledi, başladı, geldi, dedim, yaptı, çıktı -->
-    <feat name="Evident" value="Nfh" upos="AUX,VERB">1137</feat><!-- olmuş, demiş, olmuştur, gelmiş, varmış, etmiş, kalmış, yapılmış, yazılmış, edilmiş -->
-    <feat name="Mood" value="Cnd" upos="AUX,VERB">476</feat><!-- ise, sa, olursa, olmazsa, se, varsa, gerekirse, isterseniz, gelirse, isterse -->
-    <feat name="Mood" value="Des" upos="AUX,VERB">184</feat><!-- olsa, varsa, olsaydı, olmasaydı, olmasa, anlatsam, değilse, atsak, baksam, desem -->
-    <feat name="Mood" value="Gen" upos="AUX,VERB">356</feat><!-- dir, dır, lardır, durlar, lerdir, "Otur, "dur, "mağdur -->
-    <feat name="Mood" value="Imp" upos="AUX,VERB">1205</feat><!-- olsun, dur, var, diyerek, ederek, edin, bak, giderek, alarak, belirterek -->
-    <feat name="Mood" value="Ind" upos="AUX,VERB">503</feat><!-- değil, dı, ydı, iken, benzer, yken, geçen, ydü, tı, yız -->
-    <feat name="Mood" value="Nec" upos="VERB">139</feat><!-- olmalıdır, olmalı, bulunmalıdır, edilmeli, alınmalı, etmeliyim, girmeli, olmalısın, olmalıydı, olmalıyız -->
-    <feat name="Mood" value="Opt" upos="VERB">143</feat><!-- bakalım, alalım, diyelim, gidelim, edelim, anlatayım, gideyim, yapayım, Susalım, aktaralım -->
-    <feat name="Mood" value="Pot" upos="AUX,VERB">515</feat><!-- olabilir, edilebilir, alabilir, edebilir, edebilirim, gelebilir, olabilecek, yapabilirsiniz, alabiliyor, bulabilirsiniz -->
-    <feat name="Number" value="Plur" upos="ADJ,ADP,AUX,NOUN,NUM,PRON,PROPN,VERB">10000</feat><!-- biz, bizim, size, siz, bunlar, onlar, bize, bizi, insanlar, insanların -->
-    <feat name="Number" value="Sing" upos="ADJ,ADP,AUX,NOUN,NUM,PART,PRON,PROPN,VERB,X">58527</feat><!-- ne, ben, dir, zaman, gün, dır, ise, şey, içinde, dedi -->
-    <feat name="Number[psor]" value="Plur" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">1727</feat><!-- hepsi, temiz, bazıları, hepimiz, hepsini, hepsinin, ülkemizde, başkalarına, olduklarını, ettiğimiz -->
-    <feat name="Number[psor]" value="Sing" upos="ADJ,ADP,AUX,NOUN,NUM,PART,PRON,PROPN,VERB,X">15787</feat><!-- içinde, olduğunu, olduğu, arasında, biri, üzerine, tarafından, kaşığı, yerine, başkanı -->
-    <feat name="NumType" value="Card" upos="NUM">2126</feat><!-- 1, iki, bir, 2, üç, 3, 4, bin, milyon, beş -->
-    <feat name="NumType" value="Dist" upos="NUM">12</feat><!-- birer, ikişer, yüzer -->
-    <feat name="NumType" value="Ord" upos="ADJ,NUM">143</feat><!-- ikinci, birinci, üçüncü, İkinci, 1., beşinci, dördüncü, 2., 20., 3. -->
-    <feat name="Person" value="1" upos="ADJ,ADP,AUX,NOUN,NUM,PRON,VERB">2930</feat><!-- ben, benim, bana, beni, biz, bizim, bize, bizi, dedim, başladım -->
-    <feat name="Person" value="2" upos="ADP,AUX,NOUN,PRON,VERB">1176</feat><!-- size, sen, dur, siz, sizin, seni, var, senin, edin, sizi -->
-    <feat name="Person" value="3" upos="ADJ,ADP,AUX,NOUN,NUM,PART,PRON,PROPN,VERB,X">64422</feat><!-- ne, dir, zaman, gün, dır, ise, şey, içinde, dedi, olduğunu -->
-    <feat name="Person[psor]" value="1" upos="ADJ,ADP,AUX,NOUN,NUM,PRON,VERB,X">1897</feat><!-- annem, babam, temiz, yanımda, benimle, babamın, değilim, hepimiz, annemin, olduğum -->
-    <feat name="Person[psor]" value="2" upos="ADJ,ADP,AUX,NOUN,PRON,VERB">499</feat><!-- onunla, yapın, azından, benden, eşliğinde, organize, deyince, arkadaşlarınızla, bakın, bildiğiniz -->
-    <feat name="Person[psor]" value="3" upos="ADJ,ADP,AUX,NOUN,NUM,PART,PRON,PROPN,VERB">15118</feat><!-- içinde, olduğunu, olduğu, arasında, biri, üzerine, tarafından, kaşığı, yerine, başkanı -->
-    <feat name="Polarity" value="Neg" upos="ADJ,AUX,NOUN,NUM,VERB">1775</feat><!-- değil, olmadığını, olmadığı, olmayan, olmaz, olmadı, olmuyor, olmazsa, olamaz, bilmem -->
-    <feat name="Polarity" value="Pos" upos="ADJ,ADP,ADV,AUX,NOUN,NUM,PRON,PROPN,VERB">18643</feat><!-- olan, ise, dedi, olduğunu, olduğu, oldu, gelen, etti, söyledi, olur -->
-    <feat name="Polite" value="Infm" upos="VERB">3</feat><!-- "görmüyor, dansediyorlardı, sarfediyor -->
-    <feat name="PronType" value="Dem" upos="NUM,PRON">81</feat><!-- bu, şu, o, onca, On, "O'nunla, o'nunla, Çekemoğlu'nu -->
-    <feat name="PronType" value="Ind" upos="PRON">9</feat><!-- kimi, Tasviri, Zifiri, biribirine, diri, çoğu -->
-    <feat name="PronType" value="Prs" upos="PRON">96</feat><!-- o, "bizim, onca, anonim, "Bize, "O, "Sizi, "Sizin, "ben, "benim -->
-    <feat name="Reflex" value="Yes" upos="PRON">7</feat><!-- organize, böylesine -->
-    <feat name="Tense" value="Fut" upos="AUX,VERB">969</feat><!-- olacak, yapılacak, edecek, olacaktır, yapacak, kalacak, olacağı, alınacak, yapacağı, çıkacak -->
-    <feat name="Tense" value="Past" upos="AUX,VERB">7334</feat><!-- dedi, olduğunu, olduğu, oldu, vardı, etti, söyledi, başladı, geldi, verdiği -->
-    <feat name="Tense" value="Pqp" upos="VERB">2</feat><!-- dayandınlmıştı, taşmmamıştık -->
-    <feat name="Tense" value="Pres" upos="AUX,VERB">7008</feat><!-- olan, dir, dır, mi, değil, gelen, mı, olur, eden, mu -->
-    <feat name="VerbForm" value="Conv" upos="AUX,VERB">691</feat><!-- diyerek, ederek, yken, giderek, alarak, belirterek, yaparken, giderken, yaparak, derken -->
-    <feat name="VerbForm" value="Part" upos="AUX,VERB">4646</feat><!-- olan, olduğunu, olduğu, gelen, eden, yapılan, bulunan, alan, verdiği, yaptığı -->
-    <feat name="VerbForm" value="Vnoun" upos="VERB">30</feat><!-- egemen, kalma, "Forma, "Gitmeyi, "Koşma, "Oynamak, "düşman, "yaşama, Akiyama, Amanın -->
-    <feat name="Voice" value="Cau" upos="VERB">1039</feat><!-- belirterek, belirten, belirtti, bildirdi, karıştırarak, oluşturan, oluşturduğu, değerlendirme, ilgilendiren, kaynatın -->
-    <feat name="Voice" value="Pass" upos="AUX,VERB">2593</feat><!-- yapılan, edilen, verilen, değildi, yapılacak, kullanılan, yaşanan, edildi, yapılmış, edilmesi -->
-    <feat name="Voice" value="Rcp" upos="VERB">3</feat><!-- atıştırmayın, bakışıp, dövüşmeye -->
-    <feat name="Voice" value="Rfl" upos="VERB">20</feat><!-- büründü, direnip, giyinmiş, Direnince, büründürülmedi, bürünerek, bürünmüş, direneceklerdir, direnemeden, direnen -->
+  <feats unique="66">
+    <feat name="Abbr" value="Yes" upos="NOUN,PROPN">96</feat><!-- ABD, ABD'nin, AKP'nin, AVM, ABD'de, CHP, TBMM, 'İngiltere'ye, 20.00'de, A.A.'yı -->
+    <feat name="Aspect" value="Hab" upos="AUX,VERB">2650</feat><!-- olur, eder, olmaz, olabilir, gelir, ister, gerekir, der, gider, yapar -->
+    <feat name="Aspect" value="Imp" upos="AUX,VERB">2318</feat><!-- mi, mı, ediyor, mu, oluyor, geliyor, diyor, çalışıyor, biliyor, gerekiyor -->
+    <feat name="Aspect" value="Perf" upos="AUX,VERB">6907</feat><!-- dedi, olduğunu, olduğu, dır, oldu, dir, dı, etti, değil, söyledi -->
+    <feat name="Aspect" value="Prog" upos="AUX,VERB">946</feat><!-- diyerek, ederek, oluyor, belirterek, giderek, alarak, diyor, yaparak, bakarak, geliyor -->
+    <feat name="Aspect" value="Prosp" upos="AUX,VERB">871</feat><!-- olacak, edecek, yapılacak, yapacak, kalacak, olacaktır, alacak, olacağı, olacağını, verecek -->
+    <feat name="Case" value="Abl" upos="ADJ,ADP,AUX,NOUN,NUM,PRON,PROPN,VERB">2304</feat><!-- tarafından, yandan, bundan, yüzden, yüzünden, açısından, ondan, oradan, ardından, arkasından -->
+    <feat name="Case" value="Acc" upos="ADJ,ADP,AUX,NOUN,NUM,PRON,PROPN,VERB">7342</feat><!-- olduğunu, bunu, onu, beni, ne, kendini, bizi, onları, şey, şeyi -->
+    <feat name="Case" value="Dat" upos="ADJ,ADP,AUX,NOUN,NUM,PRON,PROPN,VERB">5563</feat><!-- bana, üzerine, ortaya, ona, yerine, size, buna, yere, bize, başına -->
+    <feat name="Case" value="Equ" upos="NOUN,NUM,PRON,PROPN,VERB">60</feat><!-- bence, onca, deyince, ayrıca, azar, kendimce, olabildiğince, Bastıkça, Birer, Saatlerce -->
+    <feat name="Case" value="Gen" upos="ADJ,ADP,AUX,NOUN,NUM,PRON,PROPN,VERB">5067</feat><!-- benim, onun, bunun, bizim, Türkiye'nin, dünyanın, insanların, onların, sizin, kişinin -->
+    <feat name="Case" value="Ins" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">1503</feat><!-- nedeniyle, nedenle, onunla, hızla, amacıyla, benimle, gerekçesiyle, insanlarla, adıyla, dolayısıyla -->
+    <feat name="Case" value="Loc" upos="ADJ,ADP,AUX,NOUN,NUM,PRON,PROPN,VERB">5561</feat><!-- içinde, arasında, yüzde, şekilde, orada, üzerinde, burada, yanında, Türkiye'de, dışında -->
+    <feat name="Case" value="Nom" upos="ADJ,ADP,AUX,NOUN,NUM,PART,PRON,PROPN,VERB">29749</feat><!-- ben, zaman, gün, ne, şey, Türk, yıl, kendi, o, bu -->
+    <feat name="Echo" value="Rdp" upos="X">2</feat><!-- batıl, tefek -->
+    <feat name="Evident" value="Fh" upos="AUX,VERB">4409</feat><!-- du, dı, dedi, di, tı, ti, oldu, etti, dum, söyledi -->
+    <feat name="Evident" value="Nfh" upos="AUX,VERB">852</feat><!-- mış, muş, miş, olmuş, demiş, etmiş, gelmiş, kalmış, olmuştur, başlamış -->
+    <feat name="Mood" value="Cnd" upos="AUX,VERB">443</feat><!-- sa, se, ise, sanız, sak, seniz, olsa, sam, yse, varsa -->
+    <feat name="Mood" value="Des" upos="AUX,VERB">138</feat><!-- olsa, varsa, değilse, olmasa, anlatsam, atsak, desem, çalsa, Bilseniz, Bıraksalar -->
+    <feat name="Mood" value="DesPot" upos="VERB">1</feat><!-- becerebilsek -->
+    <feat name="Mood" value="Gen" upos="AUX,VERB">424</feat><!-- dır, dir, tir, tır, tur, değildir, dur, tür, dirler, dırlar -->
+    <feat name="Mood" value="GenNec" upos="VERB">7</feat><!-- algılanmamalıdır, beklenmelidir, düşünülmelidir, edilmelidir, verilmelidir, yapılmalıdır, öğretilmelidir -->
+    <feat name="Mood" value="GenPot" upos="VERB">4</feat><!-- diyememiştir, edebilenlerdir, görülememiştir, yapılabilmektedir -->
+    <feat name="Mood" value="Imp" upos="AUX,VERB">965</feat><!-- olsun, dur, olarak, edin, pişirin, bak, karıştırın, var, bakın, derken -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">335</feat><!-- değil, ydı, dı, benzer, ydü, yken, geçen, tı, iken, oldukça -->
+    <feat name="Mood" value="Nec" upos="AUX,VERB">162</feat><!-- olmalı, olmalıdır, edilmelidir, alınmalı, bulunmalı, bulunmalıdır, edilmeli, etmeli, etmeliyim, olmalısın -->
+    <feat name="Mood" value="Opt" upos="VERB">161</feat><!-- bakalım, alalım, diyelim, gidelim, doya, edelim, anlatayım, gideyim, yapayım, Susalım -->
+    <feat name="Mood" value="Pot" upos="AUX,VERB">675</feat><!-- olabilir, edilebilir, olamaz, yapamaz, edebilir, alabilir, edebilirim, gelebilir, olabilecek, verebilir -->
+    <feat name="Number" value="Plur" upos="ADJ,ADP,AUX,NOUN,NUM,PRON,PROPN,VERB">10435</feat><!-- biz, bizim, size, bunlar, bize, onlar, siz, bizi, şeyler, insanlar -->
+    <feat name="Number" value="Sing" upos="ADJ,ADP,AUX,NOUN,NUM,PART,PRON,PROPN,VERB">58945</feat><!-- var, du, ben, ne, dı, yok, zaman, gün, içinde, şey -->
+    <feat name="Number[psor]" value="Plur" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">2049</feat><!-- hepsi, bazıları, kendilerini, hepimiz, hepsinin, kendilerine, ülkemizde, başkalarına, hepsini, kendinizi -->
+    <feat name="Number[psor]" value="Sing" upos="ADJ,ADP,AUX,NOUN,NUM,PART,PRON,PROPN,VERB">16427</feat><!-- içinde, olduğunu, olduğu, arasında, kendi, biri, üzerine, tarafından, kaşığı, yerine -->
+    <feat name="NumType" value="Card" upos="NUM">2071</feat><!-- 1, iki, 2, üç, bir, 3, bin, 4, beş, milyon -->
+    <feat name="NumType" value="Dist" upos="NUM">25</feat><!-- birer, ikişer, üçer, yüzer -->
+    <feat name="NumType" value="Ord" upos="ADJ,NUM">158</feat><!-- ikinci, birinci, üçüncü, İkinci, 1., beşinci, dördüncü, 2., 20., 3. -->
+    <feat name="Person" value="1" upos="ADJ,AUX,NOUN,NUM,PRON,VERB">3040</feat><!-- ben, benim, bana, beni, biz, bizim, dum, bize, bizi, dedim -->
+    <feat name="Person" value="2" upos="ADP,AUX,NOUN,PRON,VERB">1453</feat><!-- sen, size, siz, dur, sizin, seni, senin, edin, sizi, pişirin -->
+    <feat name="Person" value="3" upos="ADJ,ADP,AUX,NOUN,NUM,PART,PRON,PROPN,VERB">64886</feat><!-- var, du, ne, dı, yok, zaman, gün, içinde, şey, tı -->
+    <feat name="Person[psor]" value="1" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">2041</feat><!-- annem, babam, yanımda, kendimi, benimle, babamın, hepimiz, olduğum, annemin, değilim -->
+    <feat name="Person[psor]" value="2" upos="ADJ,ADP,AUX,NOUN,PRON,PROPN,VERB">584</feat><!-- onunla, azından, kendinizi, yapın, benden, eşliğinde, bildiğiniz, hazırladığınız, kendinize, olduğunuz -->
+    <feat name="Person[psor]" value="3" upos="ADJ,ADP,AUX,NOUN,NUM,PART,PRON,PROPN,VERB">15851</feat><!-- içinde, olduğunu, olduğu, arasında, kendi, biri, üzerine, tarafından, kaşığı, yerine -->
+    <feat name="Polarity" value="Neg" upos="ADJ,AUX,NOUN,VERB">2026</feat><!-- yok, değil, olmaz, olmadığını, olmadığı, olmayan, olmadı, olmuyor, değildir, olamaz -->
+    <feat name="Polarity" value="Pos" upos="ADJ,ADP,AUX,NOUN,PROPN,VERB">21965</feat><!-- var, olarak, du, olan, ken, dı, dedi, olduğunu, olduğu, di -->
+    <feat name="Polite" value="Infm" upos="VERB">2</feat><!-- görmüyor, sarfediyor -->
+    <feat name="PronType" value="Dem" upos="NUM,PRON">455</feat><!-- bu, bunu, bunun, buna, bunlar, bundan, bunları, bunların, o, şunu -->
+    <feat name="PronType" value="Ind" upos="PRON">8</feat><!-- kimi, Tasviri, biribirine, böylesine, diri, çoğu -->
+    <feat name="PronType" value="Int" upos="NOUN,PRON">274</feat><!-- ne, kim, neler, nedir, nerede, nereye, neyi, nereden, nerde, neye -->
+    <feat name="PronType" value="Loc" upos="PRON">133</feat><!-- orada, burada, buraya, buradan, oradan, oraya, burda, şuradan, Adadan, Buranın -->
+    <feat name="PronType" value="Prs" upos="PRON">1354</feat><!-- ben, bana, benim, onun, o, onu, beni, biz, bizim, ona -->
+    <feat name="PronType" value="Rcp" upos="PRON">4</feat><!-- birbirlerini, birbirinden, birbirine -->
+    <feat name="Reflex" value="Yes" upos="PRON">264</feat><!-- kendi, kendini, kendine, kendisine, kendisini, kendimi, kendisi, kendilerini, kendilerine, kendileri -->
+    <feat name="Tense" value="Fut" upos="AUX,VERB">979</feat><!-- olacak, yapılacak, edecek, olacaktır, olacağı, olacağını, yapacak, yapacağı, alınacak, kalacak -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">7811</feat><!-- du, dı, tı, di, dedi, olduğunu, olduğu, ti, oldu, etti -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">7189</feat><!-- olan, dır, değil, dir, olur, mi, gelen, eden, mı, tir -->
+    <feat name="Typo" value="Yes" upos="ADV,DET">4</feat><!-- bir, her, iki -->
+    <feat name="VerbForm" value="Conv" upos="AUX,VERB">1762</feat><!-- olarak, ken, alıp, diyerek, olup, ederek, edip, gelip, yken, derken -->
+    <feat name="VerbForm" value="Part" upos="AUX,VERB">7284</feat><!-- olan, olduğunu, olduğu, gelen, eden, yapılan, bulunan, alan, olur, verdiği -->
+    <feat name="VerbForm" value="Vnoun" upos="AUX,VERB">2890</feat><!-- olmak, demek, etmek, olması, yapmak, Hazırlanışı, almak, etmeye, etme, araştırma -->
+    <feat name="Voice" value="Cau" upos="VERB">1062</feat><!-- karıştırın, belirten, belirterek, belirtti, kaynatın, değerlendirme, karıştırarak, oluşturan, oluşturduğu, ilgilendiren -->
+    <feat name="Voice" value="CauCau" upos="VERB">2</feat><!-- ciltlettirdim, öldürtür -->
+    <feat name="Voice" value="CauPass" upos="VERB">52</feat><!-- belirtildi, bildirildi, yöneltilen, Kaydırılarak, arttırıldı, bekletileceği, belirtilerek, belirtilmiştir, dayandınlmış, dayatılmış -->
+    <feat name="Voice" value="Pass" upos="AUX,VERB">2585</feat><!-- yapılan, edilen, verilen, yapılacak, kullanılan, Hazırlanışı, değildi, yaşanan, edildi, edilir -->
+    <feat name="Voice" value="PassPass" upos="VERB">3</feat><!-- denilen, konulmaz -->
+    <feat name="Voice" value="PassRfl" upos="VERB">1</feat><!-- kaçınılmaz -->
+    <feat name="Voice" value="Rcp" upos="VERB">17</feat><!-- atıştırmayın, bakışıp, dövüşmeli, dövüşmeye, görüştüm, karşılaşacağım, karşılaşmanın, karşılaşmasında, karşılaşmış, karşılaştıkları -->
+    <feat name="Voice" value="Rfl" upos="VERB">126</feat><!-- hazırlanır, görünen, katıldı, kesilmiş, kırıldı, yakalanma, çekildi, Direnince, Direniş, Hazırlanışı -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="41">
-    <dep name="acl">3502</dep>
-    <dep name="advcl">2891</dep>
-    <dep name="advmod">5291</dep>
-    <dep name="advmod:emph">1660</dep>
-    <dep name="amod">7875</dep>
-    <dep name="appos">118</dep>
-    <dep name="aux">209</dep>
-    <dep name="aux:q">290</dep>
-    <dep name="case">3293</dep>
-    <dep name="cc">2934</dep>
-    <dep name="cc:preconj">144</dep>
-    <dep name="ccomp">1520</dep>
-    <dep name="clf">122</dep>
-    <dep name="compound">2282</dep>
-    <dep name="compound:lvc">1245</dep>
-    <dep name="compound:redup">456</dep>
-    <dep name="conj">7080</dep>
-    <dep name="cop">1067</dep>
-    <dep name="csubj">548</dep>
-    <dep name="dep">9</dep>
-    <dep name="det">4943</dep>
-    <dep name="discourse">406</dep>
-    <dep name="dislocated">28</dep>
-    <dep name="fixed">9</dep>
-    <dep name="flat">2026</dep>
-    <dep name="goeswith">4</dep>
-    <dep name="iobj">164</dep>
-    <dep name="list">41</dep>
-    <dep name="mark">196</dep>
-    <dep name="nmod">1754</dep>
-    <dep name="nmod:poss">10384</dep>
-    <dep name="nsubj">8501</dep>
-    <dep name="nummod">1572</dep>
-    <dep name="obj">7402</dep>
-    <dep name="obl">12055</dep>
-    <dep name="orphan">33</dep>
-    <dep name="parataxis">213</dep>
-    <dep name="punct">20137</dep>
+  <deps unique="46">
+    <dep name="acl">3483</dep>
+    <dep name="advcl">3057</dep>
+    <dep name="advmod">4782</dep>
+    <dep name="advmod:emph">1662</dep>
+    <dep name="amod">7175</dep>
+    <dep name="appos">192</dep>
+    <dep name="aux">458</dep>
+    <dep name="aux:q">4</dep>
+    <dep name="case">2779</dep>
+    <dep name="cc">2898</dep>
+    <dep name="cc:preconj">153</dep>
+    <dep name="ccomp">1596</dep>
+    <dep name="clf">29</dep>
+    <dep name="compound">2108</dep>
+    <dep name="compound:lvc">1265</dep>
+    <dep name="compound:redup">479</dep>
+    <dep name="conj">7087</dep>
+    <dep name="cop">2909</dep>
+    <dep name="csubj">581</dep>
+    <dep name="csubj:outer">1</dep>
+    <dep name="dep">12</dep>
+    <dep name="dep:der">582</dep>
+    <dep name="det">5004</dep>
+    <dep name="discourse">572</dep>
+    <dep name="discourse:q">287</dep>
+    <dep name="dislocated">23</dep>
+    <dep name="fixed">86</dep>
+    <dep name="flat">1970</dep>
+    <dep name="iobj">228</dep>
+    <dep name="list">56</dep>
+    <dep name="mark">202</dep>
+    <dep name="nmod">2058</dep>
+    <dep name="nmod:part">125</dep>
+    <dep name="nmod:poss">10298</dep>
+    <dep name="nsubj">8360</dep>
+    <dep name="nsubj:outer">28</dep>
+    <dep name="nummod">1554</dep>
+    <dep name="obj">7406</dep>
+    <dep name="obl">12120</dep>
+    <dep name="obl:tmod">365</dep>
+    <dep name="orphan">41</dep>
+    <dep name="parataxis">252</dep>
+    <dep name="punct">20756</dep>
     <dep name="root">9761</dep>
-    <dep name="vocative">91</dep>
-    <dep name="xcomp">127</dep>
+    <dep name="vocative">107</dep>
+    <dep name="xcomp">261</dep>
   </deps>
 </treebank>

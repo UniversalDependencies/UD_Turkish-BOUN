@@ -8,7 +8,7 @@ This is a newly introduced Turkish dependency treebank in the Universal Dependen
 
 The BOUN Treebank includes a total of 9,761 manually annotated sentences from various topics including biographical texts, national newspapers, instructional texts, popular culture articles, and essays. The texts are taken from the [Turkish National Corpus (TNC)](https://www.tnc.org.tr/).
 
-The dependency relations in the BOUN Treebank is manually annotated in the UD framework. The morphological features and UPOS information are retrieved from the morphological parser of [Sak et al. (2011)](https://link.springer.com/article/10.1007/s10579-010-9128-6) and converted to UD morphology automatically using [our script](https://github.com/boun-tabi/UD_docs/blob/main/convert_sak_morp_to_ud_morp.py). The morphological features, UPOS tags, XPOS tags, and lemma forms are manually corrected.
+The dependency relations in the BOUN Treebank is manually annotated in the UD framework. The morphological features and UPOS information are first retrieved from the morphological parser of [Sak et al. (2011)](https://link.springer.com/article/10.1007/s10579-010-9128-6) and converted to UD morphology automatically using [our script](https://github.com/boun-tabi/UD_docs/blob/main/convert_sak_morp_to_ud_morp.py). The morphological features, UPOS tags, XPOS tags, and lemma forms are then manually corrected in a systematic way.
 
 
 # Versions
@@ -22,7 +22,7 @@ We are immensely grateful to Prof. Yeşim Aksan and the other members of the Tur
 
 ## References
 
-You can use the following arXiv reference for v2.9:
+You can use the following arXiv reference for v2.11:
 
 ```
 @article{marcsan2022enhancements,
@@ -56,7 +56,7 @@ You can use the following arXiv reference for the previous versions of this tree
 
 # Changelog
 
-* 2022-11-02 v2.9
+* 2022-11-02 v2.11
   * Fixed validation errors.
   * Introduced new dependency relations.
   * Manually corrected lemma forms, morphological features, UPOS and XPOS tags.
@@ -73,10 +73,10 @@ Data available since: UD v2.7
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: nonfiction news
-Lemmas: automatic with corrections
-UPOS: automatic with corrections
-XPOS: automatic with corrections
-Features: automatic with corrections
+Lemmas: manual native
+UPOS: manual native
+XPOS: manual native
+Features: manual native
 Relations: manual native
 Contributors: Marşan, Büşra; Akkurt, Salih Furkan; Türk, Utku; Atmaca, Furkan; Özateş, Şaziye Betül; Berk, Gözde; Bedir, Seyyit Talha; Köksal, Abdullatif; Öztürk Başaran, Balkız; Güngör, Tunga; Özgür, Arzucan
 Contributing: elsewhere

@@ -1,10 +1,10 @@
 # Summary
 
-The largest Turkish dependency treebank annotated in UD style. Created by the members of [TABILAB](http://http://tabilab.cmpe.boun.edu.tr/) from Boğaziçi University.
+A Turkish dependency treebank annotated in UD style. Created by the members of [TABILAB](https://tabilab.cmpe.boun.edu.tr/) from Boğaziçi University.
 
 # Introduction
 
-This is a newly introduced Turkish dependency treebank in the Universal Dependencies (UD) annotation style. The BOUN Treebank is created by the [TABILAB](http://http://tabilab.cmpe.boun.edu.tr/) and supported by the Scientific and Technological Research Council of Turkey (TÜBİTAK) under grant number 117E971.
+This is a Turkish dependency treebank in the Universal Dependencies (UD) annotation style. The BOUN Treebank is created by [TABILAB](https://tabilab.cmpe.boun.edu.tr/) and supported by the Scientific and Technological Research Council of Turkey (TÜBİTAK) under grant number 117E971.
 
 The BOUN Treebank includes a total of 9,761 manually annotated sentences from various topics including biographical texts, national newspapers, instructional texts, popular culture articles, and essays. The texts are taken from the [Turkish National Corpus (TNC)](https://www.tnc.org.tr/).
 
@@ -36,22 +36,19 @@ You can use the following arXiv reference for v2.11:
 You can use the following arXiv reference for the previous versions of this treebank:
 
 ```
-@misc{trk2020resources,
-    title={Resources for Turkish Dependency Parsing: Introducing the BOUN Treebank and the BoAT Annotation Tool},
-    author={Utku T{\”{u}}rk and
-    Furkan Atmaca and
-    {\c{S}aziye Bet{\"{u}}l {\"{O}}zate{\c{s}} and
-    G{\"{o}}zde Berk and
-    Seyyit Talha Bedir and
-    Abdullatif K{\"{o}}ksal and
-    Balk{\i}z {\"{O}}zt{\"{u}}rk Ba{\c{s}}aran and
-    Tunga G{\"{u}}ng{\"{o}}r and
-    Arzucan {\"{O}}zg{\"{u}}r},
-    year={2020},
-    eprint={2002.10416},
-    archivePrefix={arXiv},
-    primaryClass={cs.CL}
+@article{TurkEtAl2022,
+  title = {Resources for {{Turkish}} Dependency Parsing: Introducing the {{BOUN Treebank}} and the {{BoAT}} Annotation Tool},
+  author = {T{\"u}rk, Utku and Atmaca, Furkan and {\"O}zate{\c s}, {\c S}aziye Bet{\"u}l and Berk, G{\"o}zde and Bedir, Seyyit Talha and K{\"o}ksal, Abdullatif and Ba{\c s}aran, Balk{\i}z {\"O}zt{\"u}rk and G{\"u}ng{\"o}r, Tunga and {\"O}zg{\"u}r, Arzucan},
+  year = {2022},
+  month = mar,
+  journal = {Language Resources and Evaluation},
+  volume = {56},
+  number = {1},
+  pages = {259--307},
+  issn = {1574-0218},
+  doi = {10.1007/s10579-021-09558-0}
 }
+
 ```
 
 # Changelog

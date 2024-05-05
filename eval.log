@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Turkish-BOUN:
-commit 6d7f9c84d5852dc048a951e69773ee49e6f7f77f
-Merge: 6a1f055 2aab537
+commit 283d255bb23d957f6f371f7aa9d360fc713095eb
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Mon Nov 6 13:09:37 2023 +0100
 Size: counted 125212 of 125212 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.66001660143674.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,8 +20,8 @@ Features: source of annotation (from README) factor is 1.
 Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL      17435
-Udapi: found 17435 bugs.
+               TOTAL      17386
+Udapi: found 17386 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 125212 words.
 Genres: found 2 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang tr --max-err=10 UD_Turkish-BOUN/tr_boun-ud-dev.conllu

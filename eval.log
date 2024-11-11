@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Turkish-BOUN:
-commit 283d255bb23d957f6f371f7aa9d360fc713095eb
+commit 7b80c3409b929027c092012c2635a21f3ef74352
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 13:09:37 2023 +0100
+Date:   Sun May 5 13:35:28 2024 +0200
 Size: counted 125212 of 125212 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.66001660143674.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,10 +25,46 @@ Udapi: found 17386 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 125212 words.
 Genres: found 2 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang tr --max-err=10 UD_Turkish-BOUN/tr_boun-ud-dev.conllu
+[Line 243 Sent news_714 Node 7]: [L3 Warning leaf-clf] 'clf' not expected to have children (7:adet:clf --> 6:2:nummod)
+[Line 2179 Sent ess_455 Node 18]: [L3 Warning leaf-clf] 'clf' not expected to have children (18:tane:clf --> 17:kaç:nummod)
+[Line 4068 Sent pop_1556 Node 2]: [L3 Warning leaf-clf] 'clf' not expected to have children (2:adet:clf --> 1:3:nummod)
+[Line 6305 Sent ess_754 Node 25]: [L3 Warning leaf-det] 'det' not expected to have children (25:bir:det --> 24:Hamlet'ten:nmod)
+[Line 6580 Sent pop_1367 Node 2]: [L3 Warning leaf-clf] 'clf' not expected to have children (2:demet:clf --> 1:Yarım:amod)
+[Line 8368 Sent bio_926 Node 4]: [L3 Warning leaf-clf] 'clf' not expected to have children (4:tane:clf --> 3:iki:nummod)
+[Line 9627 Sent ess_548 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:bir:det --> 10:beklediğim:acl)
+[Line 10443 Sent pop_610 Node 2]: [L3 Warning leaf-clf] 'clf' not expected to have children (2:dilim:clf --> 1:1:nummod)
+[Line 10458 Sent pop_200 Node 4]: [L3 Warning leaf-clf] 'clf' not expected to have children (4:adet:clf --> 1:1:nummod)
+[Line 11941 Sent pop_1734 Node 8]: [L3 Warning leaf-clf] 'clf' not expected to have children (8:dilim:clf --> 7:1:nummod)
+...suppressing further errors regarding Warning
+Warnings: 15
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang tr --max-err=10 UD_Turkish-BOUN/tr_boun-ud-test.conllu
+[Line 2971 Sent pop_362 Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:bir:det --> 8:neredeyse:amod)
+[Line 3329 Sent pop_1882 Node 15]: [L3 Warning leaf-clf] 'clf' not expected to have children (15:dilim:clf --> 14:2:nummod)
+[Line 4011 Sent pop_575 Node 2]: [L3 Warning leaf-clf] 'clf' not expected to have children (2:sap:clf --> 1:6:nummod)
+[Line 4049 Sent pop_558 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:het:det --> 10:dahil:amod)
+[Line 4804 Sent pop_1475 Node 2]: [L3 Warning leaf-clf] 'clf' not expected to have children (2:adet:clf --> 1:2:nummod)
+[Line 4878 Sent pop_1514 Node 2]: [L3 Warning leaf-clf] 'clf' not expected to have children (2:demet:clf --> 1:1:nummod)
+[Line 8177 Sent pop_1890 Node 2]: [L3 Warning leaf-clf] 'clf' not expected to have children (2:adet:clf --> 1:3:nummod)
+[Line 9049 Sent news_1434 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:bir:det --> 6:arpa:nmod)
+[Line 9260 Sent pop_1582 Node 2]: [L3 Warning leaf-clf] 'clf' not expected to have children (2:adet:clf --> 1:6:nummod)
+[Line 9830 Sent pop_923 Node 2]: [L3 Warning leaf-clf] 'clf' not expected to have children (2:adet:clf --> 1:1:nummod)
+...suppressing further errors regarding Warning
+Warnings: 20
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang tr --max-err=10 UD_Turkish-BOUN/tr_boun-ud-train.conllu
+[Line 13587 Sent bio_510 Node 13]: [L3 Warning leaf-det] 'det' not expected to have children (13:bir:det --> 12:başka:amod)
+[Line 18526 Sent bio_793 Node 17]: [L3 Warning leaf-det] 'det' not expected to have children (17:bir:det --> 14:kanıtladım:nmod)
+[Line 45805 Sent ins_1330 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:bir:det --> 4:tı:cop)
+[Line 52487 Sent pop_241 Node 27]: [L3 Warning leaf-det] 'det' not expected to have children (27:bu:det --> 26:bulunan:acl)
+[Line 60393 Sent ess_1292 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:bir:det --> 3:gösterişi:obj)
+[Line 71764 Sent bio_293 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:bir:det --> 14:dı:cop)
+[Line 78446 Sent ess_273 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:bir:det --> 5:ki:mark)
+[Line 84652 Sent ess_1286 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:bir:det --> 12:haklı:nmod)
+[Line 105691 Sent ess_1551 Node 28]: [L3 Warning leaf-det] 'det' not expected to have children (28:bir:det --> 26:buyruğu:obj)
+[Line 105692 Sent ess_1551 Node 28]: [L3 Warning leaf-det] 'det' not expected to have children (28:bir:det --> 27:gelişigüzel:amod)
+...suppressing further errors regarding Warning
+Warnings: 11
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769

@@ -13,7 +13,7 @@ The dependency relations in the BOUN Treebank is manually annotated in the UD fr
 
 # Versions
 
-The current UD version is adjusted for the specifications of UD and the most recent UD feature, UPOS, and the feature-value-upos combinations. Two new dependency relations (dep:der and discourse:q), new lemma forms for copula (y, i, and null), and new MISC functions (DerivedFrom=, nullcop=3p, and nullcop=3s) are introduced.  
+The current UD version is adjusted for the specifications of UD and the most recent UD feature, UPOS, and the feature-value-upos combinations. Two new dependency relations (dep:der and discourse:q), new lemma forms for copula (y, i, and null), and new MISC functions (DerivedFrom=, nullcop=3p, and nullcop=3s) are introduced.
 
 
 # Acknowledgments
@@ -75,7 +75,7 @@ UPOS: manual native
 XPOS: manual native
 Features: manual native
 Relations: manual native
-Contributors: Marşan, Büşra; Akkurt, Salih Furkan; Türk, Utku; Atmaca, Furkan; Özateş, Şaziye Betül; Berk, Gözde; Bedir, Seyyit Talha; Köksal, Abdullatif; Öztürk Başaran, Balkız; Güngör, Tunga; Özgür, Arzucan
+Contributors: Marşan, Büşra; Akkurt, Furkan; Türk, Utku; Atmaca, Furkan; Özateş, Şaziye Betül; Berk, Gözde; Bedir, Seyyit Talha; Köksal, Abdullatif; Öztürk Başaran, Balkız; Güngör, Tunga; Özgür, Arzucan
 Contributing: elsewhere
 Contact: busra.marsan@boun.edu.tr or saziye.bilgin@boun.edu.tr
 ===============================================================================

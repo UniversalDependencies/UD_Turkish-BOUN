@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Turkish-BOUN:
-commit 7b80c3409b929027c092012c2635a21f3ef74352
+commit d88a7b5337594ae63e646efc8e4be7c8ae736251
+Merge: d1f2725 cfa62ac
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 13:35:28 2024 +0200
 Size: counted 125212 of 125212 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.66001660143674.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,61 +20,100 @@ Features: source of annotation (from README) factor is 1.
 Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL      17386
-Udapi: found 17386 bugs.
+               TOTAL      17332
+Udapi: found 17332 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 125212 words.
-Genres: found 2 out of 17 known.
+Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang tr --max-err=10 UD_Turkish-BOUN/tr_boun-ud-dev.conllu
-[Line 243 Sent news_714 Node 7]: [L3 Warning leaf-clf] 'clf' not expected to have children (7:adet:clf --> 6:2:nummod)
-[Line 2179 Sent ess_455 Node 18]: [L3 Warning leaf-clf] 'clf' not expected to have children (18:tane:clf --> 17:kaç:nummod)
-[Line 4068 Sent pop_1556 Node 2]: [L3 Warning leaf-clf] 'clf' not expected to have children (2:adet:clf --> 1:3:nummod)
-[Line 6305 Sent ess_754 Node 25]: [L3 Warning leaf-det] 'det' not expected to have children (25:bir:det --> 24:Hamlet'ten:nmod)
-[Line 6580 Sent pop_1367 Node 2]: [L3 Warning leaf-clf] 'clf' not expected to have children (2:demet:clf --> 1:Yarım:amod)
-[Line 8368 Sent bio_926 Node 4]: [L3 Warning leaf-clf] 'clf' not expected to have children (4:tane:clf --> 3:iki:nummod)
-[Line 9627 Sent ess_548 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:bir:det --> 10:beklediğim:acl)
-[Line 10443 Sent pop_610 Node 2]: [L3 Warning leaf-clf] 'clf' not expected to have children (2:dilim:clf --> 1:1:nummod)
-[Line 10458 Sent pop_200 Node 4]: [L3 Warning leaf-clf] 'clf' not expected to have children (4:adet:clf --> 1:1:nummod)
-[Line 11941 Sent pop_1734 Node 8]: [L3 Warning leaf-clf] 'clf' not expected to have children (8:dilim:clf --> 7:1:nummod)
+[Line 243 Sent news_714 Node 7]: [L3 Syntax leaf-clf] 'clf' not expected to have children (7:adet:clf --> 6:2:nummod)
+[Line 529 Sent pop_626 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 2179 Sent ess_455 Node 18]: [L3 Syntax leaf-clf] 'clf' not expected to have children (18:tane:clf --> 17:kaç:nummod)
+[Line 3473 Sent pop_452 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 4068 Sent pop_1556 Node 2]: [L3 Syntax leaf-clf] 'clf' not expected to have children (2:adet:clf --> 1:3:nummod)
+[Line 6035 Sent ess_337 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 6305 Sent ess_754 Node 25]: [L3 Syntax leaf-det] 'det' not expected to have children (25:bir:det --> 24:Hamlet'ten:nmod)
+[Line 6580 Sent pop_1367 Node 2]: [L3 Syntax leaf-clf] 'clf' not expected to have children (2:demet:clf --> 1:Yarım:amod)
+[Line 6763 Sent news_754 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'ne de' does not have the 'ExtPos' feature
+[Line 7087 Sent pop_1694 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 7374 Sent ess_1952 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'her bakış' does not have the 'ExtPos' feature
+[Line 7948 Sent ins_497 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'ne de' does not have the 'ExtPos' feature
+[Line 8368 Sent bio_926 Node 4]: [L3 Syntax leaf-clf] 'clf' not expected to have children (4:tane:clf --> 3:iki:nummod)
+[Line 8475 Sent ess_29 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Öyle ya' does not have the 'ExtPos' feature
+[Line 8572 Sent news_187 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 8637 Sent pop_858 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-Warnings: 15
-*** PASSED ***
+[Line 9627 Sent ess_548 Node 11]: [L3 Syntax leaf-det] 'det' not expected to have children (11:bir:det --> 10:beklediğim:acl)
+[Line 10443 Sent pop_610 Node 2]: [L3 Syntax leaf-clf] 'clf' not expected to have children (2:dilim:clf --> 1:1:nummod)
+[Line 10458 Sent pop_200 Node 4]: [L3 Syntax leaf-clf] 'clf' not expected to have children (4:adet:clf --> 1:1:nummod)
+[Line 11941 Sent pop_1734 Node 8]: [L3 Syntax leaf-clf] 'clf' not expected to have children (8:dilim:clf --> 7:1:nummod)
+...suppressing further errors regarding Syntax
+Syntax errors: 15
+Warnings: 13
+*** FAILED *** with 15 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang tr --max-err=10 UD_Turkish-BOUN/tr_boun-ud-test.conllu
-[Line 2971 Sent pop_362 Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:bir:det --> 8:neredeyse:amod)
-[Line 3329 Sent pop_1882 Node 15]: [L3 Warning leaf-clf] 'clf' not expected to have children (15:dilim:clf --> 14:2:nummod)
-[Line 4011 Sent pop_575 Node 2]: [L3 Warning leaf-clf] 'clf' not expected to have children (2:sap:clf --> 1:6:nummod)
-[Line 4049 Sent pop_558 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:het:det --> 10:dahil:amod)
-[Line 4804 Sent pop_1475 Node 2]: [L3 Warning leaf-clf] 'clf' not expected to have children (2:adet:clf --> 1:2:nummod)
-[Line 4878 Sent pop_1514 Node 2]: [L3 Warning leaf-clf] 'clf' not expected to have children (2:demet:clf --> 1:1:nummod)
-[Line 8177 Sent pop_1890 Node 2]: [L3 Warning leaf-clf] 'clf' not expected to have children (2:adet:clf --> 1:3:nummod)
-[Line 9049 Sent news_1434 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:bir:det --> 6:arpa:nmod)
-[Line 9260 Sent pop_1582 Node 2]: [L3 Warning leaf-clf] 'clf' not expected to have children (2:adet:clf --> 1:6:nummod)
-[Line 9830 Sent pop_923 Node 2]: [L3 Warning leaf-clf] 'clf' not expected to have children (2:adet:clf --> 1:1:nummod)
+[Line 337 Sent pop_209 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 361 Sent pop_1733 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 366 Sent pop_1733 Node 13]: [L3 Warning fixed-without-extpos] Fixed expression 'her hangi' does not have the 'ExtPos' feature
+[Line 1528 Sent ess_1385 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 2226 Sent ess_1390 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 2971 Sent pop_362 Node 9]: [L3 Syntax leaf-det] 'det' not expected to have children (9:bir:det --> 8:neredeyse:amod)
+[Line 3329 Sent pop_1882 Node 15]: [L3 Syntax leaf-clf] 'clf' not expected to have children (15:dilim:clf --> 14:2:nummod)
+[Line 3743 Sent ess_1495 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 3789 Sent news_278 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 3929 Sent ins_478 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Ya da' does not have the 'ExtPos' feature
+[Line 4011 Sent pop_575 Node 2]: [L3 Syntax leaf-clf] 'clf' not expected to have children (2:sap:clf --> 1:6:nummod)
+[Line 4049 Sent pop_558 Node 11]: [L3 Syntax leaf-det] 'det' not expected to have children (11:het:det --> 10:dahil:amod)
+[Line 4804 Sent pop_1475 Node 2]: [L3 Syntax leaf-clf] 'clf' not expected to have children (2:adet:clf --> 1:2:nummod)
+[Line 4878 Sent pop_1514 Node 2]: [L3 Syntax leaf-clf] 'clf' not expected to have children (2:demet:clf --> 1:1:nummod)
+[Line 5644 Sent ess_205 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Ya da' does not have the 'ExtPos' feature
+[Line 8177 Sent pop_1890 Node 2]: [L3 Syntax leaf-clf] 'clf' not expected to have children (2:adet:clf --> 1:3:nummod)
+[Line 8333 Sent ess_1689 Node 13]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 9049 Sent news_1434 Node 5]: [L3 Syntax leaf-det] 'det' not expected to have children (5:bir:det --> 6:arpa:nmod)
 ...suppressing further errors regarding Warning
-Warnings: 20
-*** PASSED ***
+[Line 9260 Sent pop_1582 Node 2]: [L3 Syntax leaf-clf] 'clf' not expected to have children (2:adet:clf --> 1:6:nummod)
+[Line 9830 Sent pop_923 Node 2]: [L3 Syntax leaf-clf] 'clf' not expected to have children (2:adet:clf --> 1:1:nummod)
+...suppressing further errors regarding Syntax
+Syntax errors: 20
+Warnings: 16
+*** FAILED *** with 20 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang tr --max-err=10 UD_Turkish-BOUN/tr_boun-ud-train.conllu
-[Line 13587 Sent bio_510 Node 13]: [L3 Warning leaf-det] 'det' not expected to have children (13:bir:det --> 12:başka:amod)
-[Line 18526 Sent bio_793 Node 17]: [L3 Warning leaf-det] 'det' not expected to have children (17:bir:det --> 14:kanıtladım:nmod)
-[Line 45805 Sent ins_1330 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:bir:det --> 4:tı:cop)
-[Line 52487 Sent pop_241 Node 27]: [L3 Warning leaf-det] 'det' not expected to have children (27:bu:det --> 26:bulunan:acl)
-[Line 60393 Sent ess_1292 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:bir:det --> 3:gösterişi:obj)
-[Line 71764 Sent bio_293 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:bir:det --> 14:dı:cop)
-[Line 78446 Sent ess_273 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:bir:det --> 5:ki:mark)
-[Line 84652 Sent ess_1286 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:bir:det --> 12:haklı:nmod)
-[Line 105691 Sent ess_1551 Node 28]: [L3 Warning leaf-det] 'det' not expected to have children (28:bir:det --> 26:buyruğu:obj)
-[Line 105692 Sent ess_1551 Node 28]: [L3 Warning leaf-det] 'det' not expected to have children (28:bir:det --> 27:gelişigüzel:amod)
+[Line 1520 Sent bio_1871 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'hem de' does not have the 'ExtPos' feature
+[Line 1658 Sent bio_1333 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'hem de' does not have the 'ExtPos' feature
+[Line 2859 Sent bio_179 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 2873 Sent pop_755 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 3545 Sent bio_1524 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 4277 Sent ins_19 Node 35]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 4328 Sent news_128 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 5317 Sent ins_774 Node 18]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 6466 Sent ess_1570 Node 13]: [L3 Warning fixed-without-extpos] Fixed expression 'ne de' does not have the 'ExtPos' feature
+[Line 6991 Sent ess_1012 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'ne de' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-Warnings: 11
-*** PASSED ***
-Validity: 1
+[Line 13587 Sent bio_510 Node 13]: [L3 Syntax leaf-det] 'det' not expected to have children (13:bir:det --> 12:başka:amod)
+[Line 18526 Sent bio_793 Node 17]: [L3 Syntax leaf-det] 'det' not expected to have children (17:bir:det --> 14:kanıtladım:nmod)
+[Line 45805 Sent ins_1330 Node 2]: [L3 Syntax leaf-det] 'det' not expected to have children (2:bir:det --> 4:tı:cop)
+[Line 52487 Sent pop_241 Node 27]: [L3 Syntax leaf-det] 'det' not expected to have children (27:bu:det --> 26:bulunan:acl)
+[Line 60393 Sent ess_1292 Node 4]: [L3 Syntax leaf-det] 'det' not expected to have children (4:bir:det --> 3:gösterişi:obj)
+[Line 71764 Sent bio_293 Node 4]: [L3 Syntax leaf-det] 'det' not expected to have children (4:bir:det --> 14:dı:cop)
+[Line 78446 Sent ess_273 Node 3]: [L3 Syntax leaf-det] 'det' not expected to have children (3:bir:det --> 5:ki:mark)
+[Line 84652 Sent ess_1286 Node 2]: [L3 Syntax leaf-det] 'det' not expected to have children (2:bir:det --> 12:haklı:nmod)
+[Line 105691 Sent ess_1551 Node 28]: [L3 Syntax leaf-det] 'det' not expected to have children (28:bir:det --> 26:buyruğu:obj)
+[Line 105692 Sent ess_1551 Node 28]: [L3 Syntax leaf-det] 'det' not expected to have children (28:bir:det --> 27:gelişigüzel:amod)
+...suppressing further errors regarding Syntax
+Syntax errors: 11
+Warnings: 55
+*** FAILED *** with 11 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
-(weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
+(weight=0.0769230769230769) * (score{genres}=0.111111111111111) = 0.00854700854700855
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
 (weight=0.256410256410256) * (score{size}=0.699215317516297) = 0.179285978850332
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.941176470588235) = 0.0723981900452489
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.918918918918919) = 0.0706860706860707
-(TOTAL score=0.539625141542436) * (availability=1) * (validity=1) = 0.539625141542436
-STARS = 2.5
-UD_Turkish-BOUN	0.539625141542436	2.5
+(TOTAL score=0.539122376333789) * (availability=1) * (validity=0.01) = 0.00539122376333789
+STARS = 0
+UD_Turkish-BOUN	0.00539122376333789	0

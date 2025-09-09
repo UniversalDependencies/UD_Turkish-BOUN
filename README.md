@@ -69,6 +69,7 @@ You can use the following arXiv reference for the previous versions of this tree
 Data available since: UD v2.7
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: nonfiction news
 Lemmas: manual native
 UPOS: manual native

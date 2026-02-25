@@ -2489,9 +2489,9 @@
 4	bundan	bu	PRON	Demons	Case=Abl|Number=Sing|Person=3|PronType=Dem	6	nmod	_	_
 5	bir	bir	DET	Indef	PronType=Ind	6	det	_	_
 6	çıkar	çıkar	NOUN	_	Case=Nom|Number=Sing|Person=3	7	obj	_	_
-7	sağlayamadığını	sağla	VERB	_	Aspect=Perf|Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Neg|Tense=Past|VerbForm=Part	20	obj	_	SpaceAfter=No
-8	,	,	PUNCT	Comma	_	9	punct	_	_
-9	savaşmanın	savaş	VERB	Vnoun	Case=Gen|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	7	conj	_	_
+7	sağlayamadığını	sağla	VERB	_	Aspect=Perf|Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Neg|Tense=Past|VerbForm=Part	21	obj	_	SpaceAfter=No
+8	,	,	PUNCT	Comma	_	20	punct	_	_
+9	savaşmanın	savaş	VERB	Vnoun	Case=Gen|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	20	nmod:poss	_	_
 10	ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3|PronType=Int	20	obl	_	_
 11	kendilerine	kendi	PRON	Reflex	Case=Dat|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3|PronType=Prs	20	obl	_	SpaceAfter=No
 12	,	,	PUNCT	Comma	_	20	punct	_	_
@@ -2502,7 +2502,7 @@
 17	dinlerine	din	NOUN	_	Case=Dat|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	20	obl	_	_
 18	bir	bir	DET	Indef	PronType=Ind	19	det	_	_
 19	yarar	yarar	ADJ	_	Case=Nom|Number=Sing|Person=3	20	obj	_	_
-20	sağlamadığını	sağla	VERB	Ptcp	Aspect=Perf|Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Neg|Tense=Past|VerbForm=Part	21	obj	_	_
+20	sağlamadığını	sağla	VERB	Ptcp	Aspect=Perf|Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Neg|Tense=Past|VerbForm=Part	7	conj	_	_
 21	biliyoruz	bil	VERB	_	Aspect=Prog|Number=Plur|Person=1|Polarity=Pos|Tense=Pres	0	root	_	_
 22	şimdi	şimdi	ADV	_	_	21	advmod	_	SpaceAfter=No
 23	.	.	PUNCT	Stop	_	21	punct	_	SpacesAfter=\r\n
@@ -4599,7 +4599,7 @@
 10	çıkartmaya	çık	VERB	Vnoun	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun|Voice=Cau	11	nmod	_	_
 11	yelteniyor	yelten	VERB	_	Aspect=Prog|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
 12	,	,	PUNCT	Comma	_	18	punct	_	_
-13	onları	o	PRON	Pers	Case=Acc|Number=Plur|Person=3|PronType=Prs	16	obj	_	_
+13	onları	o	PRON	Pers	Case=Acc|Number=Plur|Person=3|PronType=Prs	18	obj	_	_
 14	da	da	ADV	Emph	_	13	advmod:emph	_	_
 15	davetiyemi	davetiye	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	16	obj	_	_
 16	göstererek	göster	VERB	Conv	Mood=Imp|Polarity=Pos|VerbForm=Conv	18	nmod	_	_

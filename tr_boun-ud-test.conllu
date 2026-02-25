@@ -3484,7 +3484,7 @@
 
 # sent_id = ess_49
 # text = Demokrasiye siyasi iktidardan gelen tehdide direnip, sonra askeri rejimin hukuki fetvasını verebiliyorlar, ilk ve orta eğitimin yetersiz bilgileri ile üniversiteye gelen bir Türk genci, eğer özel gayreti yoksa, daha kalabalık ve daha yoğun müfredatlı bir lisede okumuştan farklı olmaz üniversiteden mezun olurken.
-1	Demokrasiye	demokrasi	NOUN	_	Case=Dat|Number=Sing|Person=3	6	obj	_	_
+1	Demokrasiye	demokrasi	NOUN	_	Case=Dat|Number=Sing|Person=3	5	nmod	_	_
 2	siyasi	siyasi	ADJ	Adj	_	3	amod	_	_
 3	iktidardan	iktidar	NOUN	_	Case=Abl|Number=Sing|Person=3	4	obl	_	_
 4	gelen	gel	VERB	Ptcp	Polarity=Pos|Tense=Pres|VerbForm=Part	5	acl	_	_

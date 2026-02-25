@@ -3325,8 +3325,8 @@
 10	,	,	PUNCT	Comma	_	12	punct	_	_
 11	yarım	yarım	ADJ	Adj	_	12	compound	_	_
 12	salatalık	salatalık	NOUN	_	Case=Nom|Number=Sing|Person=3	5	conj	_	_
-13	ve	ve	CCONJ	Conj	_	15	cc	_	_
-14	2	2	NUM	ANum	NumType=Card	15	nummod	_	_
+13	ve	ve	CCONJ	Conj	_	19	cc	_	_
+14	2	2	NUM	ANum	NumType=Card	19	nummod	_	_
 15	dilim	dilim	NOUN	_	Case=Nom|Number=Sing|Person=3	19	clf	_	_
 16	doygun	doygun	ADJ	Adj	_	19	amod	_	_
 17	tam	tam	ADJ	Adj	_	18	amod	_	_
@@ -4008,7 +4008,7 @@
 
 # sent_id = pop_575
 # text = 6 sap kereviz
-1	6	6	NUM	ANum	NumType=Card	2	nummod	_	_
+1	6	6	NUM	ANum	NumType=Card	3	nummod	_	_
 2	sap	sap	NOUN	_	Case=Nom|Number=Sing|Person=2	3	clf	_	_
 3	kereviz	kereviz	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	SpacesAfter=\n
 
@@ -4801,7 +4801,7 @@
 
 # sent_id = pop_1475
 # text = 2 adet tatlı kırmızı biber
-1	2	2	NUM	ANum	NumType=Card	2	nummod	_	_
+1	2	2	NUM	ANum	NumType=Card	5	nummod	_	_
 2	adet	âdet	NOUN	_	Case=Nom|Number=Sing|Person=3	5	clf	_	_
 3	tatlı	tatlı	ADJ	Adj	_	5	amod	_	DerivedFrom=tat
 4	kırmızı	kırmızı	ADJ	Adj	_	5	amod	_	_
@@ -4875,7 +4875,7 @@
 
 # sent_id = pop_1514
 # text = 1 demet maydanoz
-1	1	1	NUM	ANum	NumType=Card	2	nummod	_	_
+1	1	1	NUM	ANum	NumType=Card	3	nummod	_	_
 2	demet	demet	NOUN	_	Case=Nom|Number=Sing|Person=3	3	clf	_	_
 3	maydanoz	maydanoz	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	SpacesAfter=\n
 
@@ -8174,7 +8174,7 @@
 
 # sent_id = pop_1890
 # text = 3 adet yumurta
-1	3	3	NUM	NNum	Case=Nom|Number=Sing|NumType=Card|Person=3	2	nummod	_	_
+1	3	3	NUM	NNum	Case=Nom|Number=Sing|NumType=Card|Person=3	3	nummod	_	_
 2	adet	âdet	NOUN	_	Case=Nom|Number=Sing|Person=3	3	clf	_	_
 3	yumurta	yumurta	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	SpacesAfter=\n
 
@@ -9257,7 +9257,7 @@
 
 # sent_id = pop_1582
 # text = 6 adet fesleğen sapı karabiber
-1	6	6	NUM	ANum	NumType=Card	2	nummod	_	_
+1	6	6	NUM	ANum	NumType=Card	4	nummod	_	_
 2	adet	âdet	NOUN	_	Case=Nom|Number=Sing|Person=3	4	clf	_	_
 3	fesleğen	fesleğen	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod:poss	_	_
 4	sapı	Sap	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
@@ -9827,7 +9827,7 @@
 
 # sent_id = pop_923
 # text = 1 adet orta boy pırasa (beyaz kısmı)
-1	1	1	NUM	ANum	NumType=Card	2	nummod	_	_
+1	1	1	NUM	ANum	NumType=Card	5	nummod	_	_
 2	adet	âdet	NOUN	_	Case=Nom|Number=Sing|Person=3	5	clf	_	_
 3	orta	orta	ADJ	Adj	_	4	amod	_	_
 4	boy	boy	NOUN	_	Case=Nom|Number=Sing|Person=3	5	amod	_	_
@@ -9839,7 +9839,7 @@
 
 # sent_id = pop_630
 # text = 2-3 sap dereotu
-1	2	2	NUM	ANum	NumType=Card	4	nummod	_	SpaceAfter=No
+1	2	2	NUM	ANum	NumType=Card	5	nummod	_	SpaceAfter=No
 2	-	-	PUNCT	Punc	_	1	punct	_	SpaceAfter=No
 3	3	3	NUM	NNum	Case=Nom|Number=Sing|NumType=Card|Person=3	1	flat	_	_
 4	sap	sap	NOUN	_	Case=Nom|Number=Sing|Person=3	5	clf	_	_
@@ -10708,7 +10708,7 @@
 
 # sent_id = pop_942
 # text = 1 demet taze nane yoksa kuru nane
-1	1	1	NUM	ANum	NumType=Card	2	nummod	_	_
+1	1	1	NUM	ANum	NumType=Card	4	nummod	_	_
 2	demet	demet	NOUN	_	Case=Nom|Number=Sing|Person=3	4	clf	_	_
 3	taze	taze	ADJ	Adj	_	4	amod	_	_
 4	nane	nane	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
@@ -10969,7 +10969,7 @@
 2	Kasım	kasım	PROPN	_	Case=Nom|Number=Sing|Person=3	1	flat	_	SpaceAfter=No
 3	,	,	PUNCT	Comma	_	14	punct	_	_
 4	Lice'de	Lice	PROPN	_	Case=Loc|Number=Sing|Person=3	8	obl	_	_
-5	200	200	NUM	ANum	NumType=Card	6	nummod	_	_
+5	200	200	NUM	ANum	NumType=Card	7	nummod	_	_
 6	kilo	kilo	NOUN	_	Case=Nom|Number=Sing|Person=3	7	clf	_	_
 7	eroin	eroin	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nsubj	_	_
 8	yakalandığını	yakala	VERB	Ptcp	Aspect=Perf|Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass	10	ccomp	_	_
@@ -11091,7 +11091,7 @@
 4	dönemde	dönem	NOUN	_	Case=Loc|Number=Sing|Person=3	14	obl	_	_
 5	sanal	sanal	ADJ	Adj	_	6	amod	_	_
 6	ortamda	ortam	NOUN	_	Case=Loc|Number=Sing|Person=3	14	obl	_	_
-7	40	40	NUM	ANum	NumType=Card	12	nummod	_	_
+7	40	40	NUM	ANum	NumType=Card	13	nummod	_	_
 8	milyon	milyon	NUM	ANum	NumType=Card	7	flat	_	_
 9	707	707	NUM	ANum	NumType=Card	7	flat	_	_
 10	bin	bin	NUM	ANum	NumType=Card	7	flat	_	_
@@ -11313,7 +11313,7 @@
 2	de	de	PART	Emph	_	1	advmod:emph	_	_
 3	Ustad'ın	Ustad	PROPN	_	Case=Gen|Number=Sing|Person=3	4	nmod:poss	_	_
 4	misafirlerine	misafir	NOUN	_	Case=Dat|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	8	iobj	_	_
-5	birer	bir	NUM	ANum	NumType=Dist	6	nummod	_	_
+5	birer	bir	NUM	ANum	NumType=Dist	7	nummod	_	_
 6	bardak	bardak	NOUN	_	Case=Nom|Number=Sing|Person=3	7	clf	_	_
 7	çay	çay	NOUN	_	Case=Nom|Number=Sing|Person=3	8	obj	_	_
 8	ikram	ikram	NOUN	_	Case=Nom|Number=Sing|Person=3	10	ccomp	_	_
@@ -11322,7 +11322,7 @@
 11	;	;	PUNCT	Punc	_	29	punct	_	_
 12	en	en	ADV	_	_	13	advmod	_	_
 13	çok	çok	ADJ	Adj	_	17	advmod	_	_
-14	üç	üç	NUM	ANum	NumType=Card	15	nummod	_	_
+14	üç	üç	NUM	ANum	NumType=Card	16	nummod	_	_
 15	bardak	bardak	NOUN	_	Case=Nom|Number=Sing|Person=3	16	clf	_	_
 16	su	su	NOUN	_	Case=Nom|Number=Sing|Person=3	17	obj	_	_
 17	alabilen	al	VERB	_	Mood=Pot|Polarity=Pos|Tense=Pres|VerbForm=Part	19	acl	_	_
@@ -11634,7 +11634,7 @@
 
 # sent_id = pop_1906
 # text = 3 adet marul
-1	3	3	NUM	NNum	Case=Nom|Number=Sing|NumType=Card|Person=3	2	nummod	_	_
+1	3	3	NUM	NNum	Case=Nom|Number=Sing|NumType=Card|Person=3	3	nummod	_	_
 2	adet	âdet	NOUN	_	Case=Nom|Number=Sing|Person=3	3	clf	_	_
 3	marul	marul	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	SpacesAfter=\n
 
@@ -11736,7 +11736,7 @@
 2	Başbakan'ın	başbakan	PROPN	_	Case=Gen|Number=Sing|Person=3	3	nmod:poss	_	_
 3	ifadesi	ifade	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod	_	_
 4	ile	ile	ADP	PCNom	_	3	case	_	_
-5	36	36	NUM	ANum	NumType=Card	6	nummod	_	_
+5	36	36	NUM	ANum	NumType=Card	8	nummod	_	_
 6	tane	tane	NOUN	_	Case=Nom|Number=Sing|Person=3	8	clf	_	_
 7	etnik	etnik	ADJ	Adj	_	8	amod	_	_
 8	grup	grup	NOUN	_	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
@@ -12905,7 +12905,7 @@
 
 # sent_id = pop_588
 # text = 2 dilim gravyer peyniri
-1	2	2	NUM	ANum	NumType=Card	2	nummod	_	_
+1	2	2	NUM	ANum	NumType=Card	4	nummod	_	_
 2	dilim	dilim	NOUN	_	Case=Nom|Number=Sing|Person=3	4	clf	_	_
 3	gravyer	gravyer	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod:poss	_	_
 4	peyniri	peynir	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	SpacesAfter=\n

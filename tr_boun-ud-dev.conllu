@@ -240,7 +240,7 @@
 3	ve	ve	CCONJ	Conj	_	4	cc	_	_
 4	BOTAŞ	Botaş	PROPN	Abr	Case=Nom|Number=Sing|Person=3	2	conj	_	_
 5	tarafından	taraf	NOUN	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obl	_	_
-6	2	2	NUM	ANum	NumType=Card	7	nummod	_	_
+6	2	2	NUM	ANum	NumType=Card	8	nummod	_	_
 7	adet	adet	NOUN	_	Case=Nom|Number=Sing|Person=3	8	clf	_	_
 8	proje	proje	NOUN	_	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
 9	yürütülüyor	yürü	VERB	_	Aspect=Prog|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Voice=Cau	0	root	_	SpaceAfter=No
@@ -2176,7 +2176,7 @@
 14	ders	ders	NOUN	_	Case=Nom|Number=Sing|Person=3	15	obj	_	_
 15	verir	ver	VERB	_	Aspect=Hab|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	3	dislocated	_	SpaceAfter=No
 16	,	,	PUNCT	Comma	_	21	punct	_	_
-17	kaç	kaç	NUM	Adj	NumType=Card	18	nummod	_	_
+17	kaç	kaç	NUM	Adj	NumType=Card	19	nummod	_	_
 18	tane	tane	NOUN	_	Case=Nom|Number=Sing|Person=3	19	clf	_	_
 19	talebesine	talebe	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	21	iobj	_	_
 20	yardımda	yardım	NOUN	_	Case=Loc|Number=Sing|Person=3	21	obj	_	_
@@ -4065,7 +4065,7 @@
 
 # sent_id = pop_1556
 # text = 3 adet dolmalık biber (ince doğranmış)
-1	3	3	NUM	NNum	Case=Nom|Number=Sing|NumType=Card|Person=3	2	nummod	_	_
+1	3	3	NUM	NNum	Case=Nom|Number=Sing|NumType=Card|Person=3	4	nummod	_	_
 2	adet	adet	NOUN	_	Case=Nom|Number=Sing|Person=3	4	clf	_	_
 3	dolmalık	dolmalık	ADJ	Adj	_	4	amod	_	DerivedFrom=dolma
 4	biber	biber	VERB	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
@@ -6577,7 +6577,7 @@
 
 # sent_id = pop_1367
 # text = Yarım demet maydanoz
-1	Yarım	yarım	ADJ	Adj	_	2	amod	_	_
+1	Yarım	yarım	ADJ	Adj	_	3	amod	_	_
 2	demet	demet	NOUN	_	Case=Nom|Number=Sing|Person=3	3	clf	_	_
 3	maydanoz	maydanoz	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	SpacesAfter=\n
 
@@ -8365,7 +8365,7 @@
 # text = Stockholm'dan Hamburg'a iki tane gece treni kalkıyordu.
 1	Stockholm'dan	Stockholm	PROPN	_	Case=Abl|Number=Sing|Person=3	2	nmod	_	_
 2	Hamburg'a	Hamburg	PROPN	_	Case=Dat|Number=Sing|Person=3	7	obl	_	_
-3	iki	iki	NUM	ANum	NumType=Card	4	nummod	_	_
+3	iki	iki	NUM	ANum	NumType=Card	5	nummod	_	_
 4	tane	tane	NOUN	_	Case=Nom|Number=Sing|Person=3	5	clf	_	_
 5	gece	gece	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nmod:poss	_	_
 6	treni	tren	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nsubj	_	_
@@ -10440,7 +10440,7 @@
 
 # sent_id = pop_610
 # text = 1 dilim bayat ekmek
-1	1	1	NUM	ANum	NumType=Card	2	nummod	_	_
+1	1	1	NUM	ANum	NumType=Card	4	nummod	_	_
 2	dilim	dilim	NOUN	_	Case=Nom|Number=Sing|Person=3	4	clf	_	_
 3	bayat	bayat	NOUN	_	Case=Nom|Number=Sing|Person=3	4	amod	_	_
 4	ekmek	ekmek	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	SpacesAfter=\n
@@ -10455,7 +10455,7 @@
 
 # sent_id = pop_200
 # text = 1-2 adet limon
-1	1	1	NUM	ANum	NumType=Card	4	nummod	_	SpaceAfter=No
+1	1	1	NUM	ANum	NumType=Card	5	nummod	_	SpaceAfter=No
 2	-	-	PUNCT	Punc	_	1	punct	_	SpaceAfter=No
 3	2	2	NUM	ANum	NumType=Card	1	flat	_	_
 4	adet	âdet	NOUN	_	Case=Nom|Number=Sing|Person=3	5	clf	_	_
@@ -11938,7 +11938,7 @@
 4	1	1	NUM	ANum	NumType=Card	5	nummod	_	_
 5	domates	domates	NOUN	_	Case=Nom|Number=Sing|Person=3	2	conj	_	SpaceAfter=No
 6	,	,	PUNCT	Comma	_	12	punct	_	_
-7	1	1	NUM	ANum	NumType=Card	8	nummod	_	_
+7	1	1	NUM	ANum	NumType=Card	12	nummod	_	_
 8	dilim	dilim	NOUN	_	Case=Nom|Number=Sing|Person=3	12	clf	_	_
 9	doygun	doygun	ADJ	Adj	_	12	amod	_	_
 10	tam	tam	ADV	_	_	11	advmod	_	_
@@ -13850,7 +13850,7 @@
 # sent_id = pop_757
 # text = Yanında bir dilim kepek ekmeği ile yenir.
 1	Yanında	yan	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod	_	_
-2	bir	bir	DET	Indef	PronType=Ind	3	det	_	_
+2	bir	bir	DET	Indef	PronType=Ind	5	det	_	_
 3	dilim	dilim	NOUN	_	Case=Nom|Number=Sing|Person=3	5	clf	_	_
 4	kepek	kepek	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod:poss	_	_
 5	ekmeği	ekmek	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	obl	_	_
@@ -14570,7 +14570,7 @@
 
 # sent_id = pop_1192
 # text = 6 adet bifteğin içine hazırladığınız harcı doldurun.
-1	6	6	NUM	ANum	NumType=Card	2	nummod	_	_
+1	6	6	NUM	ANum	NumType=Card	3	nummod	_	_
 2	adet	âdet	NOUN	_	Case=Nom|Number=Sing|Person=3	3	clf	_	_
 3	bifteğin	biftek	NOUN	_	Case=Gen|Number=Sing|Person=3	4	nmod:poss	_	_
 4	içine	iç	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	obl	_	_
@@ -15183,7 +15183,7 @@
 
 # sent_id = pop_1893
 # text = 1 adet havuç (ince rendelenmiş)
-1	1	1	NUM	ANum	NumType=Card	2	nummod	_	_
+1	1	1	NUM	ANum	NumType=Card	3	nummod	_	_
 2	adet	âdet	NOUN	_	Case=Nom|Number=Sing|Person=3	3	clf	_	_
 3	havuç	havuç	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
 4	(	(	PUNCT	OPar	_	6	punct	_	SpaceAfter=No
@@ -15193,11 +15193,11 @@
 
 # sent_id = pop_1424
 # text = 5 adet kuru soğan 5 adet patates
-1	5	5	NUM	ANum	NumType=Card	2	nummod	_	_
+1	5	5	NUM	ANum	NumType=Card	4	nummod	_	_
 2	adet	âdet	NOUN	_	Case=Nom|Number=Sing|Person=3	4	clf	_	_
 3	kuru	kur	ADJ	Adj	_	4	amod	_	_
 4	soğan	soğan	VERB	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
-5	5	5	NUM	ANum	NumType=Card	6	nummod	_	_
+5	5	5	NUM	ANum	NumType=Card	7	nummod	_	_
 6	adet	âdet	NOUN	_	Case=Nom|Number=Sing|Person=3	7	clf	_	_
 7	patates	patates	NOUN	_	Case=Nom|Number=Sing|Person=3	4	conj	_	SpacesAfter=\n
 

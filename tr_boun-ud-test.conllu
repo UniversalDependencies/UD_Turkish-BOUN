@@ -12275,7 +12275,7 @@
 17	eleştirisini	eleştiri	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	18	obj	_	_
 18	vermenin	ver	VERB	_	Case=Gen|Number=Sing|Person=3|Polarity=Pos	20	nmod:poss	_	_
 19	tam	tam	ADV	_	_	20	advmod	_	_
-20	sırası	sıra	PRON	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	21	obj	_	_
+20	sırası	sıra	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	21	obj	_	_
 21	geldi	gel	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	22	ccomp	_	_
 22	sanıyorum	san	VERB	_	Aspect=Prog|Number=Sing|Person=1|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
 23	.	.	PUNCT	Stop	_	22	punct	_	SpacesAfter=\n
@@ -15020,7 +15020,7 @@
 
 # sent_id = bio_1865
 # text = Yurda gelmesindeki amacı, arkadaşını bir gün sonra yapılacak nişan törenine çağırmaktı.
-1	Yurda	yurt	PRON	_	Case=Dat|Number=Sing|Person=3	2	obl	_	_
+1	Yurda	yurt	NOUN	_	Case=Dat|Number=Sing|Person=3	2	obl	_	_
 2	gelmesindeki	gel	VERB	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos	3	acl	_	_
 3	amacı	amaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	12	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	Comma	_	12	punct	_	_
@@ -15169,7 +15169,7 @@
 9	Queen	Queen	PROPN	_	Case=Nom|Number=Sing|Person=3	13	obl	_	_
 10	ile	ile	CCONJ	Conj	_	9	case	_	_
 11	yeniden	yeniden	ADV	_	_	13	advmod	_	_
-12	biraraya	birara	PRON	_	Case=Dat|Number=Sing|Person=3	13	obl	_	_
+12	biraraya	biraraya	ADV	_	_	13	obl	_	_
 13	geldi	gel	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 14	.	.	PUNCT	Stop	_	13	punct	_	SpacesAfter=\n
 

@@ -1573,7 +1573,7 @@
 2	defterin	defter	NOUN	_	Case=Gen|Number=Sing|Person=3	5	nmod:poss	_	SpaceAfter=No
 3	,	,	PUNCT	Comma	_	2	punct	_	_
 4	ilk	ilk	ADJ	Adj	_	5	amod	_	_
-5	sayfasına	sayfa	PRON	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	obl	_	_
+5	sayfasına	sayfa	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	obl	_	_
 6	mutlaka	mutlaka	ADV	_	_	10	advmod	_	_
 7	bir	bir	DET	Indef	PronType=Ind	8	det	_	_
 8	Atatürk	ATATÜRK	PROPN	_	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
@@ -7293,7 +7293,7 @@
 13	ziyaret	ziyaret	NOUN	_	Case=Nom|Number=Sing|Person=3	7	conj	_	_
 14	etmek	et	VERB	Vnoun	Case=Nom|Polarity=Pos|VerbForm=Vnoun	13	compound:lvc	_	SpaceAfter=No
 15	,	,	PUNCT	Comma	_	16	punct	_	_
-16	voltasına	volta	PRON	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	conj	_	_
+16	voltasına	volta	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	conj	_	_
 17	çıkmak	çık	VERB	Vnoun	Case=Nom|Polarity=Pos|VerbForm=Vnoun	16	compound	_	_
 18	ve	ve	CCONJ	Conj	_	30	cc	_	_
 19	"	"	PUNCT	Punc	_	26	punct	_	SpaceAfter=No

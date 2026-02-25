@@ -10853,7 +10853,7 @@
 14	elimi	el	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	20	obj	_	_
 15	göğsüne	göğüs	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	14	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	Comma	_	20	punct	_	_
-17	öteki	öteki	DET	Det	_	18	det	_	_
+17	öteki	öteki	DET	Det	PronType=Dem	18	det	_	_
 18	elimi	elim	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	20	nsubj	_	_
 19	sırtına	sırt	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	20	iobj	_	_
 20	koyup	koy	VERB	Conv	Polarity=Pos|VerbForm=Conv	21	advcl	_	_

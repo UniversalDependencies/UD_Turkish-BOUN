@@ -6302,7 +6302,7 @@
 21	ruhunda	ruh	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	27	obl	_	_
 22	gerçek	gerçek	ADJ	Adj	_	23	obj	_	_
 23	olmayan	ol	VERB	Ptcp	Polarity=Neg|Tense=Pres|VerbForm=Part	24	acl	_	_
-24	Hamlet'ten	Hamlet	PROPN	_	Case=Abl|Number=Sing|Person=3	25	nmod:poss	_	_
+24	Hamlet'ten	Hamlet	PROPN	_	Case=Abl|Number=Sing|Person=3	26	nmod:poss	_	_
 25-26	birşeyler	_	_	_	_	_	_	_	typo=yes
 25	bir	bir	DET	Indef	PronType=Ind	26	det	_	_
 26	şeyler	şey	NOUN	_	Case=Nom|Number=Plur|Person=3	27	nsubj	_	_
@@ -9624,7 +9624,7 @@
 7	çağırana	çağır	VERB	Ptcp	Case=Dat|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Part	10	advcl	_	_
 8	kadar	kadar	ADP	PCDat	_	7	case	_	_
 9	da	da	ADV	Emph	_	7	advmod:emph	_	_
-10	beklediğim	bekle	VERB	Ptcp	Aspect=Perf|Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|Polarity=Pos|Tense=Past|VerbForm=Part	11	acl	_	_
+10	beklediğim	bekle	VERB	Ptcp	Aspect=Perf|Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|Polarity=Pos|Tense=Past|VerbForm=Part	12	acl	_	_
 11-12	birşeyler	_	_	_	_	_	_	_	_
 11	bir	bir	DET	Indef	PronType=Ind	12	det	_	typo=yes
 12	şeyler	şey	NOUN	_	Case=Nom|Number=Plur|Person=3	13	obj	_	typo=yes

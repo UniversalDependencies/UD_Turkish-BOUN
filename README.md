@@ -8,13 +8,11 @@ This is a Turkish dependency treebank in the Universal Dependencies (UD) annotat
 
 The BOUN Treebank includes a total of 9,761 manually annotated sentences from various topics including biographical texts, national newspapers, instructional texts, popular culture articles, and essays. The texts are taken from the [Turkish National Corpus (TNC)](https://www.tnc.org.tr/).
 
-The dependency relations in the BOUN Treebank is manually annotated in the UD framework. The morphological features and UPOS information are first retrieved from the morphological parser of [Sak et al. (2011)](https://link.springer.com/article/10.1007/s10579-010-9128-6) and converted to UD morphology automatically using [our script](https://github.com/boun-tabi/UD_docs/blob/main/convert_sak_morp_to_ud_morp.py). The morphological features, UPOS tags, XPOS tags, and lemma forms are then manually corrected in a systematic way.
-
+The dependency relations in the BOUN Treebank are manually annotated in the UD framework. The morphological features and UPOS information are first retrieved from the morphological parser of [Sak et al. (2011)](https://link.springer.com/article/10.1007/s10579-010-9128-6) and converted to UD morphology automatically using [our script](https://github.com/boun-tabi/UD_docs/blob/main/convert_sak_morp_to_ud_morp.py). The morphological features, UPOS tags, XPOS tags, and lemma forms are then manually corrected in a systematic way.
 
 # Versions
 
-The current UD version is adjusted for the specifications of UD and the most recent UD feature, UPOS, and the feature-value-upos combinations. Two new dependency relations (dep:der and discourse:q), new lemma forms for copula (y, i, and null), and new MISC functions (DerivedFrom=, nullcop=3p, and nullcop=3s) are introduced.
-
+In v2.11, the treebank was revised to follow the latest UD specifications for features, UPOS tags, and feature-value-UPOS combinations. Two new dependency relations (`dep:der` and `discourse:q`), new lemma forms for the copula (`y`, `i`, and `null`), and new MISC annotations (`DerivedFrom=`, `nullcop=3p`, and `nullcop=3s`) were introduced.
 
 # Acknowledgments
 
@@ -54,7 +52,7 @@ You can use the following arXiv reference for the previous versions of this tree
 # Changelog
 
 * 2026-02-26
-  * Fixed validation errors: PronType features, obl→nmod for nominal heads, leaf-clf/det reattachment, UPOS corrections, ExtPos for fixed MWEs, too-many-objects (deprel, head, and punctuation projectivity fixes).
+  * Fixed validation errors: PronType features, obl→nmod for nominal heads, clf/det reattachment, UPOS corrections, ExtPos for fixed MWEs, deprel and projectivity fixes.
 * 2022-11-02 v2.11
   * Fixed validation errors.
   * Introduced new dependency relations.

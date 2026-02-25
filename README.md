@@ -53,6 +53,8 @@ You can use the following arXiv reference for the previous versions of this tree
 
 # Changelog
 
+* 2026-02-26
+  * Fixed validation errors: PronType features, obl→nmod for nominal heads, leaf-clf/det reattachment, UPOS corrections, ExtPos for fixed MWEs, too-many-objects (deprel, head, and punctuation projectivity fixes).
 * 2022-11-02 v2.11
   * Fixed validation errors.
   * Introduced new dependency relations.
